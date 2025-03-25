@@ -1,0 +1,687 @@
+{
+    "question_to_define_groups": "Does the dialog utterance involve asking a question to get additional information on the current topic of the conversation, requesting to clarify the information already mentioned in the dialog?",
+    "groups": [
+        {
+            "label": "Dialog utterances that involve asking a question to get additional information on the current topic of the conversation, requesting to clarify the information already mentioned in the dialog.",
+            "data": [
+                "React.Rejoinder.Support.Track.Clarify"
+            ]
+        },
+        {
+            "label": "Dialog utterances that do not involve asking a question to get additional information on the current topic of the conversation, requesting to clarify the information already mentioned in the dialog.",
+            "data": [
+                "Open.Demand.Fact",
+                "Open.Demand.Opinion",
+                "Open.Give.Fact",
+                "Open.Give.Opinion",
+                "Open.Command",
+                "Open.Attend",
+                "React.Rejoinder.Confront.Response.Re-challenge",
+                "React.Rejoinder.Support.Track.Probe",
+                "React.Rejoinder.Support.Track.Check",
+                "React.Rejoinder.Support.Track.Confirm",
+                "Sustain.Continue.Prolong.Extend",
+                "Sustain.Continue.Prolong.Enhance",
+                "Sustain.Continue.Prolong.Elaborate",
+                "React.Rejoinder.Confront.Challenge.Rebound",
+                "React.Respond.Support.Reply.Affirm",
+                "React.Respond.Support.Reply.Acknowledge",
+                "React.Respond.Support.Reply.Agree",
+                "React.Respond.Support.Develop.Extend",
+                "React.Respond.Support.Develop.Enhance",
+                "React.Respond.Support.Develop.Elaborate",
+                "React.Respond.Confront.Reply.Disagree",
+                "React.Respond.Confront.Reply.Contradict",
+                "React.Respond.Confront.Reply.Disavow",
+                "Sustain.Continue.Monitor",
+                "Sustain.Continue.Command",
+                "React.Respond.Support.Register",
+                "React.Respond.Support.Engage",
+                "React.Respond.Support.Reply.Accept",
+                "React.Rejoinder.Support.Response.Resolve",
+                "React.Respond.Command",
+                "React.Rejoinder.Confront.Challenge.Detach",
+                "React.Rejoinder.Confront.Challenge.Counter",
+                "React.Rejoinder.Confront.Response.Refute"
+            ],
+            "next_split": {
+                "question_1": "Does the utterance add supplementary, contradictory, or detailed information to the previous statement by the same speaker?",
+                "answer_1": "If yes, then the utterance likely belongs to the 'Sustain.Continue.Prolong' category. If no, further analysis is needed.",
+                "question_2": "Does the utterance provide a response to a previous statement, either by supporting, developing, or confronting it?",
+                "answer_2": "If yes, then the utterance likely belongs to the 'React.Respond' or 'React.Rejoinder' categories. If no, further analysis is needed.",
+                "question_3": "Does the utterance introduce a new topic or start a conversation?",
+                "answer_3": "If yes, then the utterance likely belongs to the 'Open' category. If no, further analysis is needed.",
+                "question_to_define_groups": "Is the utterance a continuation of the speaker's previous statement, or is it a response or introduction of a new topic?",
+                "groups": [
+                    {
+                        "label": "Continuation of previous statement",
+                        "data": [
+                            "Sustain.Continue.Prolong.Extend",
+                            "Sustain.Continue.Prolong.Enhance",
+                            "Sustain.Continue.Prolong.Elaborate"
+                        ],
+                        "next_split": {
+                            "question_1": "Does the utterance add supplementary or contradictory information to the previous statement?",
+                            "answer_1": "If yes, it falls under 'Sustain.Continue.Prolong.Extend'. If no, it might be either 'Sustain.Continue.Prolong.Enhance' or 'Sustain.Continue.Prolong.Elaborate'.",
+                            "question_2": "Does the utterance add details to the previous statement, adding information about time, place, reason, etc.?",
+                            "answer_2": "If yes, it falls under 'Sustain.Continue.Prolong.Enhance'. If no, it might be 'Sustain.Continue.Prolong.Elaborate'.",
+                            "question_3": "Does the utterance clarify or rephrase the previous statement or give examples to it?",
+                            "answer_3": "If yes, it falls under 'Sustain.Continue.Prolong.Elaborate'. If no, it might be either 'Sustain.Continue.Prolong.Extend' or 'Sustain.Continue.Prolong.Enhance'.",
+                            "question_to_define_groups": "Does the utterance add supplementary or contradictory information to the previous statement?",
+                            "groups": [
+                                {
+                                    "label": "Utterances that add supplementary or contradictory information to the previous statement.",
+                                    "data": [
+                                        "Sustain.Continue.Prolong.Extend"
+                                    ]
+                                },
+                                {
+                                    "label": "Utterances that either add details to the previous statement or clarify/rephrase the previous statement.",
+                                    "data": [
+                                        "Sustain.Continue.Prolong.Enhance",
+                                        "Sustain.Continue.Prolong.Elaborate"
+                                    ],
+                                    "next_split": {
+                                        "question_1": "Does the dialog utterance add details to the previous statement or clarify/rephrase it?",
+                                        "answer_1": "If the dialog utterance is adding details to the previous statement, it is likely to be of the 'Sustain.Continue.Prolong.Enhance' class. If it is clarifying or rephrasing the previous statement, it is likely to be of the 'Sustain.Continue.Prolong.Elaborate' class.",
+                                        "question_2": "Does the dialog utterance add information about time, place, reason, etc.?",
+                                        "answer_2": "If the dialog utterance is adding information about time, place, reason, etc., it is likely to be of the 'Sustain.Continue.Prolong.Enhance' class.",
+                                        "question_3": "Does the dialog utterance provide examples to the previous statement?",
+                                        "answer_3": "If the dialog utterance is providing examples to the previous statement, it is likely to be of the 'Sustain.Continue.Prolong.Elaborate' class.",
+                                        "question_to_define_groups": "Is the dialog utterance adding details or clarifying/rephrasing the previous statement?",
+                                        "groups": [
+                                            {
+                                                "label": "The utterances are adding details to the previous statement.",
+                                                "data": [
+                                                    "Sustain.Continue.Prolong.Enhance"
+                                                ]
+                                            },
+                                            {
+                                                "label": "The utterances are clarifying/rephrasing the previous statement.",
+                                                "data": [
+                                                    "Sustain.Continue.Prolong.Elaborate"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "label": "Response to a previous statement",
+                        "data": [
+                            "React.Respond.Support.Reply.Affirm",
+                            "React.Respond.Support.Reply.Acknowledge",
+                            "React.Respond.Support.Reply.Agree",
+                            "React.Respond.Support.Develop.Extend",
+                            "React.Respond.Support.Develop.Enhance",
+                            "React.Respond.Support.Develop.Elaborate",
+                            "React.Respond.Confront.Reply.Disagree",
+                            "React.Respond.Confront.Reply.Contradict",
+                            "React.Respond.Confront.Reply.Disavow",
+                            "React.Respond.Support.Register",
+                            "React.Respond.Support.Engage",
+                            "React.Respond.Support.Reply.Accept",
+                            "React.Respond.Command",
+                            "React.Rejoinder.Support.Response.Resolve",
+                            "React.Rejoinder.Confront.Challenge.Detach",
+                            "React.Rejoinder.Confront.Challenge.Counter",
+                            "React.Rejoinder.Confront.Response.Refute",
+                            "React.Rejoinder.Confront.Response.Re-challenge",
+                            "React.Rejoinder.Support.Track.Probe",
+                            "React.Rejoinder.Support.Track.Check",
+                            "React.Rejoinder.Support.Track.Confirm",
+                            "React.Rejoinder.Confront.Challenge.Rebound"
+                        ],
+                        "next_split": {
+                            "question_1": "Does the utterance involve a request for confirmation or repetition of information?",
+                            "answer_1": "If yes, the utterance likely falls under the 'React.Rejoinder.Support.Track' labels. If no, it may belong to a different label.",
+                            "question_2": "Does the utterance involve a positive or negative response to a previous statement?",
+                            "answer_2": "If yes, the utterance likely falls under the 'React.Respond.Support.Reply' or 'React.Respond.Confront.Reply' labels. If no, it may belong to another label.",
+                            "question_3": "Does the utterance involve adding supplementary information or details to a previous statement?",
+                            "answer_3": "If yes, the utterance likely falls under the 'React.Respond.Support.Develop' labels. If no, it may belong to a different label.",
+                            "question_to_define_groups": "Does the utterance involve a response that provides the information requested in the question?",
+                            "groups": [
+                                {
+                                    "label": "Utterances that provide the information requested in the question",
+                                    "data": [
+                                        "React.Rejoinder.Support.Response.Resolve"
+                                    ]
+                                },
+                                {
+                                    "label": "Utterances that involve a request for confirmation or repetition of information",
+                                    "data": [
+                                        "React.Rejoinder.Support.Track.Probe",
+                                        "React.Rejoinder.Support.Track.Check",
+                                        "React.Rejoinder.Support.Track.Confirm"
+                                    ],
+                                    "next_split": {
+                                        "question_1": "Does the utterance ask for a confirmation of the information received?",
+                                        "answer_1": "If yes, it is likely to be 'React.Rejoinder.Support.Track.Confirm'. If no, it could be either 'React.Rejoinder.Support.Track.Probe' or 'React.Rejoinder.Support.Track.Check'.",
+                                        "question_2": "Does the utterance request a confirmation of the information necessary to clarify the previous speaker's statement?",
+                                        "answer_2": "If yes, it is likely to be 'React.Rejoinder.Support.Track.Probe'. If no, it could be 'React.Rejoinder.Support.Track.Check'.",
+                                        "question_3": "Is the utterance asking the previous speaker to repeat an element or the entire statement that the speaker has not heard or understood?",
+                                        "answer_3": "If yes, it is likely to be 'React.Rejoinder.Support.Track.Check'. If no, it could be either 'React.Rejoinder.Support.Track.Probe' or 'React.Rejoinder.Support.Track.Confirm'.",
+                                        "question_to_define_groups": "Does the utterance ask for a confirmation of the information received, request a confirmation of the information necessary to clarify the previous speaker's statement, or ask the previous speaker to repeat an element or the entire statement that the speaker has not heard or understood?",
+                                        "groups": [
+                                            {
+                                                "label": "Utterances that ask for a confirmation of the information received.",
+                                                "data": [
+                                                    "React.Rejoinder.Support.Track.Confirm"
+                                                ]
+                                            },
+                                            {
+                                                "label": "Utterances that request a confirmation of the information necessary to clarify the previous speaker's statement.",
+                                                "data": [
+                                                    "React.Rejoinder.Support.Track.Probe"
+                                                ]
+                                            },
+                                            {
+                                                "label": "Utterances that ask the previous speaker to repeat an element or the entire statement that the speaker has not heard or understood.",
+                                                "data": [
+                                                    "React.Rejoinder.Support.Track.Check"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "label": "Utterances that involve a positive or negative response to a previous statement",
+                                    "data": [
+                                        "React.Respond.Support.Reply.Affirm",
+                                        "React.Respond.Support.Reply.Acknowledge",
+                                        "React.Respond.Support.Reply.Agree",
+                                        "React.Respond.Confront.Reply.Disagree",
+                                        "React.Respond.Confront.Reply.Contradict",
+                                        "React.Respond.Confront.Reply.Disavow",
+                                        "React.Respond.Support.Reply.Accept"
+                                    ],
+                                    "next_split": {
+                                        "question_1": "Does the utterance provide a positive response or confirmation to a question or statement?",
+                                        "answer_1": "If yes, the utterance belongs to the 'React.Respond.Support.Reply.Affirm' or 'React.Respond.Support.Reply.Agree' categories. If no, it belongs to a different category.",
+                                        "question_2": "Does the utterance express disagreement, denial, or refutation of a statement or question?",
+                                        "answer_2": "If yes, the utterance belongs to the 'React.Respond.Confront.Reply.Disagree', 'React.Respond.Confront.Reply.Contradict', or 'React.Respond.Confront.Reply.Disavow' categories. If no, it belongs to a different category.",
+                                        "question_3": "Does the utterance express acknowledgement or acceptance of information, or gratitude?",
+                                        "answer_3": "If yes, the utterance belongs to the 'React.Respond.Support.Reply.Acknowledge' or 'React.Respond.Support.Reply.Accept' categories. If no, it belongs to a different category.",
+                                        "question_to_define_groups": "Does the utterance express a positive or negative response to a statement or question, or does it express acknowledgement or acceptance of information?",
+                                        "groups": [
+                                            {
+                                                "label": "Positive responses or confirmations",
+                                                "data": [
+                                                    "React.Respond.Support.Reply.Affirm",
+                                                    "React.Respond.Support.Reply.Agree"
+                                                ],
+                                                "next_split": {
+                                                    "question_1": "Does the utterance provide a positive answer to a question or confirmation of the information provided?",
+                                                    "answer_1": "If yes, the utterance may belong to 'React.Respond.Support.Reply.Affirm'. If no, it may belong to 'React.Respond.Support.Reply.Agree'.",
+                                                    "question_2": "Does the utterance show agreement with the information provided, especially if the information is new to the speaker?",
+                                                    "answer_2": "If yes, the utterance may belong to 'React.Respond.Support.Reply.Agree'. If no, it may belong to 'React.Respond.Support.Reply.Affirm'.",
+                                                    "question_3": "Does the utterance contain 'Yes', its synonyms, or any form of affirmation?",
+                                                    "answer_3": "If yes, the utterance may belong to either 'React.Respond.Support.Reply.Affirm' or 'React.Respond.Support.Reply.Agree'. If no, it may not belong to any of these categories.",
+                                                    "question_to_define_groups": "Does the utterance provide a positive answer to a question or confirmation of the information provided?",
+                                                    "groups": [
+                                                        {
+                                                            "label": "Utterances that provide a positive answer to a question or confirmation of the information provided.",
+                                                            "data": [
+                                                                "React.Respond.Support.Reply.Affirm"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "label": "Utterances that show agreement with the information provided, especially if the information is new to the speaker.",
+                                                            "data": [
+                                                                "React.Respond.Support.Reply.Agree"
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "label": "Negative responses or refutations",
+                                                "data": [
+                                                    "React.Respond.Confront.Reply.Disagree",
+                                                    "React.Respond.Confront.Reply.Contradict",
+                                                    "React.Respond.Confront.Reply.Disavow"
+                                                ],
+                                                "next_split": {
+                                                    "question_1": "Does the dialog utterance provide a negative answer or denial of a statement?",
+                                                    "answer_1": "If yes, it's likely to be 'React.Respond.Confront.Reply.Disagree'. If no, it could be either 'React.Respond.Confront.Reply.Contradict' or 'React.Respond.Confront.Reply.Disavow'.",
+                                                    "question_2": "Does the dialog utterance refute previous information by providing a sentence with opposite polarity?",
+                                                    "answer_2": "If yes, it's likely to be 'React.Respond.Confront.Reply.Contradict'. If no, it could be 'React.Respond.Confront.Reply.Disagree' or 'React.Respond.Confront.Reply.Disavow'.",
+                                                    "question_3": "Does the dialog utterance deny knowledge or understanding of information?",
+                                                    "answer_3": "If yes, it's likely to be 'React.Respond.Confront.Reply.Disavow'. If no, it could be either 'React.Respond.Confront.Reply.Disagree' or 'React.Respond.Confront.Reply.Contradict'.",
+                                                    "question_to_define_groups": "Does the dialog utterance provide a negative answer or denial of a statement without refuting previous information or denying knowledge?",
+                                                    "groups": [
+                                                        {
+                                                            "label": "Utterances providing a negative answer or denial of a statement without refuting previous information or denying knowledge.",
+                                                            "data": [
+                                                                "React.Respond.Confront.Reply.Disagree"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "label": "Utterances refuting previous information or denying knowledge.",
+                                                            "data": [
+                                                                "React.Respond.Confront.Reply.Contradict",
+                                                                "React.Respond.Confront.Reply.Disavow"
+                                                            ],
+                                                            "next_split": {
+                                                                "question_1": "Does the utterance refute previous information by expressing the opposite polarity?",
+                                                                "answer_1": "If yes, the utterance belongs to the 'React.Respond.Confront.Reply.Contradict' class. If no, it may belong to the 'React.Respond.Confront.Reply.Disavow' class.",
+                                                                "question_2": "Does the utterance deny knowledge or understanding of information?",
+                                                                "answer_2": "If yes, the utterance belongs to the 'React.Respond.Confront.Reply.Disavow' class. If no, it may belong to the 'React.Respond.Confront.Reply.Contradict' class.",
+                                                                "question_3": "Does the utterance directly contradict or disavow the previous statement?",
+                                                                "answer_3": "If the utterance directly contradicts the previous statement, it belongs to the 'React.Respond.Confront.Reply.Contradict' class. If the utterance disavows the previous statement, it belongs to the 'React.Respond.Confront.Reply.Disavow' class.",
+                                                                "question_to_define_groups": "Does the utterance directly contradict the previous statement or deny knowledge or understanding of information?",
+                                                                "groups": [
+                                                                    {
+                                                                        "label": "Utterances that refute previous information by expressing the opposite polarity.",
+                                                                        "data": [
+                                                                            "React.Respond.Confront.Reply.Contradict"
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "label": "Utterances that deny knowledge or understanding of information.",
+                                                                        "data": [
+                                                                            "React.Respond.Confront.Reply.Disavow"
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "label": "Acknowledgements or acceptances",
+                                                "data": [
+                                                    "React.Respond.Support.Reply.Acknowledge",
+                                                    "React.Respond.Support.Reply.Accept"
+                                                ],
+                                                "next_split": {
+                                                    "question_1": "Does the dialog utterance indicate knowledge or understanding of the information provided?",
+                                                    "answer_1": "If yes, then it belongs to the 'React.Respond.Support.Reply.Acknowledge' class. If no, proceed to the next question.",
+                                                    "question_2": "Does the dialog utterance express gratitude?",
+                                                    "answer_2": "If yes, then it belongs to the 'React.Respond.Support.Reply.Accept' class. If no, it doesn't belong to any of the classes in this taxonomy.",
+                                                    "question_3": "Is the dialog utterance a simple acknowledgement or an expression of gratitude?",
+                                                    "answer_3": "If it's a simple acknowledgement, it belongs to the 'React.Respond.Support.Reply.Acknowledge' class. If it's an expression of gratitude, it belongs to the 'React.Respond.Support.Reply.Accept' class.",
+                                                    "question_to_define_groups": "Does the dialog utterance indicate knowledge or understanding of the information provided, or does it express gratitude?",
+                                                    "groups": [
+                                                        {
+                                                            "label": "Utterances that indicate knowledge or understanding of the information provided.",
+                                                            "data": [
+                                                                "React.Respond.Support.Reply.Acknowledge"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "label": "Utterances that express gratitude.",
+                                                            "data": [
+                                                                "React.Respond.Support.Reply.Accept"
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "label": "Utterances that involve adding supplementary information or details to a previous statement",
+                                    "data": [
+                                        "React.Respond.Support.Develop.Extend",
+                                        "React.Respond.Support.Develop.Enhance",
+                                        "React.Respond.Support.Develop.Elaborate"
+                                    ],
+                                    "next_split": {
+                                        "question_1": "Does the dialog utterance add supplementary or contradictory information to the previous statement?",
+                                        "answer_1": "If yes, the utterance belongs to the 'React.Respond.Support.Develop.Extend' category, which is also the most frequent label.",
+                                        "question_2": "Does the dialog utterance add details to the previous statement, including information about time, place, reason, etc.?",
+                                        "answer_2": "If yes, the utterance belongs to the 'React.Respond.Support.Develop.Enhance' category.",
+                                        "question_3": "Does the dialog utterance clarify, rephrase the previous statement or give examples to it?",
+                                        "answer_3": "If yes, the utterance belongs to the 'React.Respond.Support.Develop.Elaborate' category.",
+                                        "question_to_define_groups": "Does the dialog utterance add supplementary or contradictory information to the previous statement?",
+                                        "groups": [
+                                            {
+                                                "label": "Utterances that add supplementary or contradictory information to the previous statement",
+                                                "data": [
+                                                    "React.Respond.Support.Develop.Extend"
+                                                ]
+                                            },
+                                            {
+                                                "label": "Utterances that add details to the previous statement or clarify, rephrase the previous statement or give examples to it",
+                                                "data": [
+                                                    "React.Respond.Support.Develop.Enhance",
+                                                    "React.Respond.Support.Develop.Elaborate"
+                                                ],
+                                                "next_split": {
+                                                    "question_1": "Does the utterance add details to the previous statement, including information about time, place, reason, etc.?",
+                                                    "answer_1": "If yes, the utterance falls under 'React.Respond.Support.Develop.Enhance'. If no, proceed to the next question.",
+                                                    "question_2": "Does the utterance clarify or rephrase the previous statement or give examples to it?",
+                                                    "answer_2": "If yes, the utterance falls under 'React.Respond.Support.Develop.Elaborate'. If no, the utterance does not belong to any of the provided categories.",
+                                                    "question_3": "Is the utterance a declarative sentence or phrase (may include for example, I mean, like)?",
+                                                    "answer_3": "If yes, the utterance falls under 'React.Respond.Support.Develop.Elaborate'. If no, proceed to the previous question.",
+                                                    "question_to_define_groups": "Does the utterance add information to the previous statement or clarify/rephrase it?",
+                                                    "groups": [
+                                                        {
+                                                            "label": "Utterances that add details to the previous statement, including information about time, place, reason, etc.",
+                                                            "data": [
+                                                                "React.Respond.Support.Develop.Enhance"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "label": "Utterances that clarify or rephrase the previous statement or give examples to it.",
+                                                            "data": [
+                                                                "React.Respond.Support.Develop.Elaborate"
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "label": "Other utterances",
+                                    "data": [
+                                        "React.Rejoinder.Confront.Response.Re-challenge",
+                                        "React.Rejoinder.Confront.Challenge.Rebound",
+                                        "React.Respond.Support.Register",
+                                        "React.Respond.Support.Engage",
+                                        "React.Respond.Command",
+                                        "React.Rejoinder.Confront.Challenge.Detach",
+                                        "React.Rejoinder.Confront.Challenge.Counter",
+                                        "React.Rejoinder.Confront.Response.Refute"
+                                    ],
+                                    "next_split": {
+                                        "question_1": "Does the dialog utterance manifest emotions or display attention to the interlocutor?",
+                                        "answer_1": "If yes, the utterance belongs to the 'React.Respond.Support.Register' category, which is the most frequent label.",
+                                        "question_2": "Is the dialog utterance offering an alternative position or questioning the relevance or reliability of a previous statement?",
+                                        "answer_2": "If yes, the utterance falls under the 'React.Rejoinder.Confront' category, which includes 'React.Rejoinder.Confront.Response.Re-challenge', 'React.Rejoinder.Confront.Challenge.Rebound', 'React.Rejoinder.Confront.Challenge.Detach', 'React.Rejoinder.Confront.Challenge.Counter', and 'React.Rejoinder.Confront.Response.Refute'.",
+                                        "question_3": "Is the dialog utterance drawing attention or a response to a greeting, or making a request, an invitation or command to start a dialog or discussion of a new topic?",
+                                        "answer_3": "If yes, the utterance belongs to the 'React.Respond' category, which includes 'React.Respond.Support.Engage' and 'React.Respond.Command'.",
+                                        "question_to_define_groups": "Does the dialog utterance manifest emotions or display attention to the interlocutor, or does it involve offering an alternative position, questioning the relevance or reliability of a previous statement, drawing attention or a response to a greeting, or making a request, an invitation or command to start a dialog or discussion of a new topic?",
+                                        "groups": [
+                                            {
+                                                "label": "Manifests emotions or displays attention to the interlocutor",
+                                                "data": [
+                                                    "React.Respond.Support.Register"
+                                                ]
+                                            },
+                                            {
+                                                "label": "Offers an alternative position, questions the relevance or reliability of a previous statement",
+                                                "data": [
+                                                    "React.Rejoinder.Confront.Response.Re-challenge",
+                                                    "React.Rejoinder.Confront.Challenge.Rebound",
+                                                    "React.Rejoinder.Confront.Challenge.Detach",
+                                                    "React.Rejoinder.Confront.Challenge.Counter",
+                                                    "React.Rejoinder.Confront.Response.Refute"
+                                                ],
+                                                "next_split": {
+                                                    "question_1": "Does the dialog utterance offer an alternative position, often in an interrogative sentence?",
+                                                    "answer_1": "If yes, it is likely to be a 'React.Rejoinder.Confront.Response.Re-challenge'.",
+                                                    "question_2": "Does the dialog utterance question the relevance or reliability of the previous statement, often in an interrogative sentence?",
+                                                    "answer_2": "If yes, it is likely to be a 'React.Rejoinder.Confront.Challenge.Rebound'.",
+                                                    "question_3": "Does the dialog utterance terminate the dialog?",
+                                                    "answer_3": "If yes, it is likely to be a 'React.Rejoinder.Confront.Challenge.Detach'.",
+                                                    "question_to_define_groups": "Is the dialog utterance dismissing the addressee's right to his/her position?",
+                                                    "groups": [
+                                                        {
+                                                            "label": "Dismisses the addressee's right to his/her position",
+                                                            "data": [
+                                                                "React.Rejoinder.Confront.Challenge.Counter"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "label": "Does not dismiss the addressee's right to his/her position",
+                                                            "data": [
+                                                                "React.Rejoinder.Confront.Response.Re-challenge",
+                                                                "React.Rejoinder.Confront.Challenge.Rebound",
+                                                                "React.Rejoinder.Confront.Challenge.Detach",
+                                                                "React.Rejoinder.Confront.Response.Refute"
+                                                            ],
+                                                            "next_split": {
+                                                                "question_1": "Does the dialog utterance question the relevance or reliability of a previous statement?",
+                                                                "answer_1": "If yes, it belongs to the 'React.Rejoinder.Confront.Challenge.Rebound' class. If no, further analysis is needed.",
+                                                                "question_2": "Does the dialog utterance offer an alternative position, often through an interrogative sentence?",
+                                                                "answer_2": "If yes, it belongs to the 'React.Rejoinder.Confront.Response.Re-challenge' class. If no, further analysis is needed.",
+                                                                "question_3": "Does the dialog utterance reject a transition to a new topic?",
+                                                                "answer_3": "If yes, it belongs to the 'React.Rejoinder.Confront.Response.Refute' class. If no, it belongs to the 'React.Rejoinder.Confront.Challenge.Detach' class.",
+                                                                "question_to_define_groups": "Does the dialog utterance question the relevance or reliability of a previous statement, offer an alternative position, or reject a transition to a new topic?",
+                                                                "groups": [
+                                                                    {
+                                                                        "label": "Dialog utterances that question the relevance or reliability of a previous statement",
+                                                                        "data": [
+                                                                            "React.Rejoinder.Confront.Challenge.Rebound"
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "label": "Dialog utterances that offer an alternative position or reject a transition to a new topic",
+                                                                        "data": [
+                                                                            "React.Rejoinder.Confront.Response.Re-challenge",
+                                                                            "React.Rejoinder.Confront.Response.Refute"
+                                                                        ],
+                                                                        "next_split": {
+                                                                            "question_1": "Does the utterance offer an alternative position, often in the form of an interrogative sentence?",
+                                                                            "answer_1": "If yes, it belongs to the 'React.Rejoinder.Confront.Response.Re-challenge' label.",
+                                                                            "question_2": "Does the utterance reject a transition to a new topic?",
+                                                                            "answer_2": "If yes, it belongs to the 'React.Rejoinder.Confront.Response.Refute' label.",
+                                                                            "question_3": "Which label is the most frequent in the given data?",
+                                                                            "answer_3": "The 'React.Rejoinder.Confront.Response.Re-challenge' label is the most frequent.",
+                                                                            "question_to_define_groups": "Does the utterance offer an alternative position, often in the form of an interrogative sentence?",
+                                                                            "groups": [
+                                                                                {
+                                                                                    "label": "Utterances that offer an alternative position, often in the form of an interrogative sentence.",
+                                                                                    "data": [
+                                                                                        "React.Rejoinder.Confront.Response.Re-challenge"
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "label": "Utterances that reject a transition to a new topic.",
+                                                                                    "data": [
+                                                                                        "React.Rejoinder.Confront.Response.Refute"
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "label": "Dialog utterances that terminate the dialog",
+                                                                        "data": [
+                                                                            "React.Rejoinder.Confront.Challenge.Detach"
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "label": "Draws attention or a response to a greeting, or makes a request, an invitation or command to start a dialog or discussion of a new topic",
+                                                "data": [
+                                                    "React.Respond.Support.Engage",
+                                                    "React.Respond.Command"
+                                                ],
+                                                "next_split": {
+                                                    "question_1": "Does the utterance seek to draw attention or a response to a greeting?",
+                                                    "answer_1": "If yes, then it belongs to the 'React.Respond.Support.Engage' category. If not, it might belong to another category.",
+                                                    "question_2": "Does the utterance make a request, an invitation or command to start a dialog or discussion of a new topic?",
+                                                    "answer_2": "If yes, then it belongs to the 'React.Respond.Command' category. If not, it might belong to another category.",
+                                                    "question_3": "Is the utterance not a greeting nor a command to start a dialog?",
+                                                    "answer_3": "If yes, then it belongs to neither 'React.Respond.Support.Engage' nor 'React.Respond.Command' categories. If not, it might belong to one of these categories.",
+                                                    "question_to_define_groups": "Does the utterance draw attention or a response to a greeting?",
+                                                    "groups": [
+                                                        {
+                                                            "label": "Utterances that draw attention or a response to a greeting.",
+                                                            "data": [
+                                                                "React.Respond.Support.Engage"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "label": "Utterances that make a request, an invitation or command to start a dialog or discussion of a new topic.",
+                                                            "data": [
+                                                                "React.Respond.Command"
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "label": "Introduction of a new topic",
+                        "data": [
+                            "Open.Demand.Fact",
+                            "Open.Demand.Opinion",
+                            "Open.Give.Fact",
+                            "Open.Give.Opinion",
+                            "Open.Command",
+                            "Open.Attend",
+                            "Sustain.Continue.Monitor",
+                            "Sustain.Continue.Command"
+                        ],
+                        "next_split": {
+                            "question_1": "Does the utterance demand or provide information?",
+                            "answer_1": "The utterances under 'Open.Demand.Fact', 'Open.Demand.Opinion', 'Open.Give.Fact', and 'Open.Give.Opinion' either demand or provide information.",
+                            "question_2": "Is the utterance used to initiate a conversation or a new topic?",
+                            "answer_2": "The utterances under 'Open.Demand.Fact', 'Open.Demand.Opinion', 'Open.Give.Fact', 'Open.Give.Opinion', and 'Open.Command' are used to initiate a conversation or a new topic.",
+                            "question_3": "Does the utterance check the involvement of the listener or pass on the role of speaker?",
+                            "answer_3": "The utterances under 'Sustain.Continue.Monitor' check the involvement of the listener or pass on the role of speaker.",
+                            "question_to_define_groups": "Is the utterance used to demand factual information at the beginning of a conversation or when introducing a new topic?",
+                            "groups": [
+                                {
+                                    "label": "Utterances demanding factual information at the beginning of a conversation or when introducing a new topic.",
+                                    "data": [
+                                        "Open.Demand.Fact"
+                                    ]
+                                },
+                                {
+                                    "label": "Utterances that are not specifically demanding factual information at the beginning of a conversation or when introducing a new topic.",
+                                    "data": [
+                                        "Open.Demand.Opinion",
+                                        "Open.Give.Fact",
+                                        "Open.Give.Opinion",
+                                        "Open.Command",
+                                        "Open.Attend",
+                                        "Sustain.Continue.Monitor",
+                                        "Sustain.Continue.Command"
+                                    ],
+                                    "next_split": {
+                                        "question_1": "Does the utterance provide factual or evaluative information?",
+                                        "answer_1": "If the utterance provides factual or evaluative information, it could fall under 'Open.Give.Fact' or 'Open.Give.Opinion'.",
+                                        "question_2": "Does the utterance demand judgment or evaluative information from the interlocutor?",
+                                        "answer_2": "If the utterance demands judgment or evaluative information from the interlocutor, it could be 'Open.Demand.Opinion'.",
+                                        "question_3": "Does the utterance check the involvement of the listener or try to pass on the role of speaker to them?",
+                                        "answer_3": "If the utterance checks the involvement of the listener or tries to pass on the role of speaker to them, it could be 'Sustain.Continue.Monitor'.",
+                                        "question_to_define_groups": "Does the utterance provide information, demand information, or check the involvement of the listener?",
+                                        "groups": [
+                                            {
+                                                "label": "Utterances that provide information",
+                                                "data": [
+                                                    "Open.Give.Fact",
+                                                    "Open.Give.Opinion"
+                                                ],
+                                                "next_split": {
+                                                    "question_1": "Does the dialog utterance provide factual information?",
+                                                    "answer_1": "If the utterance is factual, it is likely to belong to the 'Open.Give.Fact' label.",
+                                                    "question_2": "Does the dialog utterance provide judgment or evaluative information?",
+                                                    "answer_2": "If the utterance is judgmental or evaluative, it is likely to belong to the 'Open.Give.Opinion' label.",
+                                                    "question_3": "Is the dialog utterance provided at the beginning of a conversation or when introducing a new topic?",
+                                                    "answer_3": "If the utterance is provided at the beginning or when introducing a new topic, it is likely to belong to either 'Open.Give.Fact' or 'Open.Give.Opinion' label.",
+                                                    "question_to_define_groups": "Does the dialog utterance provide factual information or judgment/evaluative information?",
+                                                    "groups": [
+                                                        {
+                                                            "label": "Utterances providing factual information",
+                                                            "data": [
+                                                                "Open.Give.Fact"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "label": "Utterances providing judgment or evaluative information",
+                                                            "data": [
+                                                                "Open.Give.Opinion"
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "label": "Utterances that demand information",
+                                                "data": [
+                                                    "Open.Demand.Opinion",
+                                                    "Open.Command"
+                                                ],
+                                                "next_split": {
+                                                    "question_1": "Does the utterance request an opinion or evaluative information?",
+                                                    "answer_1": "If yes, it could fall under the 'Open.Demand.Opinion' label. If no, it might be under the 'Open.Command' label.",
+                                                    "question_2": "Does the utterance start a dialog or discussion on a new topic?",
+                                                    "answer_2": "If yes, it could be either 'Open.Demand.Opinion' or 'Open.Command'. If no, it doesn't belong to either of these labels.",
+                                                    "question_3": "Does the utterance make a request, an invitation or command?",
+                                                    "answer_3": "If yes, it could be an 'Open.Command'. If no, it might be an 'Open.Demand.Opinion'.",
+                                                    "question_to_define_groups": "Is the utterance demanding judgment or evaluative information or making a request, an invitation or command to start a dialog or discussion of a new topic?",
+                                                    "groups": [
+                                                        {
+                                                            "label": "Demands judgment or evaluative information.",
+                                                            "data": [
+                                                                "Open.Demand.Opinion"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "label": "Makes a request, an invitation or command to start a dialog or discussion of a new topic.",
+                                                            "data": [
+                                                                "Open.Command"
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "label": "Utterances that check the involvement of the listener",
+                                                "data": [
+                                                    "Sustain.Continue.Monitor",
+                                                    "Sustain.Continue.Command"
+                                                ],
+                                                "next_split": {
+                                                    "question_1": "Does the utterance check the involvement of the listener or try to pass on the role of speaker to them?",
+                                                    "answer_1": "If yes, then it falls under 'Sustain.Continue.Monitor'. If not, proceed to the next question.",
+                                                    "question_2": "Does the utterance make a request, an invitation or command to start a dialog or discussion of a new topic?",
+                                                    "answer_2": "If yes, then it falls under 'Sustain.Continue.Command'. If not, it doesn't belong to any of the categories.",
+                                                    "question_3": "Is the utterance used frequently?",
+                                                    "answer_3": "If yes, then it's more likely to fall under 'Sustain.Continue.Monitor' as it has a higher frequency. If not, it could be 'Sustain.Continue.Command'.",
+                                                    "question_to_define_groups": "Is the utterance checking the listener's involvement or passing the speaking role?",
+                                                    "groups": [
+                                                        {
+                                                            "label": "Utterances that check the listener's involvement or pass the speaking role.",
+                                                            "data": [
+                                                                "Sustain.Continue.Monitor"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "label": "Utterances that make a request, an invitation or command to start a dialog or discussion.",
+                                                            "data": [
+                                                                "Sustain.Continue.Command"
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "label": "Utterances that are usually greetings",
+                                                "data": [
+                                                    "Open.Attend"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

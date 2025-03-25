@@ -1,0 +1,164 @@
+dialog_id,speaker,text,gold_answers,possible_answers
+103,OOOOO,"Zina, can I talk to you about something personal?",['Open.Demand.Fact'],['Open.Demand.Fact']
+103,XXXXX,As long as it doesn't take too long.,"['React.Respond.Support.Reply.Agree', 'React.Respond.Support.Reply.Affirm']","['React.Respond.Support.Reply.Agree', 'React.Rejoinder.Support.Response.Resolve', 'React.Respond.Support.Reply.Affirm']"
+103,OOOOO,My boyfriend says I work too much.,['React.Respond.Support.Develop.Extend'],['React.Respond.Support.Develop.Extend']
+103,OOOOO,That I spend more time with you than with him.,"['Sustain.Continue.Prolong.Extend', 'Sustain.Continue.Prolong.Enhance']","['Sustain.Continue.Prolong.Extend', 'Sustain.Continue.Prolong.Enhance']"
+103,XXXXX,Was he upset when you told him you had to leave this weekend?,['React.Rejoinder.Support.Track.Probe'],"['React.Rejoinder.Support.Track.Probe', 'React.Rejoinder.Support.Track.Clarify']"
+103,OOOOO,He said not to bother coming back.,['React.Rejoinder.Support.Response.Resolve'],"['React.Rejoinder.Support.Response.Resolve', 'React.Respond.Support.Reply.Affirm']"
+103,OOOOO,And I said fine.,['Sustain.Continue.Prolong.Extend'],['Sustain.Continue.Prolong.Extend']
+103,OOOOO,I won't.,['Sustain.Continue.Prolong.Extend'],"['Sustain.Continue.Prolong.Extend', 'Sustain.Continue.Prolong.Elaborate']"
+103,XXXXX,So what's the problem?,['React.Rejoinder.Confront.Challenge.Rebound'],"['React.Rejoinder.Support.Track.Clarify', 'React.Rejoinder.Confront.Challenge.Rebound']"
+104,OOOOO,"Mary, how was your date with john?",['Open.Demand.Opinion'],"['Open.Demand.Opinion', 'Open.Demand.Fact']"
+104,XXXXX,it's ok.,['React.Rejoinder.Support.Response.Resolve'],['React.Rejoinder.Support.Response.Resolve']
+104,XXXXX,It seems we have a lot in common.,['Sustain.Continue.Prolong.Elaborate'],"['Sustain.Continue.Prolong.Elaborate', 'Sustain.Continue.Prolong.Enhance', 'Sustain.Continue.Prolong.Extend']"
+104,OOOOO,"oh, really.",['React.Respond.Support.Register'],['React.Respond.Support.Register']
+104,OOOOO,That is great news.,['Sustain.Continue.Prolong.Extend'],"['Sustain.Continue.Prolong.Extend', 'React.Respond.Support.Register']"
+104,OOOOO,What does he look like?,['React.Rejoinder.Support.Track.Clarify'],['React.Rejoinder.Support.Track.Clarify']
+104,XXXXX,"he is tall and slim, fair-haired.",['React.Rejoinder.Support.Response.Resolve'],['React.Rejoinder.Support.Response.Resolve']
+104,OOOOO,sounds like he is pretty cute.,['React.Respond.Support.Develop.Extend'],"['React.Respond.Support.Develop.Extend', 'React.Respond.Support.Develop.Elaborate', 'React.Respond.Support.Develop.Enhance']"
+104,OOOOO,What do you think of him?,['React.Rejoinder.Support.Track.Clarify'],['React.Rejoinder.Support.Track.Clarify']
+104,XXXXX,he is a nice guy and very considerate.,['React.Rejoinder.Support.Response.Resolve'],['React.Rejoinder.Support.Response.Resolve']
+104,XXXXX,I was impressed with how smart he was and he has a great sense of humor.,['Sustain.Continue.Prolong.Extend'],"['Sustain.Continue.Prolong.Elaborate', 'Sustain.Continue.Prolong.Enhance', 'Sustain.Continue.Prolong.Extend']"
+104,OOOOO,oh.,['React.Respond.Support.Register'],['React.Respond.Support.Register']
+104,OOOOO,it's love at first sight.,['Sustain.Continue.Prolong.Extend'],"['Sustain.Continue.Prolong.Elaborate', 'Sustain.Continue.Prolong.Enhance', 'Sustain.Continue.Prolong.Extend']"
+104,OOOOO,When will you see each other again?,['React.Rejoinder.Support.Track.Clarify'],['React.Rejoinder.Support.Track.Clarify']
+104,XXXXX,he didn't say.,['React.Rejoinder.Support.Response.Resolve'],"['React.Rejoinder.Support.Response.Resolve', 'React.Respond.Confront.Reply.Disavow']"
+104,XXXXX,but he said he would call me.,['Sustain.Continue.Prolong.Extend'],"['Sustain.Continue.Prolong.Elaborate', 'Sustain.Continue.Prolong.Enhance', 'Sustain.Continue.Prolong.Extend']"
+104,OOOOO,maybe he is busy with his work.,['React.Respond.Support.Develop.Enhance'],"['React.Respond.Support.Develop.Extend', 'React.Respond.Support.Develop.Elaborate', 'React.Respond.Support.Develop.Enhance']"
+104,OOOOO,Just wait and try not to think about it too much!,['Sustain.Continue.Prolong.Extend'],['Sustain.Continue.Prolong.Extend']
+104,XXXXX,"oh, steve.",['React.Respond.Support.Register'],['React.Respond.Support.Register']
+104,XXXXX,Stop it!,['Sustain.Continue.Prolong.Extend'],"['Sustain.Continue.Prolong.Extend', 'React.Respond.Confront.Reply.Disagree']"
+104,XXXXX,I am a bit nervous!,['Sustain.Continue.Prolong.Extend'],"['Sustain.Continue.Prolong.Elaborate', 'Sustain.Continue.Prolong.Enhance', 'Sustain.Continue.Prolong.Extend']"
+104,XXXXX,What if he doesn't call?,['React.Rejoinder.Support.Track.Clarify'],['React.Rejoinder.Support.Track.Clarify']
+104,OOOOO,come on Mary.,['React.Rejoinder.Confront.Challenge.Counter'],"['React.Respond.Support.Develop.Extend', 'React.Rejoinder.Confront.Challenge.Counter']"
+104,OOOOO,you're a total catch.,['Sustain.Continue.Prolong.Extend'],"['Sustain.Continue.Prolong.Elaborate', 'Sustain.Continue.Prolong.Enhance', 'Sustain.Continue.Prolong.Extend']"
+104,OOOOO,I bet he will call you.,['Sustain.Continue.Prolong.Extend'],"['Sustain.Continue.Prolong.Elaborate', 'Sustain.Continue.Prolong.Enhance', 'Sustain.Continue.Prolong.Extend']"
+104,OOOOO,Don't worry.,['Sustain.Continue.Prolong.Extend'],"['Sustain.Continue.Prolong.Elaborate', 'Sustain.Continue.Prolong.Enhance', 'Sustain.Continue.Prolong.Extend']"
+104,XXXXX,"thank you, Steve.",['React.Respond.Support.Reply.Accept'],['React.Respond.Support.Reply.Accept']
+104,XXXXX,You're always so encouraging.,['Sustain.Continue.Prolong.Extend'],"['Sustain.Continue.Prolong.Elaborate', 'Sustain.Continue.Prolong.Enhance', 'Sustain.Continue.Prolong.Extend']"
+104,OOOOO,that's what friends are for.,['React.Respond.Support.Develop.Extend'],['React.Respond.Support.Develop.Extend']
+105,OOOOO,"Hi, Francis, how was your business trip?",['Open.Demand.Opinion'],"['Open.Demand.Opinion', 'Open.Demand.Fact', 'Open.Attend']"
+105,XXXXX,It was a nightmare.,['React.Rejoinder.Support.Response.Resolve'],['React.Rejoinder.Support.Response.Resolve']
+105,OOOOO,What’s up?,['React.Rejoinder.Support.Track.Clarify'],['React.Rejoinder.Support.Track.Clarify']
+105,XXXXX,Actually the business trip itself was very successful.,['React.Respond.Support.Develop.Extend'],"['React.Respond.Support.Develop.Extend', 'React.Rejoinder.Support.Response.Resolve']"
+105,XXXXX,We arrived on time.,"['Sustain.Continue.Prolong.Elaborate', 'Sustain.Continue.Prolong.Extend']","['Sustain.Continue.Prolong.Extend', 'Sustain.Continue.Prolong.Enhance', 'Sustain.Continue.Prolong.Elaborate']"
+105,XXXXX,we had nice conversations and we settled some important issues for the next year.,"['Sustain.Continue.Prolong.Elaborate', 'Sustain.Continue.Prolong.Extend']","['Sustain.Continue.Prolong.Extend', 'Sustain.Continue.Prolong.Enhance', 'Sustain.Continue.Prolong.Elaborate']"
+105,OOOOO,Sounds quite fruitful.,['React.Respond.Support.Register'],"['React.Respond.Support.Register', 'Sustain.Continue.Prolong.Extend']"
+105,OOOOO,why do you call it still a nightmare then?,['React.Rejoinder.Support.Track.Clarify'],['React.Rejoinder.Support.Track.Clarify']
+105,XXXXX,"Well, the air line lost my luggage on the return flight and then I lost my carry on bag when I was tackling with the officers in charge.",['React.Rejoinder.Support.Response.Resolve'],['React.Rejoinder.Support.Response.Resolve']
+105,XXXXX,I left the airport three hours later than I expected and then I was caught in a traffic jam.,['Sustain.Continue.Prolong.Extend'],['Sustain.Continue.Prolong.Extend']
+105,XXXXX,"When I finally got home, I was totally exhausted.",['Sustain.Continue.Prolong.Extend'],"['Sustain.Continue.Prolong.Extend', 'Sustain.Continue.Prolong.Enhance', 'Sustain.Continue.Prolong.Elaborate']"
+105,XXXXX,But I found the elevator was out of service due to a blackout.,['Sustain.Continue.Prolong.Extend'],['Sustain.Continue.Prolong.Extend']
+105,OOOOO,This is really a sad story.,['React.Respond.Support.Reply.Acknowledge'],"['React.Respond.Support.Register', 'React.Respond.Support.Develop.Extend', 'React.Respond.Support.Reply.Acknowledge']"
+105,OOOOO,Did they trace back your luggage?,['React.Rejoinder.Support.Track.Clarify'],"['React.Rejoinder.Support.Track.Clarify', 'React.Rejoinder.Support.Track.Confirm']"
+105,XXXXX,I am still waiting for their call.,"['React.Respond.Confront.Reply.Disavow', 'React.Respond.Confront.Reply.Disavow']","['React.Respond.Confront.Reply.Disavow', 'React.Rejoinder.Support.Response.Resolve', 'React.Respond.Confront.Reply.Disagree']"
+105,OOOOO,"Take it easy, all sufferings have their reward.",['React.Respond.Support.Develop.Extend'],['React.Respond.Support.Develop.Extend']
+106,OOOOO,So the company decided to cancel your trip to Hong Kong?,['Open.Demand.Fact'],['Open.Demand.Fact']
+106,XXXXX,Yes.,['React.Respond.Support.Reply.Affirm'],['React.Respond.Support.Reply.Affirm']
+106,XXXXX,The SARS epidemic is not under effective control yet.,['Sustain.Continue.Prolong.Enhance'],"['Sustain.Continue.Prolong.Enhance', 'Sustain.Continue.Prolong.Extend', 'Sustain.Continue.Prolong.Elaborate']"
+106,XXXXX,So I'd better not risk it.,['Sustain.Continue.Prolong.Enhance'],"['Sustain.Continue.Prolong.Enhance', 'Sustain.Continue.Prolong.Elaborate']"
+106,OOOOO,Maybe it's a good things.,['React.Respond.Support.Develop.Extend'],"['React.Respond.Support.Develop.Extend', 'React.Respond.Support.Develop.Enhance', 'React.Respond.Support.Develop.Elaborate']"
+106,OOOOO,If you don't have to go to Hong Kong.,['Sustain.Continue.Prolong.Elaborate'],"['Sustain.Continue.Prolong.Enhance', 'Sustain.Continue.Prolong.Elaborate']"
+106,OOOOO,you can take a break and take things easy for a while.,['Sustain.Continue.Prolong.Elaborate'],"['Sustain.Continue.Prolong.Extend', 'Sustain.Continue.Prolong.Enhance', 'Sustain.Continue.Prolong.Elaborate']"
+106,XXXXX,You are right.,['React.Respond.Support.Reply.Agree'],['React.Respond.Support.Reply.Agree']
+106,XXXXX,Maybe we should work out a fitness plan and start to do more exercise.,['Sustain.Continue.Prolong.Extend'],"['Sustain.Continue.Prolong.Extend', 'Sustain.Continue.Prolong.Enhance', 'Sustain.Continue.Prolong.Elaborate']"
+106,XXXXX,Sitting around in the office all day is no way of keeping fit.,"['Sustain.Continue.Prolong.Enhance', 'Sustain.Continue.Prolong.Elaborate']","['Sustain.Continue.Prolong.Enhance', 'Sustain.Continue.Prolong.Extend', 'Sustain.Continue.Prolong.Elaborate']"
+106,OOOOO,That's a good idea.,['React.Respond.Support.Reply.Agree'],"['React.Respond.Support.Reply.Agree', 'React.Respond.Support.Register']"
+106,OOOOO,Let's see if we can get more people in this plan.,['Sustain.Continue.Prolong.Extend'],"['Sustain.Continue.Prolong.Extend', 'Sustain.Continue.Prolong.Enhance', 'Sustain.Continue.Prolong.Elaborate']"
+106,OOOOO,"There isn't much business these days anyway, so I think many people will be interested.",['Sustain.Continue.Prolong.Extend'],['Sustain.Continue.Prolong.Extend']
+107,OOOOO,Which pair of jeans do you like best?,['Open.Demand.Opinion'],['Open.Demand.Opinion']
+107,XXXXX,I really like the straight legs.,['React.Rejoinder.Support.Response.Resolve'],['React.Rejoinder.Support.Response.Resolve']
+107,OOOOO,But they aren't very fashionable.,['React.Rejoinder.Confront.Challenge.Counter'],"['React.Rejoinder.Confront.Challenge.Counter', 'React.Respond.Confront.Reply.Disagree']"
+107,OOOOO,What about these?,['React.Rejoinder.Support.Track.Clarify'],['React.Rejoinder.Support.Track.Clarify']
+107,XXXXX,I don't like the way they sag down.,['React.Rejoinder.Support.Response.Resolve'],['React.Rejoinder.Support.Response.Resolve']
+107,XXXXX,I feel like I have plumber butt in them.,['Sustain.Continue.Prolong.Elaborate'],"['Sustain.Continue.Prolong.Enhance', 'Sustain.Continue.Prolong.Elaborate']"
+107,OOOOO,That's the style!,"['React.Respond.Support.Develop.Extend', 'React.Rejoinder.Confront.Challenge.Counter', 'React.Respond.Support.Register']","['React.Respond.Support.Develop.Extend', 'React.Rejoinder.Confront.Challenge.Counter', 'React.Respond.Support.Register']"
+107,OOOOO,You just wear boxers.,['Sustain.Continue.Prolong.Extend'],['Sustain.Continue.Prolong.Extend']
+107,XXXXX,What if someone got it in their head to give them a tug?,['React.Rejoinder.Support.Track.Clarify'],"['React.Rejoinder.Support.Track.Clarify', 'React.Rejoinder.Support.Track.Confirm']"
+107,XXXXX,What then?,['React.Rejoinder.Support.Track.Clarify'],['React.Rejoinder.Support.Track.Clarify']
+107,OOOOO,You're so old fashioned!,"['React.Rejoinder.Confront.Challenge.Counter', 'React.Respond.Support.Register']","['React.Respond.Support.Develop.Extend', 'React.Rejoinder.Confront.Challenge.Counter', 'React.Respond.Support.Register']"
+107,OOOOO,Nobody is going to pull down your pants!,['Sustain.Continue.Prolong.Elaborate'],"['Sustain.Continue.Prolong.Extend', 'Sustain.Continue.Prolong.Enhance', 'Sustain.Continue.Prolong.Elaborate']"
+107,XXXXX,"If you ask me, it's a walking invitation!",['React.Respond.Confront.Reply.Contradict'],"['React.Respond.Support.Develop.Extend', 'React.Respond.Confront.Reply.Disagree', 'React.Rejoinder.Confront.Challenge.Counter', 'React.Respond.Confront.Reply.Contradict']"
+108,OOOOO,"Hi, Charles.",['Open.Attend'],['Open.Attend']
+108,OOOOO,What's the matter?,['Open.Demand.Fact'],"['Open.Demand.Fact', 'React.Rejoinder.Support.Track.Clarify']"
+108,XXXXX,Oh!!,['React.Respond.Support.Register'],['React.Respond.Support.Register']
+108,XXXXX,My car isn't working.,['Sustain.Continue.Prolong.Extend'],['Sustain.Continue.Prolong.Extend']
+108,XXXXX,I'm waiting for a tow-truck.,['Sustain.Continue.Prolong.Extend'],"['Sustain.Continue.Prolong.Extend', 'Sustain.Continue.Prolong.Enhance', 'Sustain.Continue.Prolong.Elaborate']"
+108,OOOOO,Do you have a ride home?,['React.Rejoinder.Support.Track.Clarify'],['React.Rejoinder.Support.Track.Clarify']
+108,XXXXX,Yes.,['React.Respond.Support.Reply.Affirm'],['React.Respond.Support.Reply.Affirm']
+108,XXXXX,my wife is coming to get me.,"['Sustain.Continue.Prolong.Elaborate', 'Sustain.Continue.Prolong.Enhance']","['Sustain.Continue.Prolong.Extend', 'Sustain.Continue.Prolong.Enhance', 'Sustain.Continue.Prolong.Elaborate']"
+108,OOOOO,That's good.,['React.Respond.Support.Register'],['React.Respond.Support.Register']
+108,OOOOO,Do you live near here?,['React.Rejoinder.Support.Track.Clarify'],"['React.Rejoinder.Support.Track.Clarify', 'React.Rejoinder.Support.Track.Confirm']"
+108,XXXXX,"No, we live in the suburbs.",['React.Respond.Confront.Reply.Disagree'],"['React.Respond.Confront.Reply.Disagree', 'React.Respond.Confront.Reply.Contradict']"
+108,XXXXX,What about you?,['React.Rejoinder.Support.Track.Clarify'],"['React.Rejoinder.Support.Track.Clarify', 'Sustain.Continue.Monitor']"
+108,OOOOO,"I live downtown, with my parents.",['React.Rejoinder.Support.Response.Resolve'],['React.Rejoinder.Support.Response.Resolve']
+108,XXXXX,Do you have a car?,['React.Rejoinder.Support.Track.Clarify'],"['React.Rejoinder.Support.Track.Clarify', 'React.Rejoinder.Support.Track.Confirm']"
+108,OOOOO,I don't need a car.,"['React.Respond.Confront.Reply.Contradict', 'React.Respond.Confront.Reply.Disagree']","['React.Respond.Confront.Reply.Contradict', 'React.Rejoinder.Confront.Challenge.Counter', 'React.Respond.Confront.Reply.Disagree']"
+108,OOOOO,I walk to work.,['Sustain.Continue.Prolong.Enhance'],"['Sustain.Continue.Prolong.Enhance', 'Sustain.Continue.Prolong.Elaborate']"
+108,XXXXX,You're lucky!,['React.Respond.Support.Register'],"['React.Respond.Support.Register', 'React.Respond.Support.Develop.Extend']"
+109,OOOOO,"Happy anniversary, sweetheart!",['Open.Attend'],"['Open.Attend', 'Open.Give.Opinion']"
+109,XXXXX,Yes.,['React.Respond.Support.Register'],"['React.Respond.Support.Register', 'React.Respond.Support.Reply.Accept']"
+109,XXXXX,to our first anniversary and many more to come.,['Sustain.Continue.Prolong.Enhance'],"['Sustain.Continue.Prolong.Enhance', 'Sustain.Continue.Prolong.Elaborate', 'Sustain.Continue.Prolong.Extend']"
+109,XXXXX,Cheers!,['React.Respond.Support.Register'],"['React.Respond.Support.Register', 'Sustain.Continue.Prolong.Enhance', 'Sustain.Continue.Prolong.Elaborate']"
+109,OOOOO,I'll drink to that.,['React.Respond.Support.Develop.Extend'],"['React.Respond.Support.Develop.Extend', 'React.Respond.Support.Reply.Agree']"
+109,OOOOO,Thanks for making this a night worth remembering.,['React.Respond.Support.Reply.Accept'],"['React.Respond.Support.Reply.Accept', 'Sustain.Continue.Prolong.Extend']"
+109,XXXXX,"Well, it's a special day.",['React.Respond.Support.Develop.Enhance'],"['React.Respond.Support.Develop.Enhance', 'React.Respond.Support.Develop.Extend', 'React.Respond.Support.Develop.Elaborate']"
+109,XXXXX,"They say if you survive the first year, the rest is smooth sailing.",['Sustain.Continue.Prolong.Enhance'],"['Sustain.Continue.Prolong.Enhance', 'Sustain.Continue.Prolong.Elaborate', 'Sustain.Continue.Prolong.Extend']"
+109,OOOOO,That's good to know.,['React.Respond.Support.Register'],"['React.Respond.Support.Register', 'React.Respond.Support.Develop.Extend']"
+109,OOOOO,"Oh, listen!",['React.Respond.Support.Engage'],"['Open.Attend', 'React.Respond.Support.Engage', 'Sustain.Continue.Prolong.Extend']"
+109,OOOOO,The band's playing our song.,['Sustain.Continue.Prolong.Extend'],"['Sustain.Continue.Prolong.Extend', 'Sustain.Continue.Prolong.Enhance', 'Sustain.Continue.Prolong.Elaborate']"
+109,XXXXX,I requested it.,['React.Respond.Support.Develop.Extend'],"['React.Respond.Support.Develop.Extend', 'React.Respond.Support.Develop.Enhance', 'React.Respond.Support.Develop.Elaborate']"
+109,XXXXX,What do you say?,['React.Rejoinder.Support.Track.Clarify'],['React.Rejoinder.Support.Track.Clarify']
+109,XXXXX,Do you have your dancing shoes on?,['React.Rejoinder.Support.Track.Clarify'],"['React.Rejoinder.Support.Track.Clarify', 'React.Rejoinder.Support.Track.Confirm']"
+109,OOOOO,Always.,['React.Respond.Support.Reply.Affirm'],"['React.Respond.Support.Reply.Affirm', 'React.Rejoinder.Support.Response.Resolve']"
+110,OOOOO,What do you plan to do for your birthday?,['Open.Demand.Fact'],['Open.Demand.Fact']
+110,XXXXX,"I want to have a picnic with my friends, Mum.",['React.Rejoinder.Support.Response.Resolve'],['React.Rejoinder.Support.Response.Resolve']
+110,OOOOO,How about a party at home?,['React.Rejoinder.Support.Track.Clarify'],['React.Rejoinder.Support.Track.Clarify']
+110,OOOOO,That way we can get together and celebrate it.,"['Sustain.Continue.Prolong.Enhance', 'Sustain.Continue.Prolong.Extend', 'Sustain.Continue.Prolong.Elaborate']","['Sustain.Continue.Prolong.Enhance', 'Sustain.Continue.Prolong.Extend', 'Sustain.Continue.Prolong.Elaborate']"
+110,XXXXX,"OK, Mum.","['React.Respond.Support.Reply.Agree', 'React.Respond.Support.Register']","['React.Respond.Support.Reply.Agree', 'React.Respond.Support.Register']"
+110,XXXXX,I'll invite my friends home.,"['Sustain.Continue.Prolong.Extend', 'Sustain.Continue.Prolong.Enhance', 'Sustain.Continue.Prolong.Elaborate']","['Sustain.Continue.Prolong.Extend', 'Sustain.Continue.Prolong.Enhance', 'Sustain.Continue.Prolong.Elaborate']"
+398,OOOOO,"Why don’t you sit down and relax, darling?",['Open.Initiate.Demand.Opinion'],"['Open.Initiate.Demand.Opinion', 'Open.Initiate.Demand.Fact', 'Open.Command']"
+398,XXXXX,I don’t want to.,['React.Rejoinder.Support.Response.Resolve'],"['React.Respond.Confront.Reply.Disagree', 'React.Rejoinder.Support.Response.Resolve', 'React.Respond.Confront.Reply.Contradict']"
+398,OOOOO,"Well, come and talk to me then.",['React.Rejoinder.Support.Track.Clarify'],"['Open.Command', 'React.Respond.Support.Develop.Extend', 'React.Respond.Support.Develop.Enhance']"
+398,XXXXX,Certainly not.,['React.Rejoinder.Confront.Response.Refute'],"['React.Respond.Confront.Reply.Disagree', 'React.Rejoinder.Confront.Response.Refute']"
+398,OOOOO,May I turn on the radio then?,['React.Rejoinder.Support.Track.Clarify'],['React.Rejoinder.Support.Track.Clarify']
+398,XXXXX,Turn on the radio?,['React.Rejoinder.Support.Track.Check'],['React.Rejoinder.Support.Track.Check']
+398,XXXXX,What for?,['React.Rejoinder.Support.Track.Clarify'],['React.Rejoinder.Support.Track.Clarify']
+398,OOOOO,So that we can sit down together and listen to some music.,['React.Rejoinder.Support.Response.Resolve'],['React.Rejoinder.Support.Response.Resolve']
+398,XXXXX,Listen to some music?,['React.Rejoinder.Support.Track.Check'],['React.Rejoinder.Support.Track.Check']
+398,XXXXX,And who’ll cook dinner?,['React.Rejoinder.Support.Track.Clarify'],"['React.Rejoinder.Confront.Response.Re-challenge', 'React.Rejoinder.Support.Track.Clarify']"
+398,XXXXX,Will you?,['React.Rejoinder.Support.Track.Confirm'],"['React.Rejoinder.Support.Track.Confirm', 'React.Rejoinder.Support.Track.Clarify']"
+398,OOOOO,"Ok, I will.",['React.Respond.Support.Reply.Agree'],"['React.Respond.Support.Reply.Agree', 'React.Respond.Support.Reply.Affirm']"
+398,OOOOO,But let’s go to a disco after dinner.,['Sustain.Continue.Prolong.Extend'],"['Sustain.Continue.Prolong.Extend', 'Open.Command']"
+398,XXXXX,To a disco?,['React.Rejoinder.Support.Track.Check'],"['React.Rejoinder.Support.Track.Check', 'React.Rejoinder.Support.Track.Clarify']"
+398,XXXXX,"Oh, no.",['React.Respond.Confront.Reply.Disagree'],"['React.Respond.Confront.Reply.Disagree', 'Sustain.Continue.Prolong.Extend', 'Sustain.Continue.Prolong.Enhance', 'Sustain.Continue.Prolong.Elaborate']"
+398,XXXXX,You know I hate pop.,['Sustain.Continue.Prolong.Enhance'],"['Sustain.Continue.Prolong.Extend', 'Sustain.Continue.Prolong.Enhance', 'Sustain.Continue.Prolong.Elaborate']"
+3047,OOOOO,Most of our customers are foreigners.,['Open.Initiate.Give.Fact'],['Open.Initiate.Give.Fact']
+3047,OOOOO,"How many foreign languages can you speak, Elizabeth?",['React.Rejoinder.Support.Track.Clarify'],"['Open.Initiate.Demand.Fact', 'React.Rejoinder.Support.Track.Clarify']"
+3047,XXXXX,Two.,['React.Rejoinder.Support.Response.Resolve'],['React.Rejoinder.Support.Response.Resolve']
+3047,XXXXX,French and Spanish.,['Sustain.Continue.Prolong.Elaborate'],['Sustain.Continue.Prolong.Elaborate']
+3047,OOOOO,And how well can you speak them?,['React.Rejoinder.Support.Track.Clarify'],['React.Rejoinder.Support.Track.Clarify']
+3047,XXXXX,"Well, French was my best subject at school.",['React.Rejoinder.Support.Response.Resolve'],['React.Rejoinder.Support.Response.Resolve']
+3047,XXXXX,I can read and write it pretty well.,['Sustain.Continue.Prolong.Enhance'],"['Sustain.Continue.Prolong.Elaborate', 'Sustain.Continue.Prolong.Extend', 'Sustain.Continue.Prolong.Enhance']"
+3047,OOOOO,And how about your Spanish?,['React.Rejoinder.Support.Track.Clarify'],['React.Rejoinder.Support.Track.Clarify']
+3047,XXXXX,"Well, it's not as good as my French.",['React.Rejoinder.Support.Response.Resolve'],['React.Rejoinder.Support.Response.Resolve']
+3047,XXXXX,"I can speak it reasonably well, but my written Spanish isn't very good.",['Sustain.Continue.Prolong.Elaborate'],"['Sustain.Continue.Prolong.Elaborate', 'Sustain.Continue.Prolong.Extend', 'Sustain.Continue.Prolong.Enhance']"
+3047,OOOOO,I see.,['React.Respond.Support.Reply.Acknowledge'],"['React.Respond.Support.Register', 'React.Respond.Support.Reply.Acknowledge']"
+3047,OOOOO,"Well, we have a lot of Spanish customers, but you wouldn't need to write any Spanish here.",['Sustain.Continue.Prolong.Extend'],['Sustain.Continue.Prolong.Extend']
+3047,XXXXX,"In that case, I'm fit for the position I think.",['React.Respond.Support.Develop.Extend'],"['React.Respond.Support.Develop.Extend', 'React.Respond.Support.Develop.Enhance']"
+6220,OOOOO,"Hi, I want to see the Terra Cotta Warriors in Xi'an.",['Open.Initiate.Give.Fact'],"['Open.Initiate.Give.Fact', 'Open.Attend']"
+6220,OOOOO,Could you please remind me when we are arriving at that stop?,['React.Rejoinder.Support.Track.Confirm'],"['React.Rejoinder.Support.Track.Confirm', 'React.Rejoinder.Support.Track.Clarify']"
+6220,XXXXX,Oh.,['React.Respond.Support.Register'],['React.Respond.Support.Register']
+6220,XXXXX,You took the wrong bus.,['Sustain.Continue.Prolong.Extend'],"['Sustain.Continue.Prolong.Extend', 'Sustain.Continue.Prolong.Elaborate']"
+6220,XXXXX,You need to take Bus 151 which goes the opposite direction.,['Sustain.Continue.Prolong.Extend'],"['Sustain.Continue.Prolong.Elaborate', 'Sustain.Continue.Prolong.Extend', 'Sustain.Continue.Prolong.Enhance']"
+6220,OOOOO,"Oh, no!",['React.Respond.Support.Register'],['React.Respond.Support.Register']
+6220,OOOOO,What should I do now?,['React.Rejoinder.Support.Track.Clarify'],['React.Rejoinder.Support.Track.Clarify']
+6220,XXXXX,Don't worry.,['React.Respond.Support.Develop.Extend'],"['React.Respond.Support.Develop.Extend', 'React.Rejoinder.Support.Response.Resolve', 'Open.Command', 'React.Respond.Support.Register']"
+6220,XXXXX,You can get off at the next stop and walk across the street and take the Bus 151 to the opposite direction.,['Sustain.Continue.Prolong.Elaborate'],"['Sustain.Continue.Prolong.Elaborate', 'Sustain.Continue.Prolong.Extend', 'Sustain.Continue.Prolong.Enhance']"
+6220,OOOOO,Ok.,['React.Respond.Support.Register'],"['React.Respond.Support.Develop.Extend', 'React.Respond.Support.Register', 'React.Respond.Support.Reply.Agree\n']"
+6220,OOOOO,How many stops do I have to go?,['React.Rejoinder.Support.Track.Clarify'],['React.Rejoinder.Support.Track.Clarify']
+6220,XXXXX,About 15 stops.,['React.Rejoinder.Support.Response.Resolve'],['React.Rejoinder.Support.Response.Resolve']
+6220,OOOOO,That is a long way to go.,['React.Respond.Support.Develop.Extend'],"['React.Respond.Support.Develop.Enhance', 'React.Respond.Support.Develop.Extend']"
+6220,OOOOO,It is so kind of you to help me.,['Sustain.Continue.Prolong.Extend'],['Sustain.Continue.Prolong.Extend']
+6220,OOOOO,Thank you very much.,['React.Respond.Support.Reply.Accept'],['React.Respond.Support.Reply.Accept']
+6220,XXXXX,My pleasure.,['React.Respond.Support.Reply.Accept'],"['React.Respond.Support.Develop.Extend', 'React.Respond.Support.Reply.Accept']"

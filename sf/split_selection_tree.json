@@ -1,0 +1,626 @@
+{
+    "question_to_define_groups": "Does the dialog utterance involve a request for information, a response to such a request, continuation or elaboration of a previous statement, or a confrontation or challenge to a previous statement?",
+    "groups": [
+        {
+            "label": "The dialog utterance involves a request for information.",
+            "data": [
+                "Open.Demand.Fact",
+                "Open.Demand.Opinion",
+                "Open.Command",
+                "Open.Attend",
+                "React.Rejoinder.Support.Track.Probe",
+                "React.Rejoinder.Support.Track.Check",
+                "React.Rejoinder.Support.Track.Clarify",
+                "React.Rejoinder.Support.Track.Confirm"
+            ],
+            "next_split": {
+                "question_1": "Does the utterance demand information or action at the beginning of a conversation?",
+                "answer_1": "Yes, utterances under 'Open.Demand.Fact', 'Open.Demand.Opinion', 'Open.Command', and 'Open.Attend' demand information or action at the beginning of a conversation.",
+                "question_2": "Does the utterance request for a confirmation or clarification of information?",
+                "answer_2": "Yes, utterances under 'React.Rejoinder.Support.Track.Probe', 'React.Rejoinder.Support.Track.Check', 'React.Rejoinder.Support.Track.Clarify', and 'React.Rejoinder.Support.Track.Confirm' request for a confirmation or clarification of information.",
+                "question_3": "Is the utterance a greeting or a request for action?",
+                "answer_3": "Yes, utterances under 'Open.Attend' are usually greetings, and those under 'Open.Command' are requests for action.",
+                "question_to_define_groups": "Does the utterance demand information or action at the beginning of a conversation, or does it request for a confirmation or clarification of information?",
+                "groups": [
+                    {
+                        "label": "The utterance demands information or action at the beginning of a conversation.",
+                        "data": [
+                            "Open.Demand.Fact",
+                            "Open.Demand.Opinion",
+                            "Open.Command",
+                            "Open.Attend"
+                        ],
+                        "next_split": {
+                            "question_1": "Does the utterance ask for factual information?",
+                            "answer_1": "If the utterance is asking for factual information, it falls under the 'Open.Demand.Fact' category.",
+                            "question_2": "Does the utterance ask for an opinion or evaluative information?",
+                            "answer_2": "If the utterance is asking for an opinion or evaluative information, it falls under the 'Open.Demand.Opinion' category.",
+                            "question_3": "Is the utterance a command or request?",
+                            "answer_3": "If the utterance is a command or request, it falls under the 'Open.Command' category.",
+                            "question_to_define_groups": "Is the utterance asking for information or making a command/request?",
+                            "groups": [
+                                {
+                                    "label": "The utterance is asking for information.",
+                                    "data": [
+                                        "Open.Demand.Fact",
+                                        "Open.Demand.Opinion"
+                                    ],
+                                    "next_split": {
+                                        "question_1": "Does the dialog utterance ask for factual information?",
+                                        "answer_1": "If the dialog utterance is asking for factual information, it falls under the 'Open.Demand.Fact' category.",
+                                        "question_2": "Does the dialog utterance ask for an opinion or evaluative information?",
+                                        "answer_2": "If the dialog utterance is asking for an opinion or evaluative information, it falls under the 'Open.Demand.Opinion' category.",
+                                        "question_3": "Is the dialog utterance asking a question at the beginning of a conversation?",
+                                        "answer_3": "Both 'Open.Demand.Fact' and 'Open.Demand.Opinion' categories involve asking a question at the beginning of a conversation.",
+                                        "question_to_define_groups": "Is the dialog utterance asking for factual information or an opinion?",
+                                        "groups": [
+                                            {
+                                                "label": "The dialog utterance is asking for factual information.",
+                                                "data": [
+                                                    "Open.Demand.Fact"
+                                                ]
+                                            },
+                                            {
+                                                "label": "The dialog utterance is asking for an opinion or evaluative information.",
+                                                "data": [
+                                                    "Open.Demand.Opinion"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "label": "The utterance is making a command or request.",
+                                    "data": [
+                                        "Open.Command"
+                                    ]
+                                },
+                                {
+                                    "label": "The utterance is a greeting or attention getter.",
+                                    "data": [
+                                        "Open.Attend"
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "label": "The utterance requests for a confirmation or clarification of information.",
+                        "data": [
+                            "React.Rejoinder.Support.Track.Probe",
+                            "React.Rejoinder.Support.Track.Check",
+                            "React.Rejoinder.Support.Track.Clarify",
+                            "React.Rejoinder.Support.Track.Confirm"
+                        ],
+                        "next_split": {
+                            "question_1": "Does the dialog utterance involve getting the previous speaker to repeat an element of what they said?",
+                            "answer_1": "If the dialog utterance is asking the previous speaker to repeat something they said, it falls under the 'React.Rejoinder.Support.Track.Check' category.",
+                            "question_2": "Is the dialog utterance asking for a confirmation of the information received?",
+                            "answer_2": "If the dialog utterance is asking for a confirmation of the information received, it falls under the 'React.Rejoinder.Support.Track.Confirm' category.",
+                            "question_3": "Is the dialog utterance asking a question to get additional information or clarification?",
+                            "answer_3": "If the dialog utterance is asking a question to get additional information or clarification, it falls under the 'React.Rejoinder.Support.Track.Clarify' or 'React.Rejoinder.Support.Track.Probe' category.",
+                            "question_to_define_groups": "Is the dialog utterance asking for a repetition, a confirmation, or additional information/clarification?",
+                            "groups": [
+                                {
+                                    "label": "The dialog utterance is asking for a repetition of what was said.",
+                                    "data": [
+                                        "React.Rejoinder.Support.Track.Check"
+                                    ]
+                                },
+                                {
+                                    "label": "The dialog utterance is asking for a confirmation of the information received.",
+                                    "data": [
+                                        "React.Rejoinder.Support.Track.Confirm"
+                                    ]
+                                },
+                                {
+                                    "label": "The dialog utterance is asking a question to get additional information or clarification.",
+                                    "data": [
+                                        "React.Rejoinder.Support.Track.Clarify",
+                                        "React.Rejoinder.Support.Track.Probe"
+                                    ],
+                                    "next_split": {
+                                        "question_1": "Does the dialog utterance seek to confirm previously mentioned information?",
+                                        "answer_1": "If the utterance is asking for confirmation of information, it is likely to be a 'React.Rejoinder.Support.Track.Probe'.",
+                                        "question_2": "Is the dialog utterance asking for additional information or clarification?",
+                                        "answer_2": "If the utterance is seeking additional information or clarification, it is likely to be a 'React.Rejoinder.Support.Track.Clarify'.",
+                                        "question_3": "Does the dialog utterance contain a question?",
+                                        "answer_3": "Both 'React.Rejoinder.Support.Track.Probe' and 'React.Rejoinder.Support.Track.Clarify' contain a question, but the former seeks confirmation while the latter seeks additional information.",
+                                        "question_to_define_groups": "Is the dialog utterance seeking to confirm information or clarify additional details?",
+                                        "groups": [
+                                            {
+                                                "label": "The dialog utterance is seeking to confirm information.",
+                                                "data": [
+                                                    "React.Rejoinder.Support.Track.Probe"
+                                                ]
+                                            },
+                                            {
+                                                "label": "The dialog utterance is asking for additional information or clarification.",
+                                                "data": [
+                                                    "React.Rejoinder.Support.Track.Clarify"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "label": "The dialog utterance involves a response to a request for information.",
+            "data": [
+                "Open.Give.Fact",
+                "Open.Give.Opinion",
+                "React.Respond.Support.Reply.Affirm",
+                "React.Respond.Support.Reply.Acknowledge",
+                "React.Respond.Support.Reply.Agree",
+                "React.Respond.Support.Develop.Extend",
+                "React.Respond.Support.Develop.Enhance",
+                "React.Respond.Support.Develop.Elaborate",
+                "React.Respond.Confront.Reply.Disagree",
+                "React.Respond.Confront.Reply.Contradict",
+                "React.Respond.Confront.Reply.Disavow",
+                "React.Respond.Support.Register",
+                "React.Respond.Support.Engage",
+                "React.Respond.Support.Reply.Accept",
+                "React.Rejoinder.Support.Response.Resolve",
+                "React.Respond.Command",
+                "React.Rejoinder.Confront.Response.Refute",
+                "React.Rejoinder.Confront.Challenge.Rebound",
+                "React.Rejoinder.Confront.Challenge.Detach",
+                "React.Rejoinder.Confront.Challenge.Counter"
+            ],
+            "next_split": {
+                "question_1": "Does the dialog utterance provide information or respond to a previous statement?",
+                "answer_1": "Some dialog utterances provide information at the beginning of the conversation, while others respond to previous statements.",
+                "question_2": "Does the response to a previous statement support or confront the information provided?",
+                "answer_2": "Some responses support the information provided, while others confront it.",
+                "question_3": "Does the response to a previous statement develop the conversation or simply reply?",
+                "answer_3": "Some responses develop the conversation by adding supplementary information, details, or clarification, while others simply reply with agreement, acknowledgment, or denial.",
+                "question_to_define_groups": "Does the dialog utterance provide information, support a previous statement, or confront a previous statement?",
+                "groups": [
+                    {
+                        "label": "The dialog utterance provides information.",
+                        "data": [
+                            "Open.Give.Fact",
+                            "Open.Give.Opinion"
+                        ],
+                        "next_split": {
+                            "question_1": "Does the utterance provide factual information?",
+                            "answer_1": "If the utterance provides factual information, it falls under the 'Open.Give.Fact' category.",
+                            "question_2": "Does the utterance provide judgement or evaluative information?",
+                            "answer_2": "If the utterance provides judgement or evaluative information, it falls under the 'Open.Give.Opinion' category.",
+                            "question_3": "Does the utterance occur at the beginning of a conversation?",
+                            "answer_3": "Both categories can occur at the beginning of a conversation.",
+                            "question_to_define_groups": "Is the utterance providing factual information or judgement/evaluative information?",
+                            "groups": [
+                                {
+                                    "label": "The utterance is providing factual information.",
+                                    "data": [
+                                        "Open.Give.Fact"
+                                    ]
+                                },
+                                {
+                                    "label": "The utterance is providing judgement or evaluative information.",
+                                    "data": [
+                                        "Open.Give.Opinion"
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "label": "The dialog utterance supports a previous statement.",
+                        "data": [
+                            "React.Respond.Support.Reply.Affirm",
+                            "React.Respond.Support.Reply.Acknowledge",
+                            "React.Respond.Support.Reply.Agree",
+                            "React.Respond.Support.Develop.Extend",
+                            "React.Respond.Support.Develop.Enhance",
+                            "React.Respond.Support.Develop.Elaborate",
+                            "React.Respond.Support.Register",
+                            "React.Respond.Support.Engage",
+                            "React.Respond.Support.Reply.Accept",
+                            "React.Rejoinder.Support.Response.Resolve"
+                        ],
+                        "next_split": {
+                            "question_1": "Does the dialog utterance involve a positive response to a previous statement or question?",
+                            "answer_1": "If the dialog utterance involves a positive response, it could fall under 'React.Respond.Support.Reply.Affirm', 'React.Respond.Support.Reply.Acknowledge', 'React.Respond.Support.Reply.Agree', or 'React.Respond.Support.Reply.Accept'.",
+                            "question_2": "Does the dialog utterance involve adding more information or details to a previous statement?",
+                            "answer_2": "If the dialog utterance involves adding more information or details, it could fall under 'React.Respond.Support.Develop.Extend', 'React.Respond.Support.Develop.Enhance', or 'React.Respond.Support.Develop.Elaborate'.",
+                            "question_3": "Does the dialog utterance involve a manifestation of emotions or a response to a greeting?",
+                            "answer_3": "If the dialog utterance involves a manifestation of emotions or a response to a greeting, it could fall under 'React.Respond.Support.Register', 'React.Respond.Support.Engage', or 'React.Rejoinder.Support.Response.Resolve'.",
+                            "question_to_define_groups": "Does the dialog utterance involve a response to a previous statement or question, or does it involve adding more information or details to a previous statement, or does it involve a manifestation of emotions or a response to a greeting?",
+                            "groups": [
+                                {
+                                    "label": "The dialog utterance involves a positive response to a previous statement or question.",
+                                    "data": [
+                                        "React.Respond.Support.Reply.Affirm",
+                                        "React.Respond.Support.Reply.Acknowledge",
+                                        "React.Respond.Support.Reply.Agree",
+                                        "React.Respond.Support.Reply.Accept"
+                                    ],
+                                    "next_split": {
+                                        "question_1": "Do some of the dialog utterances indicate an agreement or confirmation?",
+                                        "answer_1": "Yes, some utterances like 'He did', 'Yes', and 'Right' indicate an agreement or confirmation.",
+                                        "question_2": "Do some of the dialog utterances express gratitude or appreciation?",
+                                        "answer_2": "Yes, utterances like 'Thank you!' express gratitude or appreciation.",
+                                        "question_3": "Do some of the dialog utterances indicate a knowledge or understanding of the information provided?",
+                                        "answer_3": "Yes, utterances like 'I know', 'I see', 'Oh yea' indicate a knowledge or understanding of the information provided.",
+                                        "question_to_define_groups": "Does the dialog utterance indicate agreement/confirmation, express gratitude, or show understanding/knowledge?",
+                                        "groups": [
+                                            {
+                                                "label": "The dialog utterance indicates agreement or confirmation.",
+                                                "data": [
+                                                    "React.Respond.Support.Reply.Affirm",
+                                                    "React.Respond.Support.Reply.Agree"
+                                                ],
+                                                "next_split": {
+                                                    "question_1": "Does the dialog utterance involve a positive response?",
+                                                    "answer_1": "Yes, both taxonomy labels involve a positive response.",
+                                                    "question_2": "Is the dialog utterance a response to a question or confirmation of a statement?",
+                                                    "answer_2": "Yes, the 'React.Respond.Support.Reply.Affirm' label is a response to a question or confirmation of a statement.",
+                                                    "question_3": "Is the dialog utterance an agreement with the information provided?",
+                                                    "answer_3": "Yes, the 'React.Respond.Support.Reply.Agree' label is an agreement with the information provided.",
+                                                    "question_to_define_groups": "Is the positive response given in the dialog utterance a direct answer to a question or confirmation of a statement, or is it an agreement with the information provided?",
+                                                    "groups": [
+                                                        {
+                                                            "label": "The positive response is a direct answer to a question or confirmation of a statement.",
+                                                            "data": [
+                                                                "React.Respond.Support.Reply.Affirm"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "label": "The positive response is an agreement with the information provided.",
+                                                            "data": [
+                                                                "React.Respond.Support.Reply.Agree"
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "label": "The dialog utterance expresses gratitude.",
+                                                "data": [
+                                                    "React.Respond.Support.Reply.Accept"
+                                                ]
+                                            },
+                                            {
+                                                "label": "The dialog utterance shows understanding or knowledge.",
+                                                "data": [
+                                                    "React.Respond.Support.Reply.Acknowledge"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "label": "The dialog utterance involves adding more information or details to a previous statement.",
+                                    "data": [
+                                        "React.Respond.Support.Develop.Extend",
+                                        "React.Respond.Support.Develop.Enhance",
+                                        "React.Respond.Support.Develop.Elaborate"
+                                    ],
+                                    "next_split": {
+                                        "question_1": "Does the dialog utterance add supplementary or contradictory information to the previous statement?",
+                                        "answer_1": "If the dialog utterance adds supplementary or contradictory information to the previous statement, it falls under the 'React.Respond.Support.Develop.Extend' label.",
+                                        "question_2": "Does the dialog utterance add details to the previous statement, adding weight or significance?",
+                                        "answer_2": "If the dialog utterance adds details to the previous statement, adding weight or significance, it falls under the 'React.Respond.Support.Develop.Enhance' label.",
+                                        "question_3": "Does the dialog utterance clarify or rephrase the previous statement?",
+                                        "answer_3": "If the dialog utterance clarifies or rephrases the previous statement, it falls under the 'React.Respond.Support.Develop.Elaborate' label.",
+                                        "question_to_define_groups": "Does the dialog utterance add information to the previous statement, and if so, how?",
+                                        "groups": [
+                                            {
+                                                "label": "The utterance adds supplementary or contradictory information to the previous statement.",
+                                                "data": [
+                                                    "React.Respond.Support.Develop.Extend"
+                                                ]
+                                            },
+                                            {
+                                                "label": "The utterance adds details to the previous statement, adding weight or significance.",
+                                                "data": [
+                                                    "React.Respond.Support.Develop.Enhance"
+                                                ]
+                                            },
+                                            {
+                                                "label": "The utterance clarifies or rephrases the previous statement.",
+                                                "data": [
+                                                    "React.Respond.Support.Develop.Elaborate"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "label": "The dialog utterance involves a manifestation of emotions or a response to a greeting.",
+                                    "data": [
+                                        "React.Respond.Support.Register",
+                                        "React.Respond.Support.Engage",
+                                        "React.Rejoinder.Support.Response.Resolve"
+                                    ],
+                                    "next_split": {
+                                        "question_1": "Does the dialog utterance involve a display of attention or emotions?",
+                                        "answer_1": "If the dialog utterance is a manifestation of emotions or a display of attention, it aligns with the 'React.Respond.Support.Register' label.",
+                                        "question_2": "Does the dialog utterance involve a response to a greeting or drawing attention?",
+                                        "answer_2": "If the dialog utterance involves drawing attention or a response to a greeting, it aligns with the 'React.Respond.Support.Engage' label.",
+                                        "question_3": "Does the dialog utterance provide the information requested or resolve a query?",
+                                        "answer_3": "If the dialog utterance provides the information requested or resolves a query, it aligns with the 'React.Rejoinder.Support.Response.Resolve' label.",
+                                        "question_to_define_groups": "Does the dialog utterance involve a display of attention/emotions, a response to a greeting/drawing attention, or providing requested information/resolving a query?",
+                                        "groups": [
+                                            {
+                                                "label": "Dialog utterance involves a display of attention or emotions.",
+                                                "data": [
+                                                    "React.Respond.Support.Register"
+                                                ]
+                                            },
+                                            {
+                                                "label": "Dialog utterance involves a response to a greeting or drawing attention.",
+                                                "data": [
+                                                    "React.Respond.Support.Engage"
+                                                ]
+                                            },
+                                            {
+                                                "label": "Dialog utterance provides the information requested or resolves a query.",
+                                                "data": [
+                                                    "React.Rejoinder.Support.Response.Resolve"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "label": "The dialog utterance confronts a previous statement.",
+                        "data": [
+                            "React.Rejoinder.Confront.Challenge.Rebound",
+                            "React.Respond.Confront.Reply.Disagree",
+                            "React.Respond.Confront.Reply.Contradict",
+                            "React.Respond.Confront.Reply.Disavow",
+                            "React.Rejoinder.Confront.Challenge.Detach",
+                            "React.Rejoinder.Confront.Challenge.Counter",
+                            "React.Rejoinder.Confront.Response.Refute"
+                        ],
+                        "next_split": {
+                            "question_1": "Does the dialog utterance involve a denial or refutation of some sort?",
+                            "answer_1": "If the utterance involves a denial or refutation, it could belong to 'React.Respond.Confront.Reply.Disagree', 'React.Respond.Confront.Reply.Contradict', 'React.Respond.Confront.Reply.Disavow', or 'React.Rejoinder.Confront.Response.Refute'.",
+                            "question_2": "Does the dialog utterance involve questioning the relevance or reliability of the information or terminating the dialog?",
+                            "answer_2": "If the utterance involves questioning the relevance or reliability of the information or terminating the dialog, it could belong to 'React.Rejoinder.Confront.Challenge.Rebound' or 'React.Rejoinder.Confront.Challenge.Detach'.",
+                            "question_3": "Does the dialog utterance involve dismissing the addressee\u2019s right to his/her position?",
+                            "answer_3": "If the utterance involves dismissing the addressee\u2019s right to his/her position, it belongs to 'React.Rejoinder.Confront.Challenge.Counter'.",
+                            "question_to_define_groups": "Does the dialog utterance involve a denial, refutation, or dismissal?",
+                            "groups": [
+                                {
+                                    "label": "The utterance involves a denial or refutation.",
+                                    "data": [
+                                        "React.Respond.Confront.Reply.Disagree",
+                                        "React.Respond.Confront.Reply.Contradict",
+                                        "React.Respond.Confront.Reply.Disavow",
+                                        "React.Rejoinder.Confront.Response.Refute"
+                                    ],
+                                    "next_split": {
+                                        "question_1": "Do the utterances contain a denial or rejection of some sort?",
+                                        "answer_1": "Yes, all utterances involve a form of denial or rejection.",
+                                        "question_2": "Are there utterances that involve a direct negative answer to a question?",
+                                        "answer_2": "Yes, some utterances involve a direct negative answer to a question.",
+                                        "question_3": "Are there utterances that involve refuting or contradicting previous information?",
+                                        "answer_3": "Yes, some utterances involve refuting or contradicting previous information.",
+                                        "question_to_define_groups": "Does the utterance involve a direct negative answer to a question or a denial of knowledge or understanding?",
+                                        "groups": [
+                                            {
+                                                "label": "The utterance involves a direct negative answer to a question or a denial of knowledge or understanding.",
+                                                "data": [
+                                                    "React.Respond.Confront.Reply.Disagree",
+                                                    "React.Respond.Confront.Reply.Disavow"
+                                                ],
+                                                "next_split": {
+                                                    "question_1": "Does the dialog utterance involve a negative response?",
+                                                    "answer_1": "Yes, both taxonomy labels involve a negative response.",
+                                                    "question_2": "Does the dialog utterance involve a denial of a statement or question?",
+                                                    "answer_2": "Yes, the first taxonomy label involves a denial of a statement or question.",
+                                                    "question_3": "Does the dialog utterance involve a denial of knowledge or understanding?",
+                                                    "answer_3": "Yes, the second taxonomy label involves a denial of knowledge or understanding.",
+                                                    "question_to_define_groups": "Is the dialog utterance a denial of a statement or question, or a denial of knowledge or understanding?",
+                                                    "groups": [
+                                                        {
+                                                            "label": "The dialog utterance is a denial of a statement or question.",
+                                                            "data": [
+                                                                "React.Respond.Confront.Reply.Disagree"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "label": "The dialog utterance is a denial of knowledge or understanding.",
+                                                            "data": [
+                                                                "React.Respond.Confront.Reply.Disavow"
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "label": "The utterance involves refuting or contradicting previous information or rejecting a transition to a new topic.",
+                                                "data": [
+                                                    "React.Respond.Confront.Reply.Contradict",
+                                                    "React.Rejoinder.Confront.Response.Refute"
+                                                ],
+                                                "next_split": {
+                                                    "question_1": "Does the dialog utterance involve refuting previous information?",
+                                                    "answer_1": "If the dialog utterance involves refuting previous information, it aligns with the definition of 'React.Respond.Confront.Reply.Contradict'.",
+                                                    "question_2": "Does the dialog utterance involve rejecting a transition to a new topic?",
+                                                    "answer_2": "If the dialog utterance involves rejecting a transition to a new topic, it aligns with the definition of 'React.Rejoinder.Confront.Response.Refute'.",
+                                                    "question_3": "Is the dialog utterance a response to a previous statement or a new topic introduction?",
+                                                    "answer_3": "If the dialog utterance is a response to a previous statement, it could fall under 'React.Respond.Confront.Reply.Contradict'. If it is a response to a new topic introduction, it could fall under 'React.Rejoinder.Confront.Response.Refute'.",
+                                                    "question_to_define_groups": "Does the dialog utterance involve refuting previous information or rejecting a transition to a new topic?",
+                                                    "groups": [
+                                                        {
+                                                            "label": "The dialog utterance involves refuting previous information.",
+                                                            "data": [
+                                                                "React.Respond.Confront.Reply.Contradict"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "label": "The dialog utterance involves rejecting a transition to a new topic.",
+                                                            "data": [
+                                                                "React.Rejoinder.Confront.Response.Refute"
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "label": "The utterance involves questioning the relevance or reliability of the information or terminating the dialog.",
+                                    "data": [
+                                        "React.Rejoinder.Confront.Challenge.Rebound",
+                                        "React.Rejoinder.Confront.Challenge.Detach"
+                                    ],
+                                    "next_split": {
+                                        "question_1": "Does the dialog utterance question the relevance or reliability of the previous statement?",
+                                        "answer_1": "If the dialog utterance questions the relevance or reliability of the previous statement, it falls under the 'React.Rejoinder.Confront.Challenge.Rebound' category.",
+                                        "question_2": "Does the dialog utterance aim to terminate the conversation?",
+                                        "answer_2": "If the dialog utterance aims to terminate the conversation, it falls under the 'React.Rejoinder.Confront.Challenge.Detach' category.",
+                                        "question_3": "Does the dialog utterance confront the previous statement in any way?",
+                                        "answer_3": "If the dialog utterance confronts the previous statement in any way, it falls under either 'React.Rejoinder.Confront.Challenge.Rebound' or 'React.Rejoinder.Confront.Challenge.Detach', depending on the specific nature of the confrontation.",
+                                        "question_to_define_groups": "Does the dialog utterance challenge the previous statement by questioning its relevance or reliability, or by aiming to terminate the conversation?",
+                                        "groups": [
+                                            {
+                                                "label": "The dialog utterance challenges the previous statement by questioning its relevance or reliability.",
+                                                "data": [
+                                                    "React.Rejoinder.Confront.Challenge.Rebound"
+                                                ]
+                                            },
+                                            {
+                                                "label": "The dialog utterance challenges the previous statement by aiming to terminate the conversation.",
+                                                "data": [
+                                                    "React.Rejoinder.Confront.Challenge.Detach"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "label": "The utterance involves dismissing the addressee\u2019s right to his/her position.",
+                                    "data": [
+                                        "React.Rejoinder.Confront.Challenge.Counter"
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "label": "The dialog utterance commands or terminates the conversation.",
+                        "data": [
+                            "React.Respond.Command",
+                            "React.Rejoinder.Confront.Challenge.Detach"
+                        ],
+                        "next_split": {
+                            "question_1": "Does the utterance involve making a request, an invitation or command to another person?",
+                            "answer_1": "If the utterance involves making a request, an invitation or command to another person, it falls under the 'React.Respond.Command' category.",
+                            "question_2": "Does the utterance involve terminating the dialog?",
+                            "answer_2": "If the utterance involves terminating the dialog, it falls under the 'React.Rejoinder.Confront.Challenge.Detach' category.",
+                            "question_3": "Does the utterance involve confrontation or challenge?",
+                            "answer_3": "If the utterance involves confrontation or challenge, it falls under the 'React.Rejoinder.Confront.Challenge.Detach' category.",
+                            "question_to_define_groups": "Does the utterance involve making a request, an invitation or command to another person, or does it involve terminating the dialog or confrontation?",
+                            "groups": [
+                                {
+                                    "label": "The utterance involves making a request, an invitation or command to another person.",
+                                    "data": [
+                                        "React.Respond.Command"
+                                    ]
+                                },
+                                {
+                                    "label": "The utterance involves terminating the dialog or confrontation.",
+                                    "data": [
+                                        "React.Rejoinder.Confront.Challenge.Detach"
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "label": "The dialog utterance involves continuation or elaboration of a previous statement.",
+            "data": [
+                "Sustain.Continue.Prolong.Extend",
+                "Sustain.Continue.Prolong.Enhance",
+                "Sustain.Continue.Prolong.Elaborate",
+                "Sustain.Continue.Monitor",
+                "Sustain.Continue.Command"
+            ],
+            "next_split": {
+                "question_1": "Does the dialog utterance add supplementary information or details to a previous statement?",
+                "answer_1": "If the dialog utterance adds supplementary information or details to a previous statement, it falls under the categories of 'Sustain.Continue.Prolong.Extend', 'Sustain.Continue.Prolong.Enhance', or 'Sustain.Continue.Prolong.Elaborate'.",
+                "question_2": "Is the dialog utterance used to check the involvement of the listener or to track their understanding?",
+                "answer_2": "If the dialog utterance is used to check the involvement of the listener or to track their understanding, it falls under the category of 'Sustain.Continue.Monitor'.",
+                "question_3": "Does the dialog utterance make a request, an invitation or command to the listener?",
+                "answer_3": "If the dialog utterance makes a request, an invitation or command to the listener, it falls under the category of 'Sustain.Continue.Command'.",
+                "question_to_define_groups": "Does the dialog utterance add information to a previous statement, check the involvement of the listener, or make a request, invitation or command?",
+                "groups": [
+                    {
+                        "label": "The dialog utterance adds information to a previous statement.",
+                        "data": [
+                            "Sustain.Continue.Prolong.Extend",
+                            "Sustain.Continue.Prolong.Enhance",
+                            "Sustain.Continue.Prolong.Elaborate"
+                        ],
+                        "next_split": {
+                            "question_1": "Do the dialog utterances provide additional information to a previous statement?",
+                            "answer_1": "Yes, all the dialog utterances in this taxonomy provide additional information to a previous statement.",
+                            "question_2": "Do any of the dialog utterances involve contradiction or supplementary information?",
+                            "answer_2": "Yes, the dialog utterances under 'Sustain.Continue.Prolong.Extend' involve contradiction or supplementary information.",
+                            "question_3": "Do any of the dialog utterances involve clarification or rephrasing of a previous statement?",
+                            "answer_3": "Yes, the dialog utterances under 'Sustain.Continue.Prolong.Elaborate' involve clarification or rephrasing of a previous statement.",
+                            "question_to_define_groups": "Does the dialog utterance add details to the previous statement, or does it contradict or clarify the previous statement?",
+                            "groups": [
+                                {
+                                    "label": "The dialog utterance adds details to the previous statement.",
+                                    "data": [
+                                        "Sustain.Continue.Prolong.Enhance"
+                                    ]
+                                },
+                                {
+                                    "label": "The dialog utterance contradicts or supplements the previous statement.",
+                                    "data": [
+                                        "Sustain.Continue.Prolong.Extend"
+                                    ]
+                                },
+                                {
+                                    "label": "The dialog utterance clarifies or rephrases the previous statement.",
+                                    "data": [
+                                        "Sustain.Continue.Prolong.Elaborate"
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "label": "The dialog utterance is used to check the involvement of the listener or to track their understanding.",
+                        "data": [
+                            "Sustain.Continue.Monitor"
+                        ]
+                    },
+                    {
+                        "label": "The dialog utterance makes a request, an invitation or command to the listener.",
+                        "data": [
+                            "Sustain.Continue.Command"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "label": "The dialog utterance involves a confrontation or challenge to a previous statement.",
+            "data": [
+                "React.Rejoinder.Confront.Response.Re-challenge"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,267 @@
+{
+    "question_1": "Does the tutor's feedback clearly indicate what the student should do next?",
+    "answer_1": "If the feedback clearly indicates what to do next, it falls under label 0. If the feedback is implicit, it falls under label 1. If it's not exactly clear but the student can guess, it falls under label 4. If the feedback is ambiguous, it falls under label 5. If the feedback is vague or convoluted, it falls under label 6. If the feedback is a summary of the student's mistakes without clear indication of the mistake, it falls under label 7. If there's no further action suggested, it falls under label 9. If the final answer is revealed by the tutor, it falls under label 10. If the tutor congratulates the student and suggests moving on, it falls under label 11. If the tutor suggests to take a closer look at the part of the solution that is not related to the error, it falls under label 12. If the tutor summarizes the student's solution without any further suggestions, it falls under label 13.",
+    "question_2": "Does the tutor's feedback involve asking a question or suggesting a specific action?",
+    "answer_2": "If the tutor asks a question, it falls under label 2. If the tutor suggests a specific action that may lead to a correct or incorrect solution, it falls under label 3. If the tutor suggests to 'take a closer / another look' at the part of the solution that is related to the error, it falls under label 8.",
+    "question_3": "Does the tutor's feedback involve summarizing the student's solution or revealing the final answer?",
+    "answer_3": "If the tutor's feedback is a summary of what the student has done incorrectly but it does not point to the mistake clearly, it falls under label 7. If the final answer is revealed by the tutor, it falls under label 10. If the tutor congratulates the student and suggests moving on, it falls under label 11. If the tutor summarizes the student's solution without any further suggestions, it falls under label 13.",
+    "question_to_define_groups": "Does the tutor's feedback clearly indicate what the student should do next?",
+    "group_1_label": "Yes",
+    "group_2_label": "No",
+    "group_1_data": [
+        0
+    ],
+    "group_2_data": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+    ],
+    "next_split_group_2": {
+        "question_1": "Does the tutor's feedback contain an explicit or implicit suggestion on what the student should do next?",
+        "answer_1": "Labels 1, 3, 8, 10, 11, and 12 contain suggestions on what the student should do next, either explicitly or implicitly. Labels 2, 4, 5, 6, 7, 9, and 13 do not.",
+        "question_2": "Does the tutor's feedback contain a question, a summary of the student's work, or a congratulatory message?",
+        "answer_2": "Labels 2, 7, 11, and 13 contain a question, a summary of the student's work, or a congratulatory message. The rest do not.",
+        "question_3": "Is the tutor's feedback clear and unambiguous?",
+        "answer_3": "Labels 1, 2, 3, 8, 10, 11, and 12 are relatively clear and unambiguous. Labels 4, 5, 6, 7, 9, and 13 may be unclear or ambiguous.",
+        "question_to_define_groups": "Does the tutor's feedback contain an explicit or implicit suggestion on what the student should do next?",
+        "group_1_label": "Yes",
+        "group_2_label": "No",
+        "group_1_data": [
+            1,
+            3,
+            8,
+            10,
+            11,
+            12
+        ],
+        "group_2_data": [
+            2,
+            4,
+            5,
+            6,
+            7,
+            9,
+            13
+        ],
+        "next_split_group_1": {
+            "question_1": "Does the tutor's feedback implicitly suggest what the student should do next?",
+            "answer_1": "If yes, the label is 1. If not, it could be any of the other labels.",
+            "question_2": "Does the tutor's feedback potentially lead the student towards a correct or incorrect solution?",
+            "answer_2": "If yes, the label is 3. If not, it could be any of the other labels.",
+            "question_3": "Does the tutor reveal the final answer or congratulate the student on their solution?",
+            "answer_3": "If the final answer is revealed, the label is 10. If the tutor congratulates the student, the label is 11. If not, it could be any of the other labels.",
+            "question_to_define_groups": "Does the tutor's feedback implicitly suggest what the student should do next?",
+            "group_1_label": "Yes",
+            "group_2_label": "No",
+            "group_1_data": [
+                1
+            ],
+            "group_2_data": [
+                3,
+                8,
+                10,
+                11,
+                12
+            ],
+            "next_split_group_2": {
+                "question_1": "Does the tutor's response suggest an action that may lead to a correct or incorrect solution?",
+                "answer_1": "If yes, it falls under label 3. If no, it falls under other labels.",
+                "question_2": "Does the tutor's response suggest the student to take a closer look at a part of the solution?",
+                "answer_2": "If yes, it falls under label 8 or 12 depending on whether the part is related to the error or not. If no, it falls under other labels.",
+                "question_3": "Does the tutor's response reveal the final answer or congratulate the student?",
+                "answer_3": "If yes, it falls under label 10 or 11 depending on whether the tutor also suggests to try again or move on. If no, it falls under other labels.",
+                "question_to_define_groups": "Does the tutor's response suggest the student to take a closer look at a part of the solution?",
+                "group_1_label": "Yes",
+                "group_2_label": "No",
+                "group_1_data": [
+                    8,
+                    12
+                ],
+                "group_2_data": [
+                    3,
+                    10,
+                    11
+                ],
+                "next_split_group_1": {
+                    "question_1": "Does the tutor's feedback suggest the student to take a closer or another look at a part of the solution?",
+                    "answer_1": "Yes, the tutor's feedback does suggest the student to take a closer or another look at a part of the solution.",
+                    "question_2": "Is the part of the solution that the tutor suggests to take a closer look at related to the error?",
+                    "answer_2": "In some cases, the part of the solution that the tutor suggests to take a closer look at is related to the error, and in others, it is not.",
+                    "question_3": "Is it clear from the tutor's feedback what the student should do next to proceed with the task?",
+                    "answer_3": "Yes, it is clear from the tutor's feedback what the student should do next to proceed with the task.",
+                    "question_to_define_groups": "Does the tutor's feedback suggest the student to take a closer look at the part of the solution that is related to the error?",
+                    "group_1_label": "Yes",
+                    "group_2_label": "No",
+                    "group_1_data": [
+                        8
+                    ],
+                    "group_2_data": [
+                        12
+                    ]
+                },
+                "next_split_group_2": {
+                    "question_1": "Does the tutor's response suggest an action that may lead to a correct or incorrect solution?",
+                    "answer_1": "If the response does suggest such an action, it falls under label 3.",
+                    "question_2": "Does the tutor's response reveal the final answer or suggest the student to try again?",
+                    "answer_2": "If the response does reveal the final answer or suggest to try again, it falls under label 10.",
+                    "question_3": "Does the tutor's response congratulate the student on their solution and suggest moving on?",
+                    "answer_3": "If the response does congratulate and suggest moving on, it falls under label 11.",
+                    "question_to_define_groups": "Does the tutor's response suggest an action that may lead to a correct or incorrect solution?",
+                    "group_1_label": "Yes",
+                    "group_2_label": "No",
+                    "group_1_data": [
+                        3
+                    ],
+                    "group_2_data": [
+                        10,
+                        11
+                    ],
+                    "next_split_group_2": {
+                        "question_1": "Does the tutor's feedback reveal the final answer to the student?",
+                        "answer_1": "If the tutor's feedback reveals the final answer, it falls under label 10. If not, it could be under label 11.",
+                        "question_2": "Does the tutor's feedback include a congratulatory message for the student's solution?",
+                        "answer_2": "If the tutor's feedback includes a congratulatory message for the student's solution, it falls under label 11. If not, it could be under label 10.",
+                        "question_3": "Does the tutor's feedback suggest the student to try again or move on?",
+                        "answer_3": "If the tutor's feedback suggests the student to try again, it falls under label 10. If the tutor suggests moving on, it falls under label 11.",
+                        "question_to_define_groups": "Does the tutor's feedback reveal the final answer to the student?",
+                        "group_1_label": "Yes",
+                        "group_2_label": "No",
+                        "group_1_data": [
+                            10
+                        ],
+                        "group_2_data": [
+                            11
+                        ]
+                    }
+                }
+            }
+        },
+        "next_split_group_2": {
+            "question_1": "Does the tutor's feedback contain a question?",
+            "answer_1": "If the feedback contains a question, it falls under label 2.",
+            "question_2": "Does the tutor's feedback suggest a next action?",
+            "answer_2": "If the feedback doesn't suggest a next action, it falls under labels 9 and 13.",
+            "question_3": "Is the tutor's feedback clear and concise?",
+            "answer_3": "If the feedback is not clear or concise, it falls under labels 4, 5, 6, and 7.",
+            "question_to_define_groups": "Does the tutor's feedback contain a question?",
+            "group_1_label": "Yes",
+            "group_2_label": "No",
+            "group_1_data": [
+                2
+            ],
+            "group_2_data": [
+                4,
+                5,
+                6,
+                7,
+                9,
+                13
+            ],
+            "next_split_group_2": {
+                "question_1": "Does the tutor's feedback contain a hint about which step is incorrect, even if it doesn't clarify how to correct it?",
+                "answer_1": "If yes, the label could be 4. If no, the label could be any of the other labels.",
+                "question_2": "Is the tutor's suggestion on the next action ambiguous?",
+                "answer_2": "If yes, the label is likely 5. If no, the label could be any of the other labels.",
+                "question_3": "Does the tutor's feedback contain vague or convoluted explanations that are hard to follow or that can be misunderstood by the student?",
+                "answer_3": "If yes, the label is likely 6. If no, the label could be any of the other labels.",
+                "question_to_define_groups": "Does the tutor's feedback contain a clear suggestion on what the student should do next?",
+                "group_1_label": "No",
+                "group_2_label": "Yes",
+                "group_1_data": [
+                    9
+                ],
+                "group_2_data": [
+                    4,
+                    5,
+                    6,
+                    7,
+                    13
+                ],
+                "next_split_group_2": {
+                    "question_1": "Does the tutor's feedback contain a hint about which step is incorrect, even if it doesn't specify how to correct it?",
+                    "answer_1": "If yes, then the label is 4. If no, then the label is not 4.",
+                    "question_2": "Is the tutor's suggestion on the next action ambiguous?",
+                    "answer_2": "If yes, then the label is 5. If no, then the label is not 5.",
+                    "question_3": "Does the tutor's feedback contain vague or convoluted explanations that can be misunderstood by the student?",
+                    "answer_3": "If yes, then the label is 6. If no, then the label is not 6.",
+                    "question_to_define_groups": "Does the tutor's feedback summarize the student's solution without any further suggestions or indication of what and where the error is?",
+                    "group_1_label": "Yes",
+                    "group_2_label": "No",
+                    "group_1_data": [
+                        13
+                    ],
+                    "group_2_data": [
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "next_split_group_2": {
+                        "question_1": "Does the tutor's feedback contain a hint on which step is incorrect?",
+                        "answer_1": "If the feedback contains a hint on which step is incorrect, but not on how to correct it, it falls under label 4.",
+                        "question_2": "Is the tutor's suggestion on the next action ambiguous?",
+                        "answer_2": "If the suggestion on the next action is ambiguous, it falls under label 5.",
+                        "question_3": "Does the tutor's feedback contain vague or convoluted explanations that are hard to follow or can be misunderstood by the student?",
+                        "answer_3": "If the feedback contains vague or convoluted explanations that are hard to follow or can be misunderstood by the student, it falls under label 6.",
+                        "question_to_define_groups": "Does the tutor's feedback only summarize what the student has done incorrectly without clearly pointing to the mistake?",
+                        "group_1_label": "Yes",
+                        "group_2_label": "No",
+                        "group_1_data": [
+                            7
+                        ],
+                        "group_2_data": [
+                            4,
+                            5,
+                            6
+                        ],
+                        "next_split_group_2": {
+                            "question_1": "Does the tutor's feedback provide a clear, unambiguous suggestion for the next step?",
+                            "answer_1": "No, the feedback does not provide a clear, unambiguous suggestion for the next step. Instead, it might hint at which step is incorrect but not how to correct it, or it might be ambiguous or hard to follow.",
+                            "question_2": "Can the student guess what to do next based on the tutor's feedback?",
+                            "answer_2": "Yes, the student can try to guess what to do next based on the tutor's feedback, even if it's not exactly clear.",
+                            "question_3": "Does the tutor's feedback contain vague or convoluted explanations?",
+                            "answer_3": "Yes, the tutor's feedback might contain vague or convoluted explanations that are hard to follow or that can be misunderstood by the student.",
+                            "question_to_define_groups": "Does the tutor's feedback provide a hint on which step is incorrect but not on how to correct it?",
+                            "group_1_label": "Yes",
+                            "group_2_label": "No",
+                            "group_1_data": [
+                                4
+                            ],
+                            "group_2_data": [
+                                5,
+                                6
+                            ],
+                            "next_split_group_2": {
+                                "question_1": "Does the tutor's feedback provide a clear suggestion on what the student should do next?",
+                                "answer_1": "If the feedback is clear, it does not fit into either category. Both categories involve some level of ambiguity or difficulty in understanding the next steps.",
+                                "question_2": "Is the tutor's suggestion on the next action ambiguous?",
+                                "answer_2": "If yes, it falls under label 5. If no, it may fall under label 6 if the explanation is hard to follow or can be misunderstood.",
+                                "question_3": "Does the tutor's feedback contain vague or convoluted explanations that are hard to follow or that can be misunderstood by the student?",
+                                "answer_3": "If yes, it falls under label 6. If no, it may fall under label 5 if the suggestion on the next action is ambiguous.",
+                                "question_to_define_groups": "Does the tutor's feedback provide a clear and unambiguous suggestion on what the student should do next?",
+                                "group_1_label": "No",
+                                "group_2_label": "Yes",
+                                "group_1_data": [
+                                    5
+                                ],
+                                "group_2_data": [
+                                    6
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

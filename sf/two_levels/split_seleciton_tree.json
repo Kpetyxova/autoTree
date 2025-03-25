@@ -1,0 +1,79 @@
+{
+    "question_1": "Do some of the dialog utterances initiate a conversation or interaction?",
+    "answer_1": "Yes, some dialog utterances like 'Open.Demand', 'Open.Give', 'Open.Command', and 'Open.Attend' are used to initiate a conversation or interaction.",
+    "question_2": "Are there dialog utterances that are used to react or respond to a previous statement or question?",
+    "answer_2": "Yes, 'React.Rejoinder' and 'React.Respond' are dialog utterances used to react or respond to a previous statement or question.",
+    "question_3": "Are there dialog utterances used to sustain or continue a conversation without changing the topic?",
+    "answer_3": "Yes, 'Sustain.Continue' is a dialog utterance used to sustain or continue a conversation without changing the topic.",
+    "question_to_define_groups": "Does the dialog utterance initiate, react to, or sustain a conversation?",
+    "groups": [
+        {
+            "label": "The dialog utterance initiates a conversation.",
+            "data": [
+                "Open.Demand",
+                "Open.Give",
+                "Open.Command",
+                "Open.Attend"
+            ],
+            "next_split": {
+                "question_to_define_groups": "Is the utterance a greeting or does it involve asking a question, providing information or making a request?",
+                "groups": [
+                    {
+                        "label": "The utterance is a greeting.",
+                        "data": [
+                            "Open.Attend"
+                        ]
+                    },
+                    {
+                        "label": "The utterance involves asking a question.",
+                        "data": [
+                            "Open.Demand"
+                        ]
+                    },
+                    {
+                        "label": "The utterance involves providing information or an opinion.",
+                        "data": [
+                            "Open.Give"
+                        ]
+                    },
+                    {
+                        "label": "The utterance involves making a request, an invitation or command.",
+                        "data": [
+                            "Open.Command"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "label": "The dialog utterance reacts to a previous statement or question.",
+            "data": [
+                "React.Rejoinder",
+                "React.Respond"
+            ],
+            "next_split": {
+                "question_to_define_groups": "Does the dialog utterance involve a detailed response or a simple positive or negative response?",
+                "groups": [
+                    {
+                        "label": "The utterance involves a detailed response or a question.",
+                        "data": [
+                            "React.Rejoinder"
+                        ]
+                    },
+                    {
+                        "label": "The utterance involves a simple positive or negative response.",
+                        "data": [
+                            "React.Respond"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "label": "The dialog utterance sustains or continues a conversation without changing the topic.",
+            "data": [
+                "Sustain.Continue"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "question_to_define_groups": "Does the utterance introduce a new topic, react to a previous statement, or add additional information to the speaker's previous statement?",
+    "groups": [
+        {
+            "label": "Utterances that add additional information to the speaker's previous statement without changing the speaker.",
+            "data": [
+                "Sustain.Continue"
+            ]
+        },
+        {
+            "label": "Utterances that react to a previous statement or question, and provide new information or details with a change in speaker.",
+            "data": [
+                "React.Respond"
+            ]
+        },
+        {
+            "label": "Utterances that react with questions or detailed responses to the interlocutor\u2019s questions, expressions of emotion, and grounding utterances.",
+            "data": [
+                "React.Rejoinder"
+            ]
+        },
+        {
+            "label": "Utterances that introduce a new topic or begin a conversation with a demand.",
+            "data": [
+                "Open.Demand"
+            ]
+        },
+        {
+            "label": "Utterances that introduce a new topic or begin a conversation by providing information or opinion.",
+            "data": [
+                "Open.Give"
+            ]
+        },
+        {
+            "label": "Utterances that introduce a new topic or begin a conversation with a request, an invitation or command.",
+            "data": [
+                "Open.Command"
+            ]
+        },
+        {
+            "label": "Utterances that are usually greetings.",
+            "data": [
+                "Open.Attend"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,162 @@
+{
+    "question_to_define_groups": "Does the dialog utterance involve the tutor asking the student to perform an action, or does it involve the tutor revealing information or asking the student to explain their reasoning?",
+    "groups": [
+        {
+            "label": "The dialog utterance involves the tutor asking the student to perform an action.",
+            "data": [
+                "Seek Strategy",
+                "Guiding Student Focus",
+                "Recall Relevant Information"
+            ],
+            "next_split": {
+                "question_1": "Does the dialog utterance ask the student to perform a specific task or action?",
+                "answer_1": "If the utterance is asking the student to perform a specific task or action, it falls under 'Seek Strategy' or 'Guiding Student Focus'.",
+                "question_2": "Does the dialog utterance ask the student to recall or revisit a certain piece of information?",
+                "answer_2": "If the utterance is asking the student to recall or revisit a certain piece of information, it falls under 'Recall Relevant Information'.",
+                "question_3": "Does the dialog utterance guide the student's attention towards a specific part of the problem or task?",
+                "answer_3": "If the utterance is guiding the student's attention towards a specific part of the problem or task, it falls under 'Guiding Student Focus'.",
+                "question_to_define_groups": "Is the dialog utterance asking the student to perform a specific task, recall a certain piece of information, or guiding their attention towards a specific part of the problem?",
+                "groups": [
+                    {
+                        "label": "The utterance is asking the student to perform a specific task.",
+                        "data": [
+                            "Seek Strategy"
+                        ]
+                    },
+                    {
+                        "label": "The utterance is asking the student to recall a certain piece of information.",
+                        "data": [
+                            "Recall Relevant Information"
+                        ]
+                    },
+                    {
+                        "label": "The utterance is guiding the student's attention towards a specific part of the problem.",
+                        "data": [
+                            "Guiding Student Focus"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "label": "The dialog utterance involves the tutor revealing information or answers.",
+            "data": [
+                "Revealing Strategy",
+                "Revealing Answer"
+            ],
+            "next_split": {
+                "question_1": "Does the dialog utterance provide a method or process to reach a solution?",
+                "answer_1": "If the dialog utterance is explaining a step-by-step process or giving a hint on how to solve a problem, it falls under the 'Revealing Strategy' category.",
+                "question_2": "Does the dialog utterance directly provide the correct answer?",
+                "answer_2": "If the dialog utterance is directly stating the correct answer without explaining the process of reaching that answer, it falls under the 'Revealing Answer' category.",
+                "question_3": "Is the dialog utterance guiding the student towards a solution or directly stating the solution?",
+                "answer_3": "If the dialog utterance is guiding the student, it falls under 'Revealing Strategy'. If it is directly stating the solution, it falls under 'Revealing Answer'.",
+                "question_to_define_groups": "Is the tutor's intent in the dialog utterance to guide the student towards the solution or to directly provide the solution?",
+                "groups": [
+                    {
+                        "label": "The tutor's intent is to guide the student towards the solution.",
+                        "data": [
+                            "Revealing Strategy"
+                        ]
+                    },
+                    {
+                        "label": "The tutor's intent is to directly provide the solution.",
+                        "data": [
+                            "Revealing Answer"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "label": "The dialog utterance involves the tutor asking the student to explain their reasoning or correct their own mistakes.",
+            "data": [
+                "Asking for Explanation",
+                "Seeking Self Correction"
+            ],
+            "next_split": {
+                "question_1": "Does the dialog utterance involve the tutor asking the student to provide an explanation?",
+                "answer_1": "If the dialog utterance involves the tutor asking the student to provide an explanation, it falls under the 'Asking for Explanation' category.",
+                "question_2": "Does the dialog utterance involve the tutor asking the student to reconsider or correct their own statement or action?",
+                "answer_2": "If the dialog utterance involves the tutor asking the student to reconsider or correct their own statement or action, it falls under the 'Seeking Self Correction' category.",
+                "question_3": "Does the dialog utterance involve the tutor asking the student a question?",
+                "answer_3": "All dialog utterances in this taxonomy involve the tutor asking the student a question, but the nature of the question varies between asking for explanation or seeking self correction.",
+                "question_to_define_groups": "Is the tutor asking the student to provide an explanation or to reconsider their own statement or action?",
+                "groups": [
+                    {
+                        "label": "The tutor is asking the student to provide an explanation.",
+                        "data": [
+                            "Asking for Explanation"
+                        ]
+                    },
+                    {
+                        "label": "The tutor is asking the student to reconsider their own statement or action.",
+                        "data": [
+                            "Seeking Self Correction"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "label": "The dialog utterance involves the tutor asking a question that perturbs the original problem or seeks world knowledge.",
+            "data": [
+                "Perturbing the Question",
+                "Seeking World Knowledge"
+            ],
+            "next_split": {
+                "question_1": "Does the dialog utterance involve asking a hypothetical question?",
+                "answer_1": "If the dialog utterance is asking a hypothetical question, it is likely to fall under the 'Perturbing the Question' category.",
+                "question_2": "Does the dialog utterance involve asking for factual or general knowledge?",
+                "answer_2": "If the dialog utterance is asking for factual or general knowledge, it is likely to fall under the 'Seeking World Knowledge' category.",
+                "question_3": "Does the dialog utterance involve asking about a modification or variation of a situation or problem?",
+                "answer_3": "If the dialog utterance is asking about a modification or variation of a situation or problem, it is likely to fall under the 'Perturbing the Question' category.",
+                "question_to_define_groups": "Is the dialog utterance asking a hypothetical question or seeking factual or general knowledge?",
+                "groups": [
+                    {
+                        "label": "The dialog utterance is asking a hypothetical question.",
+                        "data": [
+                            "Perturbing the Question"
+                        ]
+                    },
+                    {
+                        "label": "The dialog utterance is seeking factual or general knowledge.",
+                        "data": [
+                            "Seeking World Knowledge"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "label": "The dialog utterance involves the tutor greeting or saying farewell to the student, or making a general inquiry.",
+            "data": [
+                "Greeting/Fairwell",
+                "General inquiry"
+            ],
+            "next_split": {
+                "question_1": "Does the dialog utterance initiate or conclude a conversation?",
+                "answer_1": "If the dialog utterance is used to start or end a conversation, it likely falls under the 'Greeting/Farewell' category.",
+                "question_2": "Does the dialog utterance ask for an explanation or clarification?",
+                "answer_2": "If the dialog utterance is seeking an explanation or clarification, it likely falls under the 'General inquiry' category.",
+                "question_3": "Does the dialog utterance provide feedback or offer further assistance?",
+                "answer_3": "If the dialog utterance provides feedback or offers further assistance, it likely falls under the 'Greeting/Farewell' category.",
+                "question_to_define_groups": "Is the dialog utterance used to initiate or conclude a conversation, or is it used to seek an explanation or clarification?",
+                "groups": [
+                    {
+                        "label": "The dialog utterance is used to initiate or conclude a conversation.",
+                        "data": [
+                            "Greeting/Fairwell"
+                        ]
+                    },
+                    {
+                        "label": "The dialog utterance is used to seek an explanation or clarification.",
+                        "data": [
+                            "General inquiry"
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

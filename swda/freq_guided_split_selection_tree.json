@@ -1,0 +1,781 @@
+{
+    "question_to_define_groups": "Does the dialog utterance provide information, express a personal belief, acknowledge something, accept something, end a turn, or express appreciation?",
+    "groups": [
+        {
+            "label": "Information or Personal Belief",
+            "data": [
+                "Statement-non-opinion",
+                "Statement-opinion"
+            ],
+            "next_split": {
+                "question_1": "Does the dialog utterance express an opinion?",
+                "answer_1": "If the utterance is expressing an opinion, it falls under the 'Statement-opinion' category. If not, it could be a 'Statement-non-opinion'.",
+                "question_2": "Is the dialog utterance providing factual information?",
+                "answer_2": "If the utterance is providing factual information or stating something, it falls under the 'Statement-non-opinion' category. If it is expressing an opinion, it is a 'Statement-opinion'.",
+                "question_3": "Does the dialog utterance involve personal beliefs or preferences?",
+                "answer_3": "If the utterance involves personal beliefs or preferences, it is a 'Statement-opinion'. If it is stating a fact or providing information, it is a 'Statement-non-opinion'.",
+                "question_to_define_groups": "Is the dialog utterance expressing an opinion or stating a fact?",
+                "groups": [
+                    {
+                        "label": "The utterance is stating a fact or providing information.",
+                        "data": [
+                            "Statement-non-opinion"
+                        ]
+                    },
+                    {
+                        "label": "The utterance is expressing an opinion.",
+                        "data": [
+                            "Statement-opinion"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "label": "Acknowledgement or Acceptance",
+            "data": [
+                "Acknowledge (Backchannel)",
+                "Agree/Accept"
+            ],
+            "next_split": {
+                "question_1": "Does the utterance provide an affirmation or acceptance of a previously stated idea or concept?",
+                "answer_1": "If yes, it is likely to be an 'Agree/Accept' dialog act. If no, it could be an 'Acknowledge (Backchannel)'.",
+                "question_2": "Does the utterance simply acknowledge that the speaker is listening or understanding without adding any new information or opinion?",
+                "answer_2": "If yes, it is likely to be an 'Acknowledge (Backchannel)'. If no, it could be an 'Agree/Accept'.",
+                "question_3": "Does the utterance express agreement with a specific point or idea, rather than just acknowledging the conversation?",
+                "answer_3": "If yes, it is likely to be an 'Agree/Accept'. If no, it could be an 'Acknowledge (Backchannel)'.",
+                "question_to_define_groups": "Does the utterance express a clear agreement or acceptance rather than just acknowledging the conversation?",
+                "groups": [
+                    {
+                        "label": "Utterances that simply acknowledge the speaker's understanding or listening, without adding any new information or opinion.",
+                        "data": [
+                            "Acknowledge (Backchannel)"
+                        ]
+                    },
+                    {
+                        "label": "Utterances that provide an affirmation or acceptance of a previously stated idea or concept.",
+                        "data": [
+                            "Agree/Accept"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "label": "Turn-Exit or Appreciation",
+            "data": [
+                "Abandoned or Turn-Exit",
+                "Appreciation"
+            ],
+            "next_split": {
+                "question_1": "Does the dialog utterance indicate the speaker is leaving or abandoning the conversation?",
+                "answer_1": "If the utterance indicates the speaker is leaving or abandoning the conversation, it falls under the 'Abandoned or Turn-Exit' label.",
+                "question_2": "Does the dialog utterance express gratitude or admiration?",
+                "answer_2": "If the utterance expresses gratitude or admiration, it falls under the 'Appreciation' label.",
+                "question_3": "Is the dialog utterance more frequent in the dataset?",
+                "answer_3": "'Abandoned or Turn-Exit' is the most frequent label in the dataset.",
+                "question_to_define_groups": "Does the dialog utterance indicate the speaker is leaving or abandoning the conversation, or does it express gratitude or admiration?",
+                "groups": [
+                    {
+                        "label": "The dialog utterance indicates the speaker is leaving or abandoning the conversation.",
+                        "data": [
+                            "Abandoned or Turn-Exit"
+                        ]
+                    },
+                    {
+                        "label": "The dialog utterance expresses gratitude or admiration.",
+                        "data": [
+                            "Appreciation"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "label": "Other",
+            "data": [
+                "Yes-No-Question",
+                "Non-verbal",
+                "Yes answers",
+                "Conventional-closing",
+                "Uninterpretable",
+                "Wh-Question",
+                "No answers",
+                "Response Acknowledgement",
+                "Hedge",
+                "Declarative Yes-No-Question",
+                "Other",
+                "Backchannel in question form",
+                "Quotation",
+                "Summarize/reformulate",
+                "Affirmative non-yes answers",
+                "Action-directive",
+                "Collaborative Completion",
+                "Repeat-phrase",
+                "Open-Question",
+                "Rhetorical-Questions",
+                "Hold before answer/agreement",
+                "Reject",
+                "Negative non-no answers",
+                "Signal-non-understanding",
+                "Other answers",
+                "Conventional-opening",
+                "Or-Clause",
+                "Dispreferred answers",
+                "3rd-party-talk",
+                "Offers, Options, Commits",
+                "Self-talk",
+                "Downplayer",
+                "Maybe/Accept-part",
+                "Tag-Question",
+                "Declarative Wh-Question",
+                "Apology",
+                "Thanking"
+            ],
+            "next_split": {
+                "question_1": "Does the utterance seek a response in the form of a yes or no?",
+                "answer_1": "If the utterance seeks a response in the form of a yes or no, it can be classified as 'Yes-No-Question' or 'Declarative Yes-No-Question'.",
+                "question_2": "Does the utterance express an answer or a response to a question or statement?",
+                "answer_2": "If the utterance expresses an answer or a response to a question or statement, it can be classified as 'Yes answers', 'No answers', 'Affirmative non-yes answers', 'Negative non-no answers', 'Other answers', or 'Dispreferred answers'.",
+                "question_3": "Does the utterance contain non-verbal sounds or expressions?",
+                "answer_3": "If the utterance contains non-verbal sounds or expressions, it can be classified as 'Non-verbal'.",
+                "question_to_define_groups": "Does the utterance contain unclear or ambiguous meaning?",
+                "groups": [
+                    {
+                        "label": "Utterances with unclear or ambiguous meaning",
+                        "data": [
+                            "Uninterpretable"
+                        ]
+                    },
+                    {
+                        "label": "Utterances seeking a response in the form of a yes or no",
+                        "data": [
+                            "Yes-No-Question",
+                            "Declarative Yes-No-Question"
+                        ],
+                        "next_split": {
+                            "question_1": "Does the dialog utterance seek a binary (yes/no) response?",
+                            "answer_1": "Yes, both 'Yes-No-Question' and 'Declarative Yes-No-Question' seek a binary response.",
+                            "question_2": "Is the dialog utterance phrased as a direct question?",
+                            "answer_2": "'Yes-No-Question' is phrased as a direct question, while 'Declarative Yes-No-Question' is not.",
+                            "question_3": "Is the dialog utterance phrased as a declarative statement?",
+                            "answer_3": "'Declarative Yes-No-Question' is phrased as a declarative statement, while 'Yes-No-Question' is not.",
+                            "question_to_define_groups": "Is the dialog utterance phrased as a direct question?",
+                            "groups": [
+                                {
+                                    "label": "Dialog utterances phrased as direct questions.",
+                                    "data": [
+                                        "Yes-No-Question"
+                                    ]
+                                },
+                                {
+                                    "label": "Dialog utterances phrased as declarative statements.",
+                                    "data": [
+                                        "Declarative Yes-No-Question"
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "label": "Utterances expressing an answer or a response",
+                        "data": [
+                            "Yes answers",
+                            "No answers",
+                            "Affirmative non-yes answers",
+                            "Negative non-no answers",
+                            "Other answers",
+                            "Dispreferred answers"
+                        ],
+                        "next_split": {
+                            "question_1": "Does the utterance provide a direct affirmative or negative response?",
+                            "answer_1": "If the utterance is 'Yes.' or 'No.', it provides a direct affirmative or negative response. Other responses may not be as direct.",
+                            "question_2": "Is the utterance a non-standard affirmative or negative response?",
+                            "answer_2": "If the utterance is 'It is.' or 'Uh, not a whole lot.', it is a non-standard affirmative or negative response. Other responses are either standard or not directly affirmative or negative.",
+                            "question_3": "Does the utterance provide an ambiguous or unclear response?",
+                            "answer_3": "If the utterance is 'I don't know' or 'Well, not so much that.', it provides an ambiguous or unclear response. Other responses are more direct or clear.",
+                            "question_to_define_groups": "Does the utterance provide a direct, non-direct, or ambiguous response?",
+                            "groups": [
+                                {
+                                    "label": "Direct responses",
+                                    "data": [
+                                        "Yes answers",
+                                        "No answers"
+                                    ],
+                                    "next_split": {
+                                        "question_1": "Does the dialog utterance affirm or agree with a previous statement or question?",
+                                        "answer_1": "If the dialog utterance affirms or agrees, it is likely to be a 'Yes answer'.",
+                                        "question_2": "Does the dialog utterance negate or disagree with a previous statement or question?",
+                                        "answer_2": "If the dialog utterance negates or disagrees, it is likely to be a 'No answer'.",
+                                        "question_3": "Does the dialog utterance contain only one word?",
+                                        "answer_3": "If the dialog utterance contains only one word, it is likely to be either a 'Yes answer' or a 'No answer'.",
+                                        "question_to_define_groups": "Does the dialog utterance affirm or agree with a previous statement or question?",
+                                        "groups": [
+                                            {
+                                                "label": "Affirmative responses",
+                                                "data": [
+                                                    "Yes answers"
+                                                ]
+                                            },
+                                            {
+                                                "label": "Negative responses",
+                                                "data": [
+                                                    "No answers"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "label": "Non-direct responses",
+                                    "data": [
+                                        "Affirmative non-yes answers",
+                                        "Negative non-no answers"
+                                    ],
+                                    "next_split": {
+                                        "question_1": "Does the dialog utterance provide an affirmative response?",
+                                        "answer_1": "If the utterance provides a positive affirmation, it is likely to fall under 'Affirmative non-yes answers'.",
+                                        "question_2": "Does the dialog utterance provide a negative response?",
+                                        "answer_2": "If the utterance provides a negative response, it is likely to fall under 'Negative non-no answers'.",
+                                        "question_3": "Is the dialog utterance not explicitly saying 'yes' or 'no'?",
+                                        "answer_3": "If the utterance is not explicitly saying 'yes' or 'no', but still providing an affirmation or negation, it falls under either 'Affirmative non-yes answers' or 'Negative non-no answers'.",
+                                        "question_to_define_groups": "Does the dialog utterance provide an affirmative or negative response without explicitly saying 'yes' or 'no'?",
+                                        "groups": [
+                                            {
+                                                "label": "Affirmative responses without explicitly saying 'yes'",
+                                                "data": [
+                                                    "Affirmative non-yes answers"
+                                                ]
+                                            },
+                                            {
+                                                "label": "Negative responses without explicitly saying 'no'",
+                                                "data": [
+                                                    "Negative non-no answers"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "label": "Ambiguous responses",
+                                    "data": [
+                                        "Other answers",
+                                        "Dispreferred answers"
+                                    ],
+                                    "next_split": {
+                                        "question_1": "Does the utterance provide a clear, direct response?",
+                                        "answer_1": "If the utterance provides a clear, direct response, it likely falls under 'Other answers'. If it is ambiguous or indirect, it may be a 'Dispreferred answer'.",
+                                        "question_2": "Does the utterance express uncertainty or reluctance?",
+                                        "answer_2": "If the utterance expresses uncertainty or reluctance, it is likely a 'Dispreferred answer'. If not, it could be an 'Other answer'.",
+                                        "question_3": "Does the utterance avoid a straightforward response?",
+                                        "answer_3": "If the utterance avoids a straightforward response, it is probably a 'Dispreferred answer'. If it provides a straightforward response, it is likely an 'Other answer'.",
+                                        "question_to_define_groups": "Does the utterance provide a straightforward response without expressing uncertainty or reluctance?",
+                                        "groups": [
+                                            {
+                                                "label": "Utterances that provide a straightforward response without expressing uncertainty or reluctance",
+                                                "data": [
+                                                    "Other answers"
+                                                ]
+                                            },
+                                            {
+                                                "label": "Utterances that express uncertainty, reluctance, or avoid a straightforward response",
+                                                "data": [
+                                                    "Dispreferred answers"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "label": "Utterances containing non-verbal sounds or expressions",
+                        "data": [
+                            "Non-verbal"
+                        ]
+                    },
+                    {
+                        "label": "Other utterances",
+                        "data": [
+                            "Conventional-closing",
+                            "Wh-Question",
+                            "Response Acknowledgement",
+                            "Hedge",
+                            "Other",
+                            "Backchannel in question form",
+                            "Quotation",
+                            "Summarize/reformulate",
+                            "Action-directive",
+                            "Collaborative Completion",
+                            "Repeat-phrase",
+                            "Open-Question",
+                            "Rhetorical-Questions",
+                            "Hold before answer/agreement",
+                            "Reject",
+                            "Signal-non-understanding",
+                            "Conventional-opening",
+                            "Or-Clause",
+                            "3rd-party-talk",
+                            "Offers, Options, Commits",
+                            "Self-talk",
+                            "Downplayer",
+                            "Maybe/Accept-part",
+                            "Tag-Question",
+                            "Declarative Wh-Question",
+                            "Apology",
+                            "Thanking"
+                        ],
+                        "next_split": {
+                            "question_1": "Does the dialog utterance close a conversation conventionally?",
+                            "answer_1": "If yes, the utterance falls under 'Conventional-closing', the most frequent label.",
+                            "question_2": "Does the dialog utterance ask a question starting with a 'Wh-' word?",
+                            "answer_2": "If yes, the utterance falls under 'Wh-Question'.",
+                            "question_3": "Does the dialog utterance acknowledge a response?",
+                            "answer_3": "If yes, the utterance falls under 'Response Acknowledgement'.",
+                            "question_to_define_groups": "Does the dialog utterance close a conversation, ask a 'Wh-' question, or acknowledge a response?",
+                            "groups": [
+                                {
+                                    "label": "Conventional closing of a conversation",
+                                    "data": [
+                                        "Conventional-closing"
+                                    ]
+                                },
+                                {
+                                    "label": "Asking a 'Wh-' question",
+                                    "data": [
+                                        "Wh-Question"
+                                    ]
+                                },
+                                {
+                                    "label": "Acknowledging a response",
+                                    "data": [
+                                        "Response Acknowledgement"
+                                    ]
+                                },
+                                {
+                                    "label": "Other dialog acts",
+                                    "data": [
+                                        "Hedge",
+                                        "Other",
+                                        "Backchannel in question form",
+                                        "Quotation",
+                                        "Summarize/reformulate",
+                                        "Action-directive",
+                                        "Collaborative Completion",
+                                        "Repeat-phrase",
+                                        "Open-Question",
+                                        "Rhetorical-Questions",
+                                        "Hold before answer/agreement",
+                                        "Reject",
+                                        "Signal-non-understanding",
+                                        "Conventional-opening",
+                                        "Or-Clause",
+                                        "3rd-party-talk",
+                                        "Offers, Options, Commits",
+                                        "Self-talk",
+                                        "Downplayer",
+                                        "Maybe/Accept-part",
+                                        "Tag-Question",
+                                        "Declarative Wh-Question",
+                                        "Apology",
+                                        "Thanking"
+                                    ],
+                                    "next_split": {
+                                        "question_1": "Does the dialog utterance express uncertainty or lack of knowledge?",
+                                        "answer_1": "If yes, it likely belongs to the 'Hedge' label. If no, further analysis is required.",
+                                        "question_2": "Does the dialog utterance involve asking a question, either directly or indirectly?",
+                                        "answer_2": "If yes, it could belong to 'Backchannel in question form', 'Open-Question', 'Rhetorical-Questions', 'Or-Clause', 'Tag-Question', or 'Declarative Wh-Question'. If no, further analysis is required.",
+                                        "question_3": "Does the dialog utterance involve repeating or rephrasing previously mentioned information?",
+                                        "answer_3": "If yes, it could belong to 'Quotation', 'Summarize/reformulate', or 'Repeat-phrase'. If no, further analysis is required.",
+                                        "question_to_define_groups": "Does the dialog utterance express uncertainty or lack of knowledge?",
+                                        "groups": [
+                                            {
+                                                "label": "Expresses uncertainty or lack of knowledge",
+                                                "data": [
+                                                    "Hedge"
+                                                ]
+                                            },
+                                            {
+                                                "label": "Asks a question",
+                                                "data": [
+                                                    "Backchannel in question form",
+                                                    "Open-Question",
+                                                    "Rhetorical-Questions",
+                                                    "Or-Clause",
+                                                    "Tag-Question",
+                                                    "Declarative Wh-Question"
+                                                ],
+                                                "next_split": {
+                                                    "question_1": "Does the dialog utterance seek affirmation or confirmation?",
+                                                    "answer_1": "Utterances like 'Is that right?' and 'Right?' seek affirmation or confirmation.",
+                                                    "question_2": "Does the dialog utterance pose a question without expecting an answer?",
+                                                    "answer_2": "Utterances like 'Who would steal a newspaper?' are rhetorical questions that do not expect an answer.",
+                                                    "question_3": "Does the dialog utterance present an alternative or choice?",
+                                                    "answer_3": "Utterances like 'or is it more of a company?' present an alternative or choice.",
+                                                    "question_to_define_groups": "Does the dialog utterance seek affirmation or confirmation?",
+                                                    "groups": [
+                                                        {
+                                                            "label": "Utterances seeking affirmation or confirmation",
+                                                            "data": [
+                                                                "Backchannel in question form",
+                                                                "Tag-Question"
+                                                            ],
+                                                            "next_split": {
+                                                                "question_1": "Does the dialog utterance contain a question?",
+                                                                "answer_1": "Yes, both types of dialog utterances contain a question.",
+                                                                "question_2": "Does the dialog utterance contain a statement before the question?",
+                                                                "answer_2": "Only 'Backchannel in question form' contains a statement before the question.",
+                                                                "question_3": "Is the question in the dialog utterance a single word?",
+                                                                "answer_3": "Only 'Tag-Question' has single-word questions.",
+                                                                "question_to_define_groups": "Does the dialog utterance contain a statement before the question?",
+                                                                "groups": [
+                                                                    {
+                                                                        "label": "Dialog utterances that contain a statement before the question.",
+                                                                        "data": [
+                                                                            "Backchannel in question form"
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "label": "Dialog utterances that do not contain a statement before the question.",
+                                                                        "data": [
+                                                                            "Tag-Question"
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "label": "Utterances posing a question without expecting an answer",
+                                                            "data": [
+                                                                "Rhetorical-Questions"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "label": "Utterances presenting an alternative or choice",
+                                                            "data": [
+                                                                "Or-Clause"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "label": "Other types of questions",
+                                                            "data": [
+                                                                "Open-Question",
+                                                                "Declarative Wh-Question"
+                                                            ],
+                                                            "next_split": {
+                                                                "question_1": "Does the dialog utterance contain a question?",
+                                                                "answer_1": "Yes, all dialog utterances in this taxonomy contain a question.",
+                                                                "question_2": "Is the question open-ended?",
+                                                                "answer_2": "Yes, the 'Open-Question' dialog utterances are open-ended, while 'Declarative Wh-Question' utterances are not.",
+                                                                "question_3": "Does the question make a statement or declaration?",
+                                                                "answer_3": "Yes, the 'Declarative Wh-Question' makes a statement or declaration, while the 'Open-Question' does not.",
+                                                                "question_to_define_groups": "Does the dialog utterance contain an open-ended question?",
+                                                                "groups": [
+                                                                    {
+                                                                        "label": "The dialog utterance contains an open-ended question.",
+                                                                        "data": [
+                                                                            "Open-Question"
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "label": "The dialog utterance contains a declarative question.",
+                                                                        "data": [
+                                                                            "Declarative Wh-Question"
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "label": "Repeats or rephrases information",
+                                                "data": [
+                                                    "Quotation",
+                                                    "Summarize/reformulate",
+                                                    "Repeat-phrase"
+                                                ],
+                                                "next_split": {
+                                                    "question_1": "Does the utterance contain a direct quote or a known saying?",
+                                                    "answer_1": "If yes, the utterance likely belongs to the 'Quotation' label. If no, it may belong to either 'Summarize/reformulate' or 'Repeat-phrase'.",
+                                                    "question_2": "Does the utterance rephrase or summarize a previous statement?",
+                                                    "answer_2": "If yes, the utterance likely belongs to the 'Summarize/reformulate' label. If no, it may belong to the 'Repeat-phrase' label.",
+                                                    "question_3": "Does the utterance simply repeat a phrase or a word without adding new information or context?",
+                                                    "answer_3": "If yes, the utterance likely belongs to the 'Repeat-phrase' label. If no, it may belong to either 'Quotation' or 'Summarize/reformulate'.",
+                                                    "question_to_define_groups": "Does the utterance contain a direct quote or known saying, rephrase or summarize a previous statement, or simply repeat a phrase or a word without adding new information or context?",
+                                                    "groups": [
+                                                        {
+                                                            "label": "Utterances that contain a direct quote or a known saying.",
+                                                            "data": [
+                                                                "Quotation"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "label": "Utterances that rephrase or summarize a previous statement.",
+                                                            "data": [
+                                                                "Summarize/reformulate"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "label": "Utterances that simply repeat a phrase or a word without adding new information or context.",
+                                                            "data": [
+                                                                "Repeat-phrase"
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "label": "Other dialog acts",
+                                                "data": [
+                                                    "Other",
+                                                    "Action-directive",
+                                                    "Collaborative Completion",
+                                                    "Hold before answer/agreement",
+                                                    "Reject",
+                                                    "Signal-non-understanding",
+                                                    "Conventional-opening",
+                                                    "3rd-party-talk",
+                                                    "Offers, Options, Commits",
+                                                    "Self-talk",
+                                                    "Downplayer",
+                                                    "Maybe/Accept-part",
+                                                    "Apology",
+                                                    "Thanking"
+                                                ],
+                                                "next_split": {
+                                                    "question_1": "Does the dialog utterance involve a speaker commanding or suggesting an action to another party?",
+                                                    "answer_1": "If yes, the utterance likely falls under 'Action-directive'. If no, it may belong to another category.",
+                                                    "question_2": "Does the dialog utterance involve a speaker completing a sentence or thought initiated by another party?",
+                                                    "answer_2": "If yes, the utterance likely falls under 'Collaborative Completion'. If no, it may belong to another category.",
+                                                    "question_3": "Does the dialog utterance involve a speaker holding before giving an answer or agreement?",
+                                                    "answer_3": "If yes, the utterance likely falls under 'Hold before answer/agreement'. If no, it may belong to another category.",
+                                                    "question_to_define_groups": "Is the dialog utterance not easily classified into a specific action, response, or context?",
+                                                    "groups": [
+                                                        {
+                                                            "label": "Utterances that do not fit easily into specific actions, responses, or contexts.",
+                                                            "data": [
+                                                                "Other"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "label": "Utterances that involve a speaker commanding or suggesting an action to another party.",
+                                                            "data": [
+                                                                "Action-directive"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "label": "Utterances that involve a speaker completing a sentence or thought initiated by another party.",
+                                                            "data": [
+                                                                "Collaborative Completion"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "label": "Utterances that involve a speaker holding before giving an answer or agreement.",
+                                                            "data": [
+                                                                "Hold before answer/agreement"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "label": "Utterances that fall into other specific categories.",
+                                                            "data": [
+                                                                "Reject",
+                                                                "Signal-non-understanding",
+                                                                "Conventional-opening",
+                                                                "3rd-party-talk",
+                                                                "Offers, Options, Commits",
+                                                                "Self-talk",
+                                                                "Downplayer",
+                                                                "Maybe/Accept-part",
+                                                                "Apology",
+                                                                "Thanking"
+                                                            ],
+                                                            "next_split": {
+                                                                "question_1": "Does the dialog utterance express disagreement or refusal?",
+                                                                "answer_1": "If yes, the utterance might belong to the 'Reject' label which is the most frequent label in the taxonomy.",
+                                                                "question_2": "Does the dialog utterance express confusion or a lack of understanding?",
+                                                                "answer_2": "If yes, the utterance might belong to the 'Signal-non-understanding' label.",
+                                                                "question_3": "Does the dialog utterance start a conversation in a conventional manner?",
+                                                                "answer_3": "If yes, the utterance might belong to the 'Conventional-opening' label.",
+                                                                "question_to_define_groups": "Does the dialog utterance express disagreement or refusal?",
+                                                                "groups": [
+                                                                    {
+                                                                        "label": "Utterances expressing disagreement or refusal",
+                                                                        "data": [
+                                                                            "Reject"
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "label": "Utterances not expressing disagreement or refusal",
+                                                                        "data": [
+                                                                            "Signal-non-understanding",
+                                                                            "Conventional-opening",
+                                                                            "3rd-party-talk",
+                                                                            "Offers, Options, Commits",
+                                                                            "Self-talk",
+                                                                            "Downplayer",
+                                                                            "Maybe/Accept-part",
+                                                                            "Apology",
+                                                                            "Thanking"
+                                                                        ],
+                                                                        "next_split": {
+                                                                            "question_1": "Does the dialog utterance indicate a lack of understanding or request for clarification?",
+                                                                            "answer_1": "If yes, the utterance likely belongs to the 'Signal-non-understanding' category, which is the most frequent label.",
+                                                                            "question_2": "Does the dialog utterance involve self-directed speech or internal thoughts being verbalized?",
+                                                                            "answer_2": "If yes, the utterance likely falls under the 'Self-talk' category.",
+                                                                            "question_3": "Does the dialog utterance involve the speaker offering, proposing, or committing to an action?",
+                                                                            "answer_3": "If yes, the utterance likely falls under the 'Offers, Options, Commits' category.",
+                                                                            "question_to_define_groups": "Does the dialog utterance indicate a lack of understanding or request for clarification, involve self-directed speech, or involve the speaker offering, proposing, or committing to an action?",
+                                                                            "groups": [
+                                                                                {
+                                                                                    "label": "Utterances indicating a lack of understanding or request for clarification.",
+                                                                                    "data": [
+                                                                                        "Signal-non-understanding"
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "label": "Utterances involving self-directed speech or internal thoughts being verbalized, or the speaker offering, proposing, or committing to an action.",
+                                                                                    "data": [
+                                                                                        "Self-talk",
+                                                                                        "Offers, Options, Commits"
+                                                                                    ],
+                                                                                    "next_split": {
+                                                                                        "question_1": "Does the utterance express an intention to perform an action or make a decision?",
+                                                                                        "answer_1": "If yes, the utterance likely falls under the 'Offers, Options, Commits' label.",
+                                                                                        "question_2": "Does the utterance reflect introspective or self-reflective speech?",
+                                                                                        "answer_2": "If yes, the utterance likely falls under the 'Self-talk' label.",
+                                                                                        "question_3": "Does the utterance contain a suggestion or decision?",
+                                                                                        "answer_3": "If yes, it is likely to be classified as 'Offers, Options, Commits'.",
+                                                                                        "question_to_define_groups": "Does the utterance express a personal intention or decision, or does it reflect introspective speech?",
+                                                                                        "groups": [
+                                                                                            {
+                                                                                                "label": "Utterances expressing personal intentions or decisions",
+                                                                                                "data": [
+                                                                                                    "Offers, Options, Commits"
+                                                                                                ]
+                                                                                            },
+                                                                                            {
+                                                                                                "label": "Utterances reflecting introspective speech",
+                                                                                                "data": [
+                                                                                                    "Self-talk"
+                                                                                                ]
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "label": "Utterances that do not fit into the above categories.",
+                                                                                    "data": [
+                                                                                        "Conventional-opening",
+                                                                                        "3rd-party-talk",
+                                                                                        "Downplayer",
+                                                                                        "Maybe/Accept-part",
+                                                                                        "Apology",
+                                                                                        "Thanking"
+                                                                                    ],
+                                                                                    "next_split": {
+                                                                                        "question_1": "Does the utterance initiate a conversation or interaction?",
+                                                                                        "answer_1": "If yes, the utterance can be categorized under 'Conventional-opening'. This is the most frequent label.",
+                                                                                        "question_2": "Does the utterance involve talking about a third person?",
+                                                                                        "answer_2": "If yes, it falls under '3rd-party-talk'.",
+                                                                                        "question_3": "Does the utterance express an apology or gratitude?",
+                                                                                        "answer_3": "If yes, it can be categorized as 'Apology' or 'Thanking' respectively.",
+                                                                                        "question_to_define_groups": "Does the utterance initiate a conversation, talk about a third person, or express an apology or gratitude?",
+                                                                                        "groups": [
+                                                                                            {
+                                                                                                "label": "Utterances that initiate a conversation",
+                                                                                                "data": [
+                                                                                                    "Conventional-opening"
+                                                                                                ]
+                                                                                            },
+                                                                                            {
+                                                                                                "label": "Utterances that involve talking about a third person",
+                                                                                                "data": [
+                                                                                                    "3rd-party-talk"
+                                                                                                ]
+                                                                                            },
+                                                                                            {
+                                                                                                "label": "Utterances that express an apology or gratitude",
+                                                                                                "data": [
+                                                                                                    "Apology",
+                                                                                                    "Thanking"
+                                                                                                ],
+                                                                                                "next_split": {
+                                                                                                    "question_1": "Does the dialog utterance express regret or remorse?",
+                                                                                                    "answer_1": "If yes, then it falls under the 'Apology' category. If no, proceed to the next question.",
+                                                                                                    "question_2": "Does the dialog utterance express gratitude or appreciation?",
+                                                                                                    "answer_2": "If yes, then it falls under the 'Thanking' category. If no, it doesn't belong to either category.",
+                                                                                                    "question_3": "Does the dialog utterance express a negative or positive sentiment?",
+                                                                                                    "answer_3": "If it expresses a negative sentiment, it's likely an 'Apology', while a positive sentiment could indicate a 'Thanking' dialog.",
+                                                                                                    "question_to_define_groups": "Is the dialog utterance expressing regret or gratitude?",
+                                                                                                    "groups": [
+                                                                                                        {
+                                                                                                            "label": "Expressions of Regret",
+                                                                                                            "data": [
+                                                                                                                "Apology"
+                                                                                                            ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "label": "Expressions of Gratitude",
+                                                                                                            "data": [
+                                                                                                                "Thanking"
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "label": "Other utterances",
+                                                                                                "data": [
+                                                                                                    "Downplayer",
+                                                                                                    "Maybe/Accept-part"
+                                                                                                ],
+                                                                                                "next_split": {
+                                                                                                    "question_1": "Does the utterance express a form of acceptance or agreement?",
+                                                                                                    "answer_1": "If the utterance is expressing a form of acceptance or agreement, it could be classified as 'Maybe/Accept-part'.",
+                                                                                                    "question_2": "Does the utterance minimize or play down the importance of something?",
+                                                                                                    "answer_2": "If the utterance is minimizing or playing down the importance of something, it could be classified as 'Downplayer'.",
+                                                                                                    "question_3": "Does the utterance indicate uncertainty or possibility?",
+                                                                                                    "answer_3": "If the utterance indicates uncertainty or possibility, it could be classified as 'Maybe/Accept-part'.",
+                                                                                                    "question_to_define_groups": "Is the utterance expressing a form of acceptance or agreement, or minimizing the importance of something?",
+                                                                                                    "groups": [
+                                                                                                        {
+                                                                                                            "label": "Utterances expressing a form of acceptance or agreement",
+                                                                                                            "data": [
+                                                                                                                "Maybe/Accept-part"
+                                                                                                            ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "label": "Utterances minimizing the importance of something",
+                                                                                                            "data": [
+                                                                                                                "Downplayer"
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

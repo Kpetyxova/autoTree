@@ -1,0 +1,29 @@
+{
+    "question_1": "Do any of the utterances initiate a conversation or topic?",
+    "answer_1": "Yes, the 'Open' utterances are statements or actions that initiate a conversation or topic.",
+    "question_2": "Are there any utterances that are responses to the interlocutor's previous utterance?",
+    "answer_2": "Yes, 'React' utterances are responses to the interlocutor's previous utterance.",
+    "question_3": "Are there utterances that continue the same topic or conversation?",
+    "answer_3": "Yes, 'Sustain' utterances are those that extend the same topic or conversation.",
+    "question_to_define_groups": "Does the utterance initiate, respond to, or sustain a conversation or topic?",
+    "groups": [
+        {
+            "label": "The utterance initiates a conversation or topic.",
+            "data": [
+                "Open"
+            ]
+        },
+        {
+            "label": "The utterance responds to the interlocutor's previous utterance.",
+            "data": [
+                "React"
+            ]
+        },
+        {
+            "label": "The utterance extends the same topic or conversation.",
+            "data": [
+                "Sustain"
+            ]
+        }
+    ]
+}

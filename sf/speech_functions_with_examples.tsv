@@ -1,0 +1,38 @@
+Labels	Definition	Examples
+Open.Demand.Fact	Demanding factual information at the beginning of a conversation or when introducing a new topic.	What’s Allenby doing these days?
+Open.Demand.Opinion	Demanding judgment or evaluative information from the interlocutor at the beginning of a conversation or when introducing a new topic.	Do we need Allenby in this conversation?
+Open.Give.Fact	Providing factual information at the beginning of a conversation or when introducing a new topic.	You met his sister.
+Open.Give.Opinion	Providing judgment or evaluative information at the beginning of a conversation or when introducing a new topic.	This conversation needs Allenby.
+Open.Command	Making a request, an invitation or command to start a dialog or discussion of a new topic at the beginning of a conversation.	Could you tell me about your wedding?
+Open.Attend	These are usually greetings.	Hey, David!
+React.Rejoinder.Confront.Response.Re-challenge	Offering an alternative position, often an interrogative sentence.	David: No, Messi is the best Nick: PAUSE David: The best is Pele
+React.Rejoinder.Support.Track.Probe	Requesting a confirmation of the information necessary to make clear the previous speaker's statement.	Because Roman lives in Denning Road also?
+React.Rejoinder.Support.Track.Check	Getting the previous speaker to repeat an element or the entire statement that the speaker has not heard or understood.	Straight into the what?
+React.Rejoinder.Support.Track.Clarify	Asking a question to get additional information on the current topic of the conversation. Requesting to clarify the information already mentioned in the dialog.	What, before bridge?
+React.Rejoinder.Support.Track.Confirm	Asking for a confirmation of the information received.	David: Well, he rang Roman, he rang Roman a week ago.Nick: Did he?
+Sustain.Continue.Prolong.Extend	Adding supplementary or contradictory information to the previous statement. Used only when the speaker remains the same as in the previous utterance.	Just making sure you don’t miss the boat. I put it out on Monday mornings. I hear them. I hate trucks.
+Sustain.Continue.Prolong.Enhance	Adding details to the previous statement, adding information about time, place, reason, etc. Used only when the speaker remains the same as in the previous utterance.	"Nor for much longer.
+We’re too messy for him."
+Sustain.Continue.Prolong.Elaborate	Clarifying / rephrasing the previous statement or giving examples to it. Used only when the speaker remains the same as in the previous utterance.	Yeah but I don’t like people... um... I don’t want to be INVOLVED with people.
+React.Rejoinder.Confront.Challenge.Rebound	Questioning the relevance, reliability of the previous statement, most often an interrogative sentence.	David: This conversation needs Allenby. Fay: Oh he’s in London. So what can we do?
+React.Respond.Support.Reply.Affirm	A positive answer to a question or confirmation of the information provided. Yes/its synonyms or affirmation.	Nick: He went to London.Fay: He did.
+React.Respond.Support.Reply.Acknowledge	Indicating knowledge or understanding of the information provided.	I know. I see. Oh yea.
+React.Respond.Support.Reply.Agree	Agreement with the information provided. In most cases, the information that the speaker agrees with is new to him. Yes/its synonyms or affirmation.	Yes. Right.
+React.Respond.Support.Develop.Extend	Adding supplementary or contradictory information to the previous statement.	"David: That’s what the cleaner — your cleaner lady cleaned my place thought
+Nick: She won’t come back to our place."
+React.Respond.Support.Develop.Enhance	Adding details to the previous statement, adding information about time, place, reason, etc.	"Fay: He kept telling me I’ve got a big operation on with
+Nick: The trouble with Roman though is that — you know he does still like cleaning up."
+React.Respond.Support.Develop.Elaborate	Clarifying / rephrasing the previous statement or giving examples to it. A declarative sentence or phrase (may include for example, I mean, like).	Nick: Cause all you’d get is him bloody raving on. Fay: He’s a bridge player, a naughty bridge player.
+React.Respond.Confront.Reply.Disagree	Negative answer to a question or denial of a statement. No, negative sentence.	David: Is he in London? Nick: No.
+React.Respond.Confront.Reply.Contradict	Refuting previous information. No, sentence with opposite polarity. If the previous sentence is negative, then this sentence is positive, and vice versa.	Fay: Suppose he gives you a hard time, Nick? David: Oh I like David a lot.
+React.Respond.Confront.Reply.Disavow	Denial of knowledge or understanding of information.	I don’t know. No idea.
+Sustain.Continue.Monitor	Checking the involvement of the listener or trying to pass on the role of speaker to them.	You know? Right?
+Sustain.Continue.Command	Making a request, an invitation or command to start a dialog or discussion of a new topic. Used only when the speaker remains the same as in the previous utterance.	Could you tell me about your wedding?
+React.Respond.Support.Register	A manifestation of emotions or a display of attention to the interlocutor.	Yeah. Right. Hmm...
+React.Respond.Support.Engage	Drawing attention or a response to a greeting.	Hey! Hi-hi.
+React.Respond.Support.Reply.Accept	Expressing gratitude.	Thank you!
+React.Rejoinder.Support.Response.Resolve	The response provides the information requested in the question.	Fran: Oh what is it called?Brad: PhD in Science.
+React.Respond.Command	Making a request, an invitation or command to start a dialog or discussion of a new topic.	Could you tell me about your wedding?
+React.Rejoinder.Confront.Challenge.Detach	Terminating the dialog.	So stick that!
+React.Rejoinder.Confront.Challenge.Counter	Dismiss addressee’s right to his/her position	You don’t understand, Nick.
+React.Rejoinder.Confront.Response.Refute	Rejecting a transition to a new topic	David: I’m out. Fay: You can’t do that, it’s my birthday

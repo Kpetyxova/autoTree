@@ -1,0 +1,203 @@
+{
+    "question_1": "Does the utterance provide guidance that is factually correct and relevant?",
+    "answer_1": "If the utterance provides guidance that is factually correct and relevant, it falls under label 0.",
+    "question_2": "Does the utterance provide guidance but is unclear, vague, easy to misunderstand, or for a different, unrelated question?",
+    "answer_2": "If the utterance provides guidance but is unclear, vague, easy to misunderstand, or for a different, unrelated question, it falls under labels 1 or 6.",
+    "question_3": "Does the utterance provide no guidance at all, reveal the final answer with no accompanying explanation, or simply ask the student to walk them through their solution?",
+    "answer_3": "If the utterance provides no guidance at all, reveals the final answer with no accompanying explanation, or simply asks the student to walk them through their solution, it falls under labels 4, 5, or 7.",
+    "question_to_define_groups": "Does the utterance provide guidance that is factually correct and relevant?",
+    "group_1_label": "Yes, the utterance provides guidance that is factually correct and relevant.",
+    "group_2_label": "No, the utterance does not provide guidance that is factually correct and relevant.",
+    "group_1_data": [
+        0
+    ],
+    "group_2_data": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+    ],
+    "next_split_group_2": {
+        "question_1": "Does the utterance provide any form of guidance or explanation?",
+        "answer_1": "If the utterance provides guidance or explanation, it falls under labels 1, 2, 3, 6, 8, 9, and 10. If it does not, it falls under labels 4, 5, and 7.",
+        "question_2": "Is the guidance provided in the utterance correct and relevant?",
+        "answer_2": "If the guidance is correct and relevant, it falls under labels 1, 2, 3, and 8. If it is not, it falls under labels 6, 9, and 10.",
+        "question_3": "Does the utterance reveal the final answer without any explanation?",
+        "answer_3": "If the utterance reveals the final answer without any explanation, it falls under label 5. If it does not, it falls under all other labels.",
+        "question_to_define_groups": "Does the utterance provide guidance that is correct, relevant, and complete?",
+        "group_1_label": "Yes, the utterance provides guidance that is correct, relevant, and complete.",
+        "group_2_label": "No, the utterance does not provide guidance that is correct, relevant, and complete.",
+        "group_1_data": [
+            2
+        ],
+        "group_2_data": [
+            1,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+        ],
+        "next_split_group_2": {
+            "question_1": "Does the utterance provide any form of guidance or explanation?",
+            "answer_1": "Labels 1, 3, 6, 8, 9, and 10 provide some form of guidance or explanation, while labels 4, 5, and 7 do not.",
+            "question_2": "Is the guidance provided in the utterance clear and correct?",
+            "answer_2": "Labels 1, 3, 6, 8, 9, and 10 provide guidance that is either unclear, incorrect, or irrelevant. None of these labels provide clear and correct guidance.",
+            "question_3": "Does the utterance reveal the final answer or ask the student to walk through their solution?",
+            "answer_3": "Label 5 reveals the final answer with no accompanying explanation, and label 7 asks the student to walk them through their solution.",
+            "question_to_define_groups": "Does the utterance provide any form of guidance or explanation?",
+            "group_1_label": "Yes, the utterance provides some form of guidance or explanation.",
+            "group_2_label": "No, the utterance does not provide any form of guidance or explanation.",
+            "group_1_data": [
+                1,
+                3,
+                6,
+                8,
+                9,
+                10
+            ],
+            "group_2_data": [
+                4,
+                5,
+                7
+            ],
+            "next_split_group_1": {
+                "question_1": "Does the guidance provided by the tutor relate directly to the question asked by the student?",
+                "answer_1": "If the guidance is related to a different, unrelated question, it corresponds to label 6. If the guidance is related to the question asked, it could fall under any of the other labels.",
+                "question_2": "Is the guidance provided by the tutor factually correct?",
+                "answer_2": "If the guidance is misleading and/or factually incorrect, it corresponds to label 9. If the guidance is factually correct but contradicts the conditions of the task, it corresponds to label 10. If the guidance is unclear or vague, it corresponds to label 1. If part of the guidance is correct and helpful, and part is incorrect or misleading, it corresponds to label 3. If the tutor suggests an example without proper introduction, it corresponds to label 8.",
+                "question_3": "Does the tutor provide an example as part of the guidance?",
+                "answer_3": "If the tutor suggests an example without proper introduction for why this example is relevant, it corresponds to label 8. If the tutor does not provide an example, the guidance could fall under any of the other labels.",
+                "question_to_define_groups": "Is the guidance provided by the tutor factually incorrect or misleading?",
+                "group_1_label": "Yes, the guidance is factually incorrect or misleading.",
+                "group_2_label": "No, the guidance is not factually incorrect or misleading.",
+                "group_1_data": [
+                    9
+                ],
+                "group_2_data": [
+                    1,
+                    3,
+                    6,
+                    8,
+                    10
+                ],
+                "next_split_group_2": {
+                    "question_1": "Does the guidance provided relate directly to the question asked?",
+                    "answer_1": "If the guidance is for a different, unrelated question, then it does not relate directly to the question asked.",
+                    "question_2": "Is the guidance provided clear and easy to understand?",
+                    "answer_2": "If the guidance is unclear, vague or easy to misunderstand, then it is not easy to understand.",
+                    "question_3": "Does the guidance contradict the conditions of the task formulated?",
+                    "answer_3": "If the guidance may be correct in real life, but contradicts the conditions of the task formulated, then it does contradict the conditions of the task.",
+                    "question_to_define_groups": "Is the guidance provided directly related to the question asked and is it clear and easy to understand?",
+                    "group_1_label": "No, the guidance provided is not directly related to the question asked and/or it is not clear and easy to understand.",
+                    "group_2_label": "Yes, the guidance provided is directly related to the question asked and it is clear and easy to understand.",
+                    "group_1_data": [
+                        1,
+                        6
+                    ],
+                    "group_2_data": [
+                        3,
+                        8,
+                        10
+                    ],
+                    "next_split_group_1": {
+                        "question_1": "Does the guidance provided directly answer the question asked?",
+                        "answer_1": "If the guidance directly answers the question, it does not fall into either of these categories. If it does not, it could fall into either category 1 or 6.",
+                        "question_2": "Is the guidance provided related to the question asked?",
+                        "answer_2": "If the guidance is related to the question, it could fall into category 1. If it is unrelated, it falls into category 6.",
+                        "question_3": "Is the guidance provided clear and easy to understand?",
+                        "answer_3": "If the guidance is clear and easy to understand, it does not fall into either of these categories. If it is unclear or vague, it could fall into category 1.",
+                        "question_to_define_groups": "Is the provided guidance related to the question asked?",
+                        "group_1_label": "Yes, the guidance is related to the question.",
+                        "group_2_label": "No, the guidance is unrelated to the question.",
+                        "group_1_data": [
+                            1
+                        ],
+                        "group_2_data": [
+                            6
+                        ]
+                    },
+                    "next_split_group_2": {
+                        "question_1": "Does the guidance provided by the tutor contain any incorrect or misleading information?",
+                        "answer_1": "If the guidance contains incorrect or misleading information, it may fall under label 3.",
+                        "question_2": "Does the tutor provide an example without proper introduction or context?",
+                        "answer_2": "If the tutor provides an example without proper context, it may fall under label 8.",
+                        "question_3": "Is the guidance provided by the tutor correct in real life but contradicts the conditions of the task?",
+                        "answer_3": "If the guidance contradicts the conditions of the task, it may fall under label 10.",
+                        "question_to_define_groups": "Does the tutor's guidance contain any incorrect or misleading information?",
+                        "group_1_label": "Yes, the guidance contains incorrect or misleading information.",
+                        "group_2_label": "No, the guidance does not contain incorrect or misleading information.",
+                        "group_1_data": [
+                            3
+                        ],
+                        "group_2_data": [
+                            8,
+                            10
+                        ],
+                        "next_split_group_2": {
+                            "question_1": "Does the tutor provide an example in the dialogue?",
+                            "answer_1": "If the tutor provides an example, it may fall under label 8, where the tutor suggests an example without proper introduction of its relevance.",
+                            "question_2": "Does the tutor's guidance contradict the conditions of the task?",
+                            "answer_2": "If the tutor's guidance contradicts the task's conditions, it may fall under label 10, which indicates that the guidance may be correct in real life but contradicts the task's conditions.",
+                            "question_3": "Does the tutor's guidance potentially lead the student to an incorrect answer?",
+                            "answer_3": "If the tutor's guidance potentially leads the student to an incorrect answer, it may fall under label 10, where the guidance, although correct in real life, contradicts the task's conditions and may lead the student to an incorrect answer.",
+                            "question_to_define_groups": "Does the tutor's guidance include an example without proper introduction of its relevance?",
+                            "group_1_label": "Yes, the tutor's guidance includes an example without proper introduction of its relevance.",
+                            "group_2_label": "No, the tutor's guidance does not include an example without proper introduction of its relevance.",
+                            "group_1_data": [
+                                8
+                            ],
+                            "group_2_data": [
+                                10
+                            ]
+                        }
+                    }
+                }
+            },
+            "next_split_group_2": {
+                "question_1": "Does the dialog utterance contain an explanation or elaboration?",
+                "answer_1": "If it does, then the tutor is providing guidance. If it does not, then the tutor may not be providing guidance or may be revealing the final answer without explanation.",
+                "question_2": "Does the dialog utterance contain the final answer to a problem or question?",
+                "answer_2": "If it does, then the tutor may be revealing the final answer without any accompanying explanation. If it does not, then the tutor may be providing guidance or not providing any guidance at all.",
+                "question_3": "Does the dialog utterance contain a request for the student to explain their solution or thought process?",
+                "answer_3": "If it does, then the tutor is not providing guidance, but is instead asking the student to walk them through their solution. If it does not, then the tutor may be providing guidance, revealing the final answer without explanation, or not providing any guidance at all.",
+                "question_to_define_groups": "Does the dialog utterance contain the final answer to a problem or question without any accompanying explanation?",
+                "group_1_label": "Yes, the dialog utterance contains the final answer without any accompanying explanation.",
+                "group_2_label": "No, the dialog utterance does not contain the final answer without any accompanying explanation.",
+                "group_1_data": [
+                    5
+                ],
+                "group_2_data": [
+                    4,
+                    7
+                ],
+                "next_split_group_2": {
+                    "question_1": "Does the dialog utterance involve the tutor asking the student to explain their solution?",
+                    "answer_1": "If the tutor is asking the student to explain their solution, this indicates a form of checking rather than providing guidance.",
+                    "question_2": "Does the tutor provide any form of explanation, elaboration, hint, or examples?",
+                    "answer_2": "If the tutor provides any of these, it indicates that they are providing guidance. If not, they are not providing guidance.",
+                    "question_3": "Is there any form of guidance provided in the dialog utterance?",
+                    "answer_3": "If there is no guidance provided at all, it falls under a specific label in the taxonomy.",
+                    "question_to_define_groups": "Is the tutor providing any form of guidance in the dialog utterance?",
+                    "group_1_label": "No, the tutor is not providing any form of guidance.",
+                    "group_2_label": "Yes, the tutor is providing some form of guidance or simply asking the student to explain their solution.",
+                    "group_1_data": [
+                        4
+                    ],
+                    "group_2_data": [
+                        7
+                    ]
+                }
+            }
+        }
+    }
+}

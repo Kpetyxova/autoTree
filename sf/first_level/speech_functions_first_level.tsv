@@ -1,0 +1,4 @@
+Labels	Definition
+Open	Open utterances are statements or actions that initiate a conversation or introduce a new topic within an ongoing discussion. These may include greetings, questions, requests, invitations, or the sharing of information.
+React	React utterances are responses to the interlocutor’s statements. These may include answers to questions, follow-up questions, emotional reactions, sharing information, expressions of agreement or disagreement, and more.
+Sustain	Sustain utterances are those that extend the speaker’s own preceding statements by adding information, providing new details, or rephrasing. The “Sustain” label is applied only when the current and preceding utterances are made by the same speaker. These utterances cannot take the form of questions,  except when the question serves to confirm that the listener is paying attention.

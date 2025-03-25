@@ -1,0 +1,8 @@
+Labels	Definition
+Open.Demand	Questions at the beginning of a conversation or when introducing a new topic.
+Open.Give	Providing information or opinion at the beginning of a conversation or when introducing a new topic.
+Open.Command	Making a request, an invitation or command to start a dialog or discussion of a new topic.
+Open.Attend	These are usually greetings.
+React.Rejoinder	These include any type of question or detailed response to the interlocutor’s questions, expressions of emotion, and grounding utterances such as “hmm,” “aha,” and similar reactions.
+Sustain.Continue	These are used only when there is no change in the speaker from the previous utterance, except for cases when the utteracne is a reply to a greeting. The Sustain.Continue class involves adding additional information or details to the speaker’s previous statement. It can also include questions intended to check if the interlocutor is listening, as well as requests or invitations.
+React.Respond	These include positive or negative responses to questions and expressions of understanding or misunderstanding. They also include the provision of new information or details, similar to Sustain.Continue. However, in this case, the speaker of the current utterance differs from the speaker of the previous one (this rule regarding speakers applies only to cases similar to Sustain.Continue).

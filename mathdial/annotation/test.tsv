@@ -1,0 +1,1513 @@
+Conversation_No	Utterance_Index	Speaker	Intent	Text	qid	scenario	question	ground_truth	student_incorrect_solution	student_profile	teacher_described_confusion	self-correctness	self-typical-confusion	self-typical-interactions
+0	0	Teacher	generic	Hey Heidi, do you know what a couple is?	5000349	2	Chalktown High School had their prom last weekend. There were 123 students who attended. If 3 students attended on their own, how many couples came to the prom?	"There were 123 students – 3 single attendees = 120 students in couples.
+120 students / 2 in a couple = 60 couples.
+ 60"	"Let's call the number of couples that attended the prom ""c"". 
+
+We know that there were 123 students total, and that 3 of them attended on their own. This means that the rest of the students attended as couples. 
+
+So we can set up the equation: 
+
+couples + 3 = 123 
+
+Subtracting 3 from both sides: 
+
+couples = 120 
+
+So there were 120 couples that attended the prom. 
+
+ 120"	Heidi is a 7th grade student. She has problem with understanding of what steps or procedures are required to solve a problem.	The student knew how many was in a couple but was struggling to apply this to their solution, they were also aware of how many people in total attended but not connecting the two together	Yes	5.0	4.0
+0	1	Student		Yes, a couple is two people who are together, usually a romantic couple.	5000349	2	Chalktown High School had their prom last weekend. There were 123 students who attended. If 3 students attended on their own, how many couples came to the prom?	"There were 123 students – 3 single attendees = 120 students in couples.
+120 students / 2 in a couple = 60 couples.
+ 60"	"Let's call the number of couples that attended the prom ""c"". 
+
+We know that there were 123 students total, and that 3 of them attended on their own. This means that the rest of the students attended as couples. 
+
+So we can set up the equation: 
+
+couples + 3 = 123 
+
+Subtracting 3 from both sides: 
+
+couples = 120 
+
+So there were 120 couples that attended the prom. 
+
+ 120"	Heidi is a 7th grade student. She has problem with understanding of what steps or procedures are required to solve a problem.	The student knew how many was in a couple but was struggling to apply this to their solution, they were also aware of how many people in total attended but not connecting the two together	Yes	5.0	4.0
+0	2	Teacher	focus	So if we had 120 couples attending the prom, how many students would that be in total?	5000349	2	Chalktown High School had their prom last weekend. There were 123 students who attended. If 3 students attended on their own, how many couples came to the prom?	"There were 123 students – 3 single attendees = 120 students in couples.
+120 students / 2 in a couple = 60 couples.
+ 60"	"Let's call the number of couples that attended the prom ""c"". 
+
+We know that there were 123 students total, and that 3 of them attended on their own. This means that the rest of the students attended as couples. 
+
+So we can set up the equation: 
+
+couples + 3 = 123 
+
+Subtracting 3 from both sides: 
+
+couples = 120 
+
+So there were 120 couples that attended the prom. 
+
+ 120"	Heidi is a 7th grade student. She has problem with understanding of what steps or procedures are required to solve a problem.	The student knew how many was in a couple but was struggling to apply this to their solution, they were also aware of how many people in total attended but not connecting the two together	Yes	5.0	4.0
+0	3	Student		120 couples would be 240 students in total, since each couple is made up of two people.	5000349	2	Chalktown High School had their prom last weekend. There were 123 students who attended. If 3 students attended on their own, how many couples came to the prom?	"There were 123 students – 3 single attendees = 120 students in couples.
+120 students / 2 in a couple = 60 couples.
+ 60"	"Let's call the number of couples that attended the prom ""c"". 
+
+We know that there were 123 students total, and that 3 of them attended on their own. This means that the rest of the students attended as couples. 
+
+So we can set up the equation: 
+
+couples + 3 = 123 
+
+Subtracting 3 from both sides: 
+
+couples = 120 
+
+So there were 120 couples that attended the prom. 
+
+ 120"	Heidi is a 7th grade student. She has problem with understanding of what steps or procedures are required to solve a problem.	The student knew how many was in a couple but was struggling to apply this to their solution, they were also aware of how many people in total attended but not connecting the two together	Yes	5.0	4.0
+0	4	Teacher	generic	Great.	5000349	2	Chalktown High School had their prom last weekend. There were 123 students who attended. If 3 students attended on their own, how many couples came to the prom?	"There were 123 students – 3 single attendees = 120 students in couples.
+120 students / 2 in a couple = 60 couples.
+ 60"	"Let's call the number of couples that attended the prom ""c"". 
+
+We know that there were 123 students total, and that 3 of them attended on their own. This means that the rest of the students attended as couples. 
+
+So we can set up the equation: 
+
+couples + 3 = 123 
+
+Subtracting 3 from both sides: 
+
+couples = 120 
+
+So there were 120 couples that attended the prom. 
+
+ 120"	Heidi is a 7th grade student. She has problem with understanding of what steps or procedures are required to solve a problem.	The student knew how many was in a couple but was struggling to apply this to their solution, they were also aware of how many people in total attended but not connecting the two together	Yes	5.0	4.0
+0	5	Teacher	generic	would you like to check your solution again, bearing in mind what youve just told me, please?	5000349	2	Chalktown High School had their prom last weekend. There were 123 students who attended. If 3 students attended on their own, how many couples came to the prom?	"There were 123 students – 3 single attendees = 120 students in couples.
+120 students / 2 in a couple = 60 couples.
+ 60"	"Let's call the number of couples that attended the prom ""c"". 
+
+We know that there were 123 students total, and that 3 of them attended on their own. This means that the rest of the students attended as couples. 
+
+So we can set up the equation: 
+
+couples + 3 = 123 
+
+Subtracting 3 from both sides: 
+
+couples = 120 
+
+So there were 120 couples that attended the prom. 
+
+ 120"	Heidi is a 7th grade student. She has problem with understanding of what steps or procedures are required to solve a problem.	The student knew how many was in a couple but was struggling to apply this to their solution, they were also aware of how many people in total attended but not connecting the two together	Yes	5.0	4.0
+0	6	Student		Sure. So if we have 120 couples, that would mean there are 240 students in total. We know that 3 students attended on their own, so if we subtract 3 from 240, we get 237. So there were 120 couples and 237 students in total at the prom.	5000349	2	Chalktown High School had their prom last weekend. There were 123 students who attended. If 3 students attended on their own, how many couples came to the prom?	"There were 123 students – 3 single attendees = 120 students in couples.
+120 students / 2 in a couple = 60 couples.
+ 60"	"Let's call the number of couples that attended the prom ""c"". 
+
+We know that there were 123 students total, and that 3 of them attended on their own. This means that the rest of the students attended as couples. 
+
+So we can set up the equation: 
+
+couples + 3 = 123 
+
+Subtracting 3 from both sides: 
+
+couples = 120 
+
+So there were 120 couples that attended the prom. 
+
+ 120"	Heidi is a 7th grade student. She has problem with understanding of what steps or procedures are required to solve a problem.	The student knew how many was in a couple but was struggling to apply this to their solution, they were also aware of how many people in total attended but not connecting the two together	Yes	5.0	4.0
+0	7	Teacher	focus	We need to read the question again.	5000349	2	Chalktown High School had their prom last weekend. There were 123 students who attended. If 3 students attended on their own, how many couples came to the prom?	"There were 123 students – 3 single attendees = 120 students in couples.
+120 students / 2 in a couple = 60 couples.
+ 60"	"Let's call the number of couples that attended the prom ""c"". 
+
+We know that there were 123 students total, and that 3 of them attended on their own. This means that the rest of the students attended as couples. 
+
+So we can set up the equation: 
+
+couples + 3 = 123 
+
+Subtracting 3 from both sides: 
+
+couples = 120 
+
+So there were 120 couples that attended the prom. 
+
+ 120"	Heidi is a 7th grade student. She has problem with understanding of what steps or procedures are required to solve a problem.	The student knew how many was in a couple but was struggling to apply this to their solution, they were also aware of how many people in total attended but not connecting the two together	Yes	5.0	4.0
+0	8	Teacher	focus	the question tells us how many people were at the prom.	5000349	2	Chalktown High School had their prom last weekend. There were 123 students who attended. If 3 students attended on their own, how many couples came to the prom?	"There were 123 students – 3 single attendees = 120 students in couples.
+120 students / 2 in a couple = 60 couples.
+ 60"	"Let's call the number of couples that attended the prom ""c"". 
+
+We know that there were 123 students total, and that 3 of them attended on their own. This means that the rest of the students attended as couples. 
+
+So we can set up the equation: 
+
+couples + 3 = 123 
+
+Subtracting 3 from both sides: 
+
+couples = 120 
+
+So there were 120 couples that attended the prom. 
+
+ 120"	Heidi is a 7th grade student. She has problem with understanding of what steps or procedures are required to solve a problem.	The student knew how many was in a couple but was struggling to apply this to their solution, they were also aware of how many people in total attended but not connecting the two together	Yes	5.0	4.0
+0	9	Teacher	focus	lets start over from the beginning and ill help you if needed.	5000349	2	Chalktown High School had their prom last weekend. There were 123 students who attended. If 3 students attended on their own, how many couples came to the prom?	"There were 123 students – 3 single attendees = 120 students in couples.
+120 students / 2 in a couple = 60 couples.
+ 60"	"Let's call the number of couples that attended the prom ""c"". 
+
+We know that there were 123 students total, and that 3 of them attended on their own. This means that the rest of the students attended as couples. 
+
+So we can set up the equation: 
+
+couples + 3 = 123 
+
+Subtracting 3 from both sides: 
+
+couples = 120 
+
+So there were 120 couples that attended the prom. 
+
+ 120"	Heidi is a 7th grade student. She has problem with understanding of what steps or procedures are required to solve a problem.	The student knew how many was in a couple but was struggling to apply this to their solution, they were also aware of how many people in total attended but not connecting the two together	Yes	5.0	4.0
+0	10	Student		Okay. So the question is asking how many couples attended the prom. We know that there were 123 students total and 3 of them attended on their own. That means that the rest of the students attended as couples. So if we subtract 3 from 123, we get 120. Therefore, there were 120 couples that attended the prom.	5000349	2	Chalktown High School had their prom last weekend. There were 123 students who attended. If 3 students attended on their own, how many couples came to the prom?	"There were 123 students – 3 single attendees = 120 students in couples.
+120 students / 2 in a couple = 60 couples.
+ 60"	"Let's call the number of couples that attended the prom ""c"". 
+
+We know that there were 123 students total, and that 3 of them attended on their own. This means that the rest of the students attended as couples. 
+
+So we can set up the equation: 
+
+couples + 3 = 123 
+
+Subtracting 3 from both sides: 
+
+couples = 120 
+
+So there were 120 couples that attended the prom. 
+
+ 120"	Heidi is a 7th grade student. She has problem with understanding of what steps or procedures are required to solve a problem.	The student knew how many was in a couple but was struggling to apply this to their solution, they were also aware of how many people in total attended but not connecting the two together	Yes	5.0	4.0
+0	11	Teacher	focus	But 120 couples would be 240 people and youve told me only 123 came to the prom.	5000349	2	Chalktown High School had their prom last weekend. There were 123 students who attended. If 3 students attended on their own, how many couples came to the prom?	"There were 123 students – 3 single attendees = 120 students in couples.
+120 students / 2 in a couple = 60 couples.
+ 60"	"Let's call the number of couples that attended the prom ""c"". 
+
+We know that there were 123 students total, and that 3 of them attended on their own. This means that the rest of the students attended as couples. 
+
+So we can set up the equation: 
+
+couples + 3 = 123 
+
+Subtracting 3 from both sides: 
+
+couples = 120 
+
+So there were 120 couples that attended the prom. 
+
+ 120"	Heidi is a 7th grade student. She has problem with understanding of what steps or procedures are required to solve a problem.	The student knew how many was in a couple but was struggling to apply this to their solution, they were also aware of how many people in total attended but not connecting the two together	Yes	5.0	4.0
+0	12	Student		That's right. We know that 120 couples attended the prom, but 3 of them attended on their own. So if we add the 120 couples and the 3 students that attended on their own, we get a total of 123 people at the prom.	5000349	2	Chalktown High School had their prom last weekend. There were 123 students who attended. If 3 students attended on their own, how many couples came to the prom?	"There were 123 students – 3 single attendees = 120 students in couples.
+120 students / 2 in a couple = 60 couples.
+ 60"	"Let's call the number of couples that attended the prom ""c"". 
+
+We know that there were 123 students total, and that 3 of them attended on their own. This means that the rest of the students attended as couples. 
+
+So we can set up the equation: 
+
+couples + 3 = 123 
+
+Subtracting 3 from both sides: 
+
+couples = 120 
+
+So there were 120 couples that attended the prom. 
+
+ 120"	Heidi is a 7th grade student. She has problem with understanding of what steps or procedures are required to solve a problem.	The student knew how many was in a couple but was struggling to apply this to their solution, they were also aware of how many people in total attended but not connecting the two together	Yes	5.0	4.0
+0	13	Teacher	probing	If i gave you a 10 couples of sweets, how many sweets would i have in total?	5000349	2	Chalktown High School had their prom last weekend. There were 123 students who attended. If 3 students attended on their own, how many couples came to the prom?	"There were 123 students – 3 single attendees = 120 students in couples.
+120 students / 2 in a couple = 60 couples.
+ 60"	"Let's call the number of couples that attended the prom ""c"". 
+
+We know that there were 123 students total, and that 3 of them attended on their own. This means that the rest of the students attended as couples. 
+
+So we can set up the equation: 
+
+couples + 3 = 123 
+
+Subtracting 3 from both sides: 
+
+couples = 120 
+
+So there were 120 couples that attended the prom. 
+
+ 120"	Heidi is a 7th grade student. She has problem with understanding of what steps or procedures are required to solve a problem.	The student knew how many was in a couple but was struggling to apply this to their solution, they were also aware of how many people in total attended but not connecting the two together	Yes	5.0	4.0
+0	14	Student		If you gave me 10 couples of sweets, you would have a total of 20 sweets. Each couple of sweets is made up of two individual sweets. So 10 couples of sweets would be 10 x 2, which is equal to 20.	5000349	2	Chalktown High School had their prom last weekend. There were 123 students who attended. If 3 students attended on their own, how many couples came to the prom?	"There were 123 students – 3 single attendees = 120 students in couples.
+120 students / 2 in a couple = 60 couples.
+ 60"	"Let's call the number of couples that attended the prom ""c"". 
+
+We know that there were 123 students total, and that 3 of them attended on their own. This means that the rest of the students attended as couples. 
+
+So we can set up the equation: 
+
+couples + 3 = 123 
+
+Subtracting 3 from both sides: 
+
+couples = 120 
+
+So there were 120 couples that attended the prom. 
+
+ 120"	Heidi is a 7th grade student. She has problem with understanding of what steps or procedures are required to solve a problem.	The student knew how many was in a couple but was struggling to apply this to their solution, they were also aware of how many people in total attended but not connecting the two together	Yes	5.0	4.0
+0	15	Teacher	focus	So thinking about this and our prom question: we have 120 people at the prom.	5000349	2	Chalktown High School had their prom last weekend. There were 123 students who attended. If 3 students attended on their own, how many couples came to the prom?	"There were 123 students – 3 single attendees = 120 students in couples.
+120 students / 2 in a couple = 60 couples.
+ 60"	"Let's call the number of couples that attended the prom ""c"". 
+
+We know that there were 123 students total, and that 3 of them attended on their own. This means that the rest of the students attended as couples. 
+
+So we can set up the equation: 
+
+couples + 3 = 123 
+
+Subtracting 3 from both sides: 
+
+couples = 120 
+
+So there were 120 couples that attended the prom. 
+
+ 120"	Heidi is a 7th grade student. She has problem with understanding of what steps or procedures are required to solve a problem.	The student knew how many was in a couple but was struggling to apply this to their solution, they were also aware of how many people in total attended but not connecting the two together	Yes	5.0	4.0
+0	16	Teacher	focus	how many couples is this?	5000349	2	Chalktown High School had their prom last weekend. There were 123 students who attended. If 3 students attended on their own, how many couples came to the prom?	"There were 123 students – 3 single attendees = 120 students in couples.
+120 students / 2 in a couple = 60 couples.
+ 60"	"Let's call the number of couples that attended the prom ""c"". 
+
+We know that there were 123 students total, and that 3 of them attended on their own. This means that the rest of the students attended as couples. 
+
+So we can set up the equation: 
+
+couples + 3 = 123 
+
+Subtracting 3 from both sides: 
+
+couples = 120 
+
+So there were 120 couples that attended the prom. 
+
+ 120"	Heidi is a 7th grade student. She has problem with understanding of what steps or procedures are required to solve a problem.	The student knew how many was in a couple but was struggling to apply this to their solution, they were also aware of how many people in total attended but not connecting the two together	Yes	5.0	4.0
+0	17	Student		We know that 120 people attended the prom, and 3 of them attended on their own. That means that the rest of the students attended as couples. So if we divide 120 by 2, we get 60. Therefore, there were 60 couples that attended the prom.	5000349	2	Chalktown High School had their prom last weekend. There were 123 students who attended. If 3 students attended on their own, how many couples came to the prom?	"There were 123 students – 3 single attendees = 120 students in couples.
+120 students / 2 in a couple = 60 couples.
+ 60"	"Let's call the number of couples that attended the prom ""c"". 
+
+We know that there were 123 students total, and that 3 of them attended on their own. This means that the rest of the students attended as couples. 
+
+So we can set up the equation: 
+
+couples + 3 = 123 
+
+Subtracting 3 from both sides: 
+
+couples = 120 
+
+So there were 120 couples that attended the prom. 
+
+ 120"	Heidi is a 7th grade student. She has problem with understanding of what steps or procedures are required to solve a problem.	The student knew how many was in a couple but was struggling to apply this to their solution, they were also aware of how many people in total attended but not connecting the two together	Yes	5.0	4.0
+0	18	Teacher	generic	Good, we have everything we need here to complete the question.	5000349	2	Chalktown High School had their prom last weekend. There were 123 students who attended. If 3 students attended on their own, how many couples came to the prom?	"There were 123 students – 3 single attendees = 120 students in couples.
+120 students / 2 in a couple = 60 couples.
+ 60"	"Let's call the number of couples that attended the prom ""c"". 
+
+We know that there were 123 students total, and that 3 of them attended on their own. This means that the rest of the students attended as couples. 
+
+So we can set up the equation: 
+
+couples + 3 = 123 
+
+Subtracting 3 from both sides: 
+
+couples = 120 
+
+So there were 120 couples that attended the prom. 
+
+ 120"	Heidi is a 7th grade student. She has problem with understanding of what steps or procedures are required to solve a problem.	The student knew how many was in a couple but was struggling to apply this to their solution, they were also aware of how many people in total attended but not connecting the two together	Yes	5.0	4.0
+0	19	Teacher	generic	now just talk me back through your full answer one more time with the new information, Heidi.	5000349	2	Chalktown High School had their prom last weekend. There were 123 students who attended. If 3 students attended on their own, how many couples came to the prom?	"There were 123 students – 3 single attendees = 120 students in couples.
+120 students / 2 in a couple = 60 couples.
+ 60"	"Let's call the number of couples that attended the prom ""c"". 
+
+We know that there were 123 students total, and that 3 of them attended on their own. This means that the rest of the students attended as couples. 
+
+So we can set up the equation: 
+
+couples + 3 = 123 
+
+Subtracting 3 from both sides: 
+
+couples = 120 
+
+So there were 120 couples that attended the prom. 
+
+ 120"	Heidi is a 7th grade student. She has problem with understanding of what steps or procedures are required to solve a problem.	The student knew how many was in a couple but was struggling to apply this to their solution, they were also aware of how many people in total attended but not connecting the two together	Yes	5.0	4.0
+0	20	Student		Sure. So the question is asking how many couples attended the prom. We know that there were 123 students total and 3 of them attended on their own. That means that the rest of the students attended as couples. So if we subtract 3 from 123, we get 120. Therefore, there were 120 couples that attended the prom, and if we add the 120 couples and the 3 students that attended on their own, we get a total of 123 people at the prom.	5000349	2	Chalktown High School had their prom last weekend. There were 123 students who attended. If 3 students attended on their own, how many couples came to the prom?	"There were 123 students – 3 single attendees = 120 students in couples.
+120 students / 2 in a couple = 60 couples.
+ 60"	"Let's call the number of couples that attended the prom ""c"". 
+
+We know that there were 123 students total, and that 3 of them attended on their own. This means that the rest of the students attended as couples. 
+
+So we can set up the equation: 
+
+couples + 3 = 123 
+
+Subtracting 3 from both sides: 
+
+couples = 120 
+
+So there were 120 couples that attended the prom. 
+
+ 120"	Heidi is a 7th grade student. She has problem with understanding of what steps or procedures are required to solve a problem.	The student knew how many was in a couple but was struggling to apply this to their solution, they were also aware of how many people in total attended but not connecting the two together	Yes	5.0	4.0
+0	21	Teacher	telling	Did we not decide: 120 people is 60 couples.	5000349	2	Chalktown High School had their prom last weekend. There were 123 students who attended. If 3 students attended on their own, how many couples came to the prom?	"There were 123 students – 3 single attendees = 120 students in couples.
+120 students / 2 in a couple = 60 couples.
+ 60"	"Let's call the number of couples that attended the prom ""c"". 
+
+We know that there were 123 students total, and that 3 of them attended on their own. This means that the rest of the students attended as couples. 
+
+So we can set up the equation: 
+
+couples + 3 = 123 
+
+Subtracting 3 from both sides: 
+
+couples = 120 
+
+So there were 120 couples that attended the prom. 
+
+ 120"	Heidi is a 7th grade student. She has problem with understanding of what steps or procedures are required to solve a problem.	The student knew how many was in a couple but was struggling to apply this to their solution, they were also aware of how many people in total attended but not connecting the two together	Yes	5.0	4.0
+0	22	Student		Yes, that's correct. We know that 120 people attended the prom, and 3 of them attended on their own. That means that the rest of the students attended as couples. So if we divide 120 by 2, we get 60. Therefore, there were 60 couples that attended the prom.	5000349	2	Chalktown High School had their prom last weekend. There were 123 students who attended. If 3 students attended on their own, how many couples came to the prom?	"There were 123 students – 3 single attendees = 120 students in couples.
+120 students / 2 in a couple = 60 couples.
+ 60"	"Let's call the number of couples that attended the prom ""c"". 
+
+We know that there were 123 students total, and that 3 of them attended on their own. This means that the rest of the students attended as couples. 
+
+So we can set up the equation: 
+
+couples + 3 = 123 
+
+Subtracting 3 from both sides: 
+
+couples = 120 
+
+So there were 120 couples that attended the prom. 
+
+ 120"	Heidi is a 7th grade student. She has problem with understanding of what steps or procedures are required to solve a problem.	The student knew how many was in a couple but was struggling to apply this to their solution, they were also aware of how many people in total attended but not connecting the two together	Yes	5.0	4.0
+0	23	Teacher	focus	Correct: 60 couples attended the prom, well done.	5000349	2	Chalktown High School had their prom last weekend. There were 123 students who attended. If 3 students attended on their own, how many couples came to the prom?	"There were 123 students – 3 single attendees = 120 students in couples.
+120 students / 2 in a couple = 60 couples.
+ 60"	"Let's call the number of couples that attended the prom ""c"". 
+
+We know that there were 123 students total, and that 3 of them attended on their own. This means that the rest of the students attended as couples. 
+
+So we can set up the equation: 
+
+couples + 3 = 123 
+
+Subtracting 3 from both sides: 
+
+couples = 120 
+
+So there were 120 couples that attended the prom. 
+
+ 120"	Heidi is a 7th grade student. She has problem with understanding of what steps or procedures are required to solve a problem.	The student knew how many was in a couple but was struggling to apply this to their solution, they were also aware of how many people in total attended but not connecting the two together	Yes	5.0	4.0
+17	0	Teacher	generic	Hi, could you please walk me through your solution?	5000851	5	40% of a farmer's cattle are males. The rest are females. If a female cow produces 2 gallons of milk a day, how much milk will the farmer get a day if he has 50 male cows?	"The farmer has 125 cows because 50 / .4 = 125
+The farmer has 75 female cows because 125 x .6 = 75
+The farmer will get 150 gallons of milk a day because 75 x 2 = 150
+ 150"	"If 40% of the cattle are males, then 100% - 40% = 60% are females.
+Let's say the farmer has a total of 100 cows, then 40% of 100 = 40 cows are males.
+So 60 cows are females.
+If each female cow produces 2 gallons of milk a day, then 60 x 2 = 120 gallons of milk will be produced a day.
+Since the farmer has 50 male cows, they don't produce milk, so the total milk produced a day is 120 gallons.
+ 120"	Claire is a 7th grade student. She struggle to put the numbers in the correct order in the equation or determine the correct operation to use.	in the second step student assumed that the number of all cows is 100 instead of calculating that number with the data that 40% of cows are male and that quantity is 50	Yes	5.0	2.0
+17	1	Student		Sure. I started by figuring out that 40% of the cattle were males, so 100% - 40% = 60% were females. Then I assumed that the farmer had a total of 100 cows, so 40% of 100 = 40 cows were males and 60 cows were females. I then multiplied the number of female cows (60) by 2 gallons of milk a day to get 120 gallons of milk produced a day. Since the farmer only has 50 male cows, they don't produce any milk, so the total milk produced a day is 120 gallons.	5000851	5	40% of a farmer's cattle are males. The rest are females. If a female cow produces 2 gallons of milk a day, how much milk will the farmer get a day if he has 50 male cows?	"The farmer has 125 cows because 50 / .4 = 125
+The farmer has 75 female cows because 125 x .6 = 75
+The farmer will get 150 gallons of milk a day because 75 x 2 = 150
+ 150"	"If 40% of the cattle are males, then 100% - 40% = 60% are females.
+Let's say the farmer has a total of 100 cows, then 40% of 100 = 40 cows are males.
+So 60 cows are females.
+If each female cow produces 2 gallons of milk a day, then 60 x 2 = 120 gallons of milk will be produced a day.
+Since the farmer has 50 male cows, they don't produce milk, so the total milk produced a day is 120 gallons.
+ 120"	Claire is a 7th grade student. She struggle to put the numbers in the correct order in the equation or determine the correct operation to use.	in the second step student assumed that the number of all cows is 100 instead of calculating that number with the data that 40% of cows are male and that quantity is 50	Yes	5.0	2.0
+17	2	Teacher	generic	Claire, why did you assume that the farmer had 100 cows?	5000851	5	40% of a farmer's cattle are males. The rest are females. If a female cow produces 2 gallons of milk a day, how much milk will the farmer get a day if he has 50 male cows?	"The farmer has 125 cows because 50 / .4 = 125
+The farmer has 75 female cows because 125 x .6 = 75
+The farmer will get 150 gallons of milk a day because 75 x 2 = 150
+ 150"	"If 40% of the cattle are males, then 100% - 40% = 60% are females.
+Let's say the farmer has a total of 100 cows, then 40% of 100 = 40 cows are males.
+So 60 cows are females.
+If each female cow produces 2 gallons of milk a day, then 60 x 2 = 120 gallons of milk will be produced a day.
+Since the farmer has 50 male cows, they don't produce milk, so the total milk produced a day is 120 gallons.
+ 120"	Claire is a 7th grade student. She struggle to put the numbers in the correct order in the equation or determine the correct operation to use.	in the second step student assumed that the number of all cows is 100 instead of calculating that number with the data that 40% of cows are male and that quantity is 50	Yes	5.0	2.0
+17	3	Student		I assumed that the farmer had 100 cows because it was the simplest number to use to calculate the total amount of milk produced a day. I knew that 40% of the cows were males, so I needed to figure out how many cows were females in order to calculate the total amount of milk produced a day.	5000851	5	40% of a farmer's cattle are males. The rest are females. If a female cow produces 2 gallons of milk a day, how much milk will the farmer get a day if he has 50 male cows?	"The farmer has 125 cows because 50 / .4 = 125
+The farmer has 75 female cows because 125 x .6 = 75
+The farmer will get 150 gallons of milk a day because 75 x 2 = 150
+ 150"	"If 40% of the cattle are males, then 100% - 40% = 60% are females.
+Let's say the farmer has a total of 100 cows, then 40% of 100 = 40 cows are males.
+So 60 cows are females.
+If each female cow produces 2 gallons of milk a day, then 60 x 2 = 120 gallons of milk will be produced a day.
+Since the farmer has 50 male cows, they don't produce milk, so the total milk produced a day is 120 gallons.
+ 120"	Claire is a 7th grade student. She struggle to put the numbers in the correct order in the equation or determine the correct operation to use.	in the second step student assumed that the number of all cows is 100 instead of calculating that number with the data that 40% of cows are male and that quantity is 50	Yes	5.0	2.0
+17	4	Teacher	probing	but isnt some data already provided in the question regarding the number claire?	5000851	5	40% of a farmer's cattle are males. The rest are females. If a female cow produces 2 gallons of milk a day, how much milk will the farmer get a day if he has 50 male cows?	"The farmer has 125 cows because 50 / .4 = 125
+The farmer has 75 female cows because 125 x .6 = 75
+The farmer will get 150 gallons of milk a day because 75 x 2 = 150
+ 150"	"If 40% of the cattle are males, then 100% - 40% = 60% are females.
+Let's say the farmer has a total of 100 cows, then 40% of 100 = 40 cows are males.
+So 60 cows are females.
+If each female cow produces 2 gallons of milk a day, then 60 x 2 = 120 gallons of milk will be produced a day.
+Since the farmer has 50 male cows, they don't produce milk, so the total milk produced a day is 120 gallons.
+ 120"	Claire is a 7th grade student. She struggle to put the numbers in the correct order in the equation or determine the correct operation to use.	in the second step student assumed that the number of all cows is 100 instead of calculating that number with the data that 40% of cows are male and that quantity is 50	Yes	5.0	2.0
+17	5	Student		Yes, the question stated that the farmer had 50 male cows, but it didn't specify how many cows the farmer had in total. So I assumed that the farmer had 100 cows in total which allowed me to calculate the total amount of milk produced a day.	5000851	5	40% of a farmer's cattle are males. The rest are females. If a female cow produces 2 gallons of milk a day, how much milk will the farmer get a day if he has 50 male cows?	"The farmer has 125 cows because 50 / .4 = 125
+The farmer has 75 female cows because 125 x .6 = 75
+The farmer will get 150 gallons of milk a day because 75 x 2 = 150
+ 150"	"If 40% of the cattle are males, then 100% - 40% = 60% are females.
+Let's say the farmer has a total of 100 cows, then 40% of 100 = 40 cows are males.
+So 60 cows are females.
+If each female cow produces 2 gallons of milk a day, then 60 x 2 = 120 gallons of milk will be produced a day.
+Since the farmer has 50 male cows, they don't produce milk, so the total milk produced a day is 120 gallons.
+ 120"	Claire is a 7th grade student. She struggle to put the numbers in the correct order in the equation or determine the correct operation to use.	in the second step student assumed that the number of all cows is 100 instead of calculating that number with the data that 40% of cows are male and that quantity is 50	Yes	5.0	2.0
+17	6	Teacher	probing	okay, so lets consider this: 70 of your friends are female and you have 15 male friends.	5000851	5	40% of a farmer's cattle are males. The rest are females. If a female cow produces 2 gallons of milk a day, how much milk will the farmer get a day if he has 50 male cows?	"The farmer has 125 cows because 50 / .4 = 125
+The farmer has 75 female cows because 125 x .6 = 75
+The farmer will get 150 gallons of milk a day because 75 x 2 = 150
+ 150"	"If 40% of the cattle are males, then 100% - 40% = 60% are females.
+Let's say the farmer has a total of 100 cows, then 40% of 100 = 40 cows are males.
+So 60 cows are females.
+If each female cow produces 2 gallons of milk a day, then 60 x 2 = 120 gallons of milk will be produced a day.
+Since the farmer has 50 male cows, they don't produce milk, so the total milk produced a day is 120 gallons.
+ 120"	Claire is a 7th grade student. She struggle to put the numbers in the correct order in the equation or determine the correct operation to use.	in the second step student assumed that the number of all cows is 100 instead of calculating that number with the data that 40% of cows are male and that quantity is 50	Yes	5.0	2.0
+17	7	Teacher	probing	then how many female friends do you have?	5000851	5	40% of a farmer's cattle are males. The rest are females. If a female cow produces 2 gallons of milk a day, how much milk will the farmer get a day if he has 50 male cows?	"The farmer has 125 cows because 50 / .4 = 125
+The farmer has 75 female cows because 125 x .6 = 75
+The farmer will get 150 gallons of milk a day because 75 x 2 = 150
+ 150"	"If 40% of the cattle are males, then 100% - 40% = 60% are females.
+Let's say the farmer has a total of 100 cows, then 40% of 100 = 40 cows are males.
+So 60 cows are females.
+If each female cow produces 2 gallons of milk a day, then 60 x 2 = 120 gallons of milk will be produced a day.
+Since the farmer has 50 male cows, they don't produce milk, so the total milk produced a day is 120 gallons.
+ 120"	Claire is a 7th grade student. She struggle to put the numbers in the correct order in the equation or determine the correct operation to use.	in the second step student assumed that the number of all cows is 100 instead of calculating that number with the data that 40% of cows are male and that quantity is 50	Yes	5.0	2.0
+17	8	Student		If 70% of my friends are female, then 100% - 70% = 30% are male. If I have 15 male friends, then 100% - 30% = 70% are female. So I would have 70% of 15 male friends, which is 10.5 female friends.	5000851	5	40% of a farmer's cattle are males. The rest are females. If a female cow produces 2 gallons of milk a day, how much milk will the farmer get a day if he has 50 male cows?	"The farmer has 125 cows because 50 / .4 = 125
+The farmer has 75 female cows because 125 x .6 = 75
+The farmer will get 150 gallons of milk a day because 75 x 2 = 150
+ 150"	"If 40% of the cattle are males, then 100% - 40% = 60% are females.
+Let's say the farmer has a total of 100 cows, then 40% of 100 = 40 cows are males.
+So 60 cows are females.
+If each female cow produces 2 gallons of milk a day, then 60 x 2 = 120 gallons of milk will be produced a day.
+Since the farmer has 50 male cows, they don't produce milk, so the total milk produced a day is 120 gallons.
+ 120"	Claire is a 7th grade student. She struggle to put the numbers in the correct order in the equation or determine the correct operation to use.	in the second step student assumed that the number of all cows is 100 instead of calculating that number with the data that 40% of cows are male and that quantity is 50	Yes	5.0	2.0
+17	9	Teacher	probing	if 70 of your friends are female, then 30 are male.	5000851	5	40% of a farmer's cattle are males. The rest are females. If a female cow produces 2 gallons of milk a day, how much milk will the farmer get a day if he has 50 male cows?	"The farmer has 125 cows because 50 / .4 = 125
+The farmer has 75 female cows because 125 x .6 = 75
+The farmer will get 150 gallons of milk a day because 75 x 2 = 150
+ 150"	"If 40% of the cattle are males, then 100% - 40% = 60% are females.
+Let's say the farmer has a total of 100 cows, then 40% of 100 = 40 cows are males.
+So 60 cows are females.
+If each female cow produces 2 gallons of milk a day, then 60 x 2 = 120 gallons of milk will be produced a day.
+Since the farmer has 50 male cows, they don't produce milk, so the total milk produced a day is 120 gallons.
+ 120"	Claire is a 7th grade student. She struggle to put the numbers in the correct order in the equation or determine the correct operation to use.	in the second step student assumed that the number of all cows is 100 instead of calculating that number with the data that 40% of cows are male and that quantity is 50	Yes	5.0	2.0
+17	10	Teacher	probing	the number of male friends is already given, which is 15, so 30100X15 and X- 50, where X is the total number of friends.	5000851	5	40% of a farmer's cattle are males. The rest are females. If a female cow produces 2 gallons of milk a day, how much milk will the farmer get a day if he has 50 male cows?	"The farmer has 125 cows because 50 / .4 = 125
+The farmer has 75 female cows because 125 x .6 = 75
+The farmer will get 150 gallons of milk a day because 75 x 2 = 150
+ 150"	"If 40% of the cattle are males, then 100% - 40% = 60% are females.
+Let's say the farmer has a total of 100 cows, then 40% of 100 = 40 cows are males.
+So 60 cows are females.
+If each female cow produces 2 gallons of milk a day, then 60 x 2 = 120 gallons of milk will be produced a day.
+Since the farmer has 50 male cows, they don't produce milk, so the total milk produced a day is 120 gallons.
+ 120"	Claire is a 7th grade student. She struggle to put the numbers in the correct order in the equation or determine the correct operation to use.	in the second step student assumed that the number of all cows is 100 instead of calculating that number with the data that 40% of cows are male and that quantity is 50	Yes	5.0	2.0
+17	11	Teacher	probing	now, if we figured total number of friends is 50 and 15 are males, then 501535 are females.	5000851	5	40% of a farmer's cattle are males. The rest are females. If a female cow produces 2 gallons of milk a day, how much milk will the farmer get a day if he has 50 male cows?	"The farmer has 125 cows because 50 / .4 = 125
+The farmer has 75 female cows because 125 x .6 = 75
+The farmer will get 150 gallons of milk a day because 75 x 2 = 150
+ 150"	"If 40% of the cattle are males, then 100% - 40% = 60% are females.
+Let's say the farmer has a total of 100 cows, then 40% of 100 = 40 cows are males.
+So 60 cows are females.
+If each female cow produces 2 gallons of milk a day, then 60 x 2 = 120 gallons of milk will be produced a day.
+Since the farmer has 50 male cows, they don't produce milk, so the total milk produced a day is 120 gallons.
+ 120"	Claire is a 7th grade student. She struggle to put the numbers in the correct order in the equation or determine the correct operation to use.	in the second step student assumed that the number of all cows is 100 instead of calculating that number with the data that 40% of cows are male and that quantity is 50	Yes	5.0	2.0
+17	12	Teacher	probing	if 70 of your friends are female, then 30 are male.	5000851	5	40% of a farmer's cattle are males. The rest are females. If a female cow produces 2 gallons of milk a day, how much milk will the farmer get a day if he has 50 male cows?	"The farmer has 125 cows because 50 / .4 = 125
+The farmer has 75 female cows because 125 x .6 = 75
+The farmer will get 150 gallons of milk a day because 75 x 2 = 150
+ 150"	"If 40% of the cattle are males, then 100% - 40% = 60% are females.
+Let's say the farmer has a total of 100 cows, then 40% of 100 = 40 cows are males.
+So 60 cows are females.
+If each female cow produces 2 gallons of milk a day, then 60 x 2 = 120 gallons of milk will be produced a day.
+Since the farmer has 50 male cows, they don't produce milk, so the total milk produced a day is 120 gallons.
+ 120"	Claire is a 7th grade student. She struggle to put the numbers in the correct order in the equation or determine the correct operation to use.	in the second step student assumed that the number of all cows is 100 instead of calculating that number with the data that 40% of cows are male and that quantity is 50	Yes	5.0	2.0
+17	13	Teacher	probing	the number of male friends is already given, which is 15, so 30100X15 and X- 50, where X is the total number of friends.	5000851	5	40% of a farmer's cattle are males. The rest are females. If a female cow produces 2 gallons of milk a day, how much milk will the farmer get a day if he has 50 male cows?	"The farmer has 125 cows because 50 / .4 = 125
+The farmer has 75 female cows because 125 x .6 = 75
+The farmer will get 150 gallons of milk a day because 75 x 2 = 150
+ 150"	"If 40% of the cattle are males, then 100% - 40% = 60% are females.
+Let's say the farmer has a total of 100 cows, then 40% of 100 = 40 cows are males.
+So 60 cows are females.
+If each female cow produces 2 gallons of milk a day, then 60 x 2 = 120 gallons of milk will be produced a day.
+Since the farmer has 50 male cows, they don't produce milk, so the total milk produced a day is 120 gallons.
+ 120"	Claire is a 7th grade student. She struggle to put the numbers in the correct order in the equation or determine the correct operation to use.	in the second step student assumed that the number of all cows is 100 instead of calculating that number with the data that 40% of cows are male and that quantity is 50	Yes	5.0	2.0
+17	14	Teacher	probing	now, if we figured total number of friends is 50 and 15 are males, then 501535 are females.	5000851	5	40% of a farmer's cattle are males. The rest are females. If a female cow produces 2 gallons of milk a day, how much milk will the farmer get a day if he has 50 male cows?	"The farmer has 125 cows because 50 / .4 = 125
+The farmer has 75 female cows because 125 x .6 = 75
+The farmer will get 150 gallons of milk a day because 75 x 2 = 150
+ 150"	"If 40% of the cattle are males, then 100% - 40% = 60% are females.
+Let's say the farmer has a total of 100 cows, then 40% of 100 = 40 cows are males.
+So 60 cows are females.
+If each female cow produces 2 gallons of milk a day, then 60 x 2 = 120 gallons of milk will be produced a day.
+Since the farmer has 50 male cows, they don't produce milk, so the total milk produced a day is 120 gallons.
+ 120"	Claire is a 7th grade student. She struggle to put the numbers in the correct order in the equation or determine the correct operation to use.	in the second step student assumed that the number of all cows is 100 instead of calculating that number with the data that 40% of cows are male and that quantity is 50	Yes	5.0	2.0
+17	15	Student		Yes, that makes sense. I understand now that I need to use the given information in the problem to calculate the total number of friends and then subtract the number of male friends from the total to get the number of female friends. So in this case, there would be 35 female friends.	5000851	5	40% of a farmer's cattle are males. The rest are females. If a female cow produces 2 gallons of milk a day, how much milk will the farmer get a day if he has 50 male cows?	"The farmer has 125 cows because 50 / .4 = 125
+The farmer has 75 female cows because 125 x .6 = 75
+The farmer will get 150 gallons of milk a day because 75 x 2 = 150
+ 150"	"If 40% of the cattle are males, then 100% - 40% = 60% are females.
+Let's say the farmer has a total of 100 cows, then 40% of 100 = 40 cows are males.
+So 60 cows are females.
+If each female cow produces 2 gallons of milk a day, then 60 x 2 = 120 gallons of milk will be produced a day.
+Since the farmer has 50 male cows, they don't produce milk, so the total milk produced a day is 120 gallons.
+ 120"	Claire is a 7th grade student. She struggle to put the numbers in the correct order in the equation or determine the correct operation to use.	in the second step student assumed that the number of all cows is 100 instead of calculating that number with the data that 40% of cows are male and that quantity is 50	Yes	5.0	2.0
+17	16	Teacher	focus	very good.	5000851	5	40% of a farmer's cattle are males. The rest are females. If a female cow produces 2 gallons of milk a day, how much milk will the farmer get a day if he has 50 male cows?	"The farmer has 125 cows because 50 / .4 = 125
+The farmer has 75 female cows because 125 x .6 = 75
+The farmer will get 150 gallons of milk a day because 75 x 2 = 150
+ 150"	"If 40% of the cattle are males, then 100% - 40% = 60% are females.
+Let's say the farmer has a total of 100 cows, then 40% of 100 = 40 cows are males.
+So 60 cows are females.
+If each female cow produces 2 gallons of milk a day, then 60 x 2 = 120 gallons of milk will be produced a day.
+Since the farmer has 50 male cows, they don't produce milk, so the total milk produced a day is 120 gallons.
+ 120"	Claire is a 7th grade student. She struggle to put the numbers in the correct order in the equation or determine the correct operation to use.	in the second step student assumed that the number of all cows is 100 instead of calculating that number with the data that 40% of cows are male and that quantity is 50	Yes	5.0	2.0
+17	17	Teacher	focus	keeping this concept in mind, can we get back to the number of cows then?	5000851	5	40% of a farmer's cattle are males. The rest are females. If a female cow produces 2 gallons of milk a day, how much milk will the farmer get a day if he has 50 male cows?	"The farmer has 125 cows because 50 / .4 = 125
+The farmer has 75 female cows because 125 x .6 = 75
+The farmer will get 150 gallons of milk a day because 75 x 2 = 150
+ 150"	"If 40% of the cattle are males, then 100% - 40% = 60% are females.
+Let's say the farmer has a total of 100 cows, then 40% of 100 = 40 cows are males.
+So 60 cows are females.
+If each female cow produces 2 gallons of milk a day, then 60 x 2 = 120 gallons of milk will be produced a day.
+Since the farmer has 50 male cows, they don't produce milk, so the total milk produced a day is 120 gallons.
+ 120"	Claire is a 7th grade student. She struggle to put the numbers in the correct order in the equation or determine the correct operation to use.	in the second step student assumed that the number of all cows is 100 instead of calculating that number with the data that 40% of cows are male and that quantity is 50	Yes	5.0	2.0
+17	18	Student		Yes, we can. Since the question stated that the farmer had 50 male cows, then we can calculate the total number of cows by taking 30% of 50, which is 15. So the farmer would have a total of 65 cows (50 male cows + 15 female cows).	5000851	5	40% of a farmer's cattle are males. The rest are females. If a female cow produces 2 gallons of milk a day, how much milk will the farmer get a day if he has 50 male cows?	"The farmer has 125 cows because 50 / .4 = 125
+The farmer has 75 female cows because 125 x .6 = 75
+The farmer will get 150 gallons of milk a day because 75 x 2 = 150
+ 150"	"If 40% of the cattle are males, then 100% - 40% = 60% are females.
+Let's say the farmer has a total of 100 cows, then 40% of 100 = 40 cows are males.
+So 60 cows are females.
+If each female cow produces 2 gallons of milk a day, then 60 x 2 = 120 gallons of milk will be produced a day.
+Since the farmer has 50 male cows, they don't produce milk, so the total milk produced a day is 120 gallons.
+ 120"	Claire is a 7th grade student. She struggle to put the numbers in the correct order in the equation or determine the correct operation to use.	in the second step student assumed that the number of all cows is 100 instead of calculating that number with the data that 40% of cows are male and that quantity is 50	Yes	5.0	2.0
+17	19	Teacher	focus	not quite right.	5000851	5	40% of a farmer's cattle are males. The rest are females. If a female cow produces 2 gallons of milk a day, how much milk will the farmer get a day if he has 50 male cows?	"The farmer has 125 cows because 50 / .4 = 125
+The farmer has 75 female cows because 125 x .6 = 75
+The farmer will get 150 gallons of milk a day because 75 x 2 = 150
+ 150"	"If 40% of the cattle are males, then 100% - 40% = 60% are females.
+Let's say the farmer has a total of 100 cows, then 40% of 100 = 40 cows are males.
+So 60 cows are females.
+If each female cow produces 2 gallons of milk a day, then 60 x 2 = 120 gallons of milk will be produced a day.
+Since the farmer has 50 male cows, they don't produce milk, so the total milk produced a day is 120 gallons.
+ 120"	Claire is a 7th grade student. She struggle to put the numbers in the correct order in the equation or determine the correct operation to use.	in the second step student assumed that the number of all cows is 100 instead of calculating that number with the data that 40% of cows are male and that quantity is 50	Yes	5.0	2.0
+17	20	Teacher	focus	where did you get this 30 from?	5000851	5	40% of a farmer's cattle are males. The rest are females. If a female cow produces 2 gallons of milk a day, how much milk will the farmer get a day if he has 50 male cows?	"The farmer has 125 cows because 50 / .4 = 125
+The farmer has 75 female cows because 125 x .6 = 75
+The farmer will get 150 gallons of milk a day because 75 x 2 = 150
+ 150"	"If 40% of the cattle are males, then 100% - 40% = 60% are females.
+Let's say the farmer has a total of 100 cows, then 40% of 100 = 40 cows are males.
+So 60 cows are females.
+If each female cow produces 2 gallons of milk a day, then 60 x 2 = 120 gallons of milk will be produced a day.
+Since the farmer has 50 male cows, they don't produce milk, so the total milk produced a day is 120 gallons.
+ 120"	Claire is a 7th grade student. She struggle to put the numbers in the correct order in the equation or determine the correct operation to use.	in the second step student assumed that the number of all cows is 100 instead of calculating that number with the data that 40% of cows are male and that quantity is 50	Yes	5.0	2.0
+17	21	Teacher	focus	is it there in the question?	5000851	5	40% of a farmer's cattle are males. The rest are females. If a female cow produces 2 gallons of milk a day, how much milk will the farmer get a day if he has 50 male cows?	"The farmer has 125 cows because 50 / .4 = 125
+The farmer has 75 female cows because 125 x .6 = 75
+The farmer will get 150 gallons of milk a day because 75 x 2 = 150
+ 150"	"If 40% of the cattle are males, then 100% - 40% = 60% are females.
+Let's say the farmer has a total of 100 cows, then 40% of 100 = 40 cows are males.
+So 60 cows are females.
+If each female cow produces 2 gallons of milk a day, then 60 x 2 = 120 gallons of milk will be produced a day.
+Since the farmer has 50 male cows, they don't produce milk, so the total milk produced a day is 120 gallons.
+ 120"	Claire is a 7th grade student. She struggle to put the numbers in the correct order in the equation or determine the correct operation to use.	in the second step student assumed that the number of all cows is 100 instead of calculating that number with the data that 40% of cows are male and that quantity is 50	Yes	5.0	2.0
+17	22	Teacher	focus	please recheck.	5000851	5	40% of a farmer's cattle are males. The rest are females. If a female cow produces 2 gallons of milk a day, how much milk will the farmer get a day if he has 50 male cows?	"The farmer has 125 cows because 50 / .4 = 125
+The farmer has 75 female cows because 125 x .6 = 75
+The farmer will get 150 gallons of milk a day because 75 x 2 = 150
+ 150"	"If 40% of the cattle are males, then 100% - 40% = 60% are females.
+Let's say the farmer has a total of 100 cows, then 40% of 100 = 40 cows are males.
+So 60 cows are females.
+If each female cow produces 2 gallons of milk a day, then 60 x 2 = 120 gallons of milk will be produced a day.
+Since the farmer has 50 male cows, they don't produce milk, so the total milk produced a day is 120 gallons.
+ 120"	Claire is a 7th grade student. She struggle to put the numbers in the correct order in the equation or determine the correct operation to use.	in the second step student assumed that the number of all cows is 100 instead of calculating that number with the data that 40% of cows are male and that quantity is 50	Yes	5.0	2.0
+17	23	Teacher	focus	not quite right.	5000851	5	40% of a farmer's cattle are males. The rest are females. If a female cow produces 2 gallons of milk a day, how much milk will the farmer get a day if he has 50 male cows?	"The farmer has 125 cows because 50 / .4 = 125
+The farmer has 75 female cows because 125 x .6 = 75
+The farmer will get 150 gallons of milk a day because 75 x 2 = 150
+ 150"	"If 40% of the cattle are males, then 100% - 40% = 60% are females.
+Let's say the farmer has a total of 100 cows, then 40% of 100 = 40 cows are males.
+So 60 cows are females.
+If each female cow produces 2 gallons of milk a day, then 60 x 2 = 120 gallons of milk will be produced a day.
+Since the farmer has 50 male cows, they don't produce milk, so the total milk produced a day is 120 gallons.
+ 120"	Claire is a 7th grade student. She struggle to put the numbers in the correct order in the equation or determine the correct operation to use.	in the second step student assumed that the number of all cows is 100 instead of calculating that number with the data that 40% of cows are male and that quantity is 50	Yes	5.0	2.0
+17	24	Teacher	focus	where did you get this 30 from?	5000851	5	40% of a farmer's cattle are males. The rest are females. If a female cow produces 2 gallons of milk a day, how much milk will the farmer get a day if he has 50 male cows?	"The farmer has 125 cows because 50 / .4 = 125
+The farmer has 75 female cows because 125 x .6 = 75
+The farmer will get 150 gallons of milk a day because 75 x 2 = 150
+ 150"	"If 40% of the cattle are males, then 100% - 40% = 60% are females.
+Let's say the farmer has a total of 100 cows, then 40% of 100 = 40 cows are males.
+So 60 cows are females.
+If each female cow produces 2 gallons of milk a day, then 60 x 2 = 120 gallons of milk will be produced a day.
+Since the farmer has 50 male cows, they don't produce milk, so the total milk produced a day is 120 gallons.
+ 120"	Claire is a 7th grade student. She struggle to put the numbers in the correct order in the equation or determine the correct operation to use.	in the second step student assumed that the number of all cows is 100 instead of calculating that number with the data that 40% of cows are male and that quantity is 50	Yes	5.0	2.0
+17	25	Teacher	focus	is it there in the question?	5000851	5	40% of a farmer's cattle are males. The rest are females. If a female cow produces 2 gallons of milk a day, how much milk will the farmer get a day if he has 50 male cows?	"The farmer has 125 cows because 50 / .4 = 125
+The farmer has 75 female cows because 125 x .6 = 75
+The farmer will get 150 gallons of milk a day because 75 x 2 = 150
+ 150"	"If 40% of the cattle are males, then 100% - 40% = 60% are females.
+Let's say the farmer has a total of 100 cows, then 40% of 100 = 40 cows are males.
+So 60 cows are females.
+If each female cow produces 2 gallons of milk a day, then 60 x 2 = 120 gallons of milk will be produced a day.
+Since the farmer has 50 male cows, they don't produce milk, so the total milk produced a day is 120 gallons.
+ 120"	Claire is a 7th grade student. She struggle to put the numbers in the correct order in the equation or determine the correct operation to use.	in the second step student assumed that the number of all cows is 100 instead of calculating that number with the data that 40% of cows are male and that quantity is 50	Yes	5.0	2.0
+17	26	Teacher	focus	please recheck.	5000851	5	40% of a farmer's cattle are males. The rest are females. If a female cow produces 2 gallons of milk a day, how much milk will the farmer get a day if he has 50 male cows?	"The farmer has 125 cows because 50 / .4 = 125
+The farmer has 75 female cows because 125 x .6 = 75
+The farmer will get 150 gallons of milk a day because 75 x 2 = 150
+ 150"	"If 40% of the cattle are males, then 100% - 40% = 60% are females.
+Let's say the farmer has a total of 100 cows, then 40% of 100 = 40 cows are males.
+So 60 cows are females.
+If each female cow produces 2 gallons of milk a day, then 60 x 2 = 120 gallons of milk will be produced a day.
+Since the farmer has 50 male cows, they don't produce milk, so the total milk produced a day is 120 gallons.
+ 120"	Claire is a 7th grade student. She struggle to put the numbers in the correct order in the equation or determine the correct operation to use.	in the second step student assumed that the number of all cows is 100 instead of calculating that number with the data that 40% of cows are male and that quantity is 50	Yes	5.0	2.0
+17	27	Student		Oh, I'm sorry. I got the 30% from the fact that 40% of the cattle are males, so 100% - 40% = 60% are females. So if the farmer has 50 male cows, then 100% - 50% = 50% are female cows. 50% of the total number of cows is equal to 30% of the male cows. So the total number of cows would be 50 male cows + 30% of 50 male cows, which is 15 female cows. So the total number of cows is 65.	5000851	5	40% of a farmer's cattle are males. The rest are females. If a female cow produces 2 gallons of milk a day, how much milk will the farmer get a day if he has 50 male cows?	"The farmer has 125 cows because 50 / .4 = 125
+The farmer has 75 female cows because 125 x .6 = 75
+The farmer will get 150 gallons of milk a day because 75 x 2 = 150
+ 150"	"If 40% of the cattle are males, then 100% - 40% = 60% are females.
+Let's say the farmer has a total of 100 cows, then 40% of 100 = 40 cows are males.
+So 60 cows are females.
+If each female cow produces 2 gallons of milk a day, then 60 x 2 = 120 gallons of milk will be produced a day.
+Since the farmer has 50 male cows, they don't produce milk, so the total milk produced a day is 120 gallons.
+ 120"	Claire is a 7th grade student. She struggle to put the numbers in the correct order in the equation or determine the correct operation to use.	in the second step student assumed that the number of all cows is 100 instead of calculating that number with the data that 40% of cows are male and that quantity is 50	Yes	5.0	2.0
+17	28	Teacher	focus	40 of the cattle are males, so 100, 40, 60 are females.	5000851	5	40% of a farmer's cattle are males. The rest are females. If a female cow produces 2 gallons of milk a day, how much milk will the farmer get a day if he has 50 male cows?	"The farmer has 125 cows because 50 / .4 = 125
+The farmer has 75 female cows because 125 x .6 = 75
+The farmer will get 150 gallons of milk a day because 75 x 2 = 150
+ 150"	"If 40% of the cattle are males, then 100% - 40% = 60% are females.
+Let's say the farmer has a total of 100 cows, then 40% of 100 = 40 cows are males.
+So 60 cows are females.
+If each female cow produces 2 gallons of milk a day, then 60 x 2 = 120 gallons of milk will be produced a day.
+Since the farmer has 50 male cows, they don't produce milk, so the total milk produced a day is 120 gallons.
+ 120"	Claire is a 7th grade student. She struggle to put the numbers in the correct order in the equation or determine the correct operation to use.	in the second step student assumed that the number of all cows is 100 instead of calculating that number with the data that 40% of cows are male and that quantity is 50	Yes	5.0	2.0
+17	29	Teacher	focus	now, if 40 is equal to 50, then what is 60?	5000851	5	40% of a farmer's cattle are males. The rest are females. If a female cow produces 2 gallons of milk a day, how much milk will the farmer get a day if he has 50 male cows?	"The farmer has 125 cows because 50 / .4 = 125
+The farmer has 75 female cows because 125 x .6 = 75
+The farmer will get 150 gallons of milk a day because 75 x 2 = 150
+ 150"	"If 40% of the cattle are males, then 100% - 40% = 60% are females.
+Let's say the farmer has a total of 100 cows, then 40% of 100 = 40 cows are males.
+So 60 cows are females.
+If each female cow produces 2 gallons of milk a day, then 60 x 2 = 120 gallons of milk will be produced a day.
+Since the farmer has 50 male cows, they don't produce milk, so the total milk produced a day is 120 gallons.
+ 120"	Claire is a 7th grade student. She struggle to put the numbers in the correct order in the equation or determine the correct operation to use.	in the second step student assumed that the number of all cows is 100 instead of calculating that number with the data that 40% of cows are male and that quantity is 50	Yes	5.0	2.0
+17	30	Student		If 40% is equal to 50, then 60% is equal to 75. So if the farmer has 50 male cows, then the total number of cows would be 50 male cows + 75 female cows, which is a total of 125 cows.	5000851	5	40% of a farmer's cattle are males. The rest are females. If a female cow produces 2 gallons of milk a day, how much milk will the farmer get a day if he has 50 male cows?	"The farmer has 125 cows because 50 / .4 = 125
+The farmer has 75 female cows because 125 x .6 = 75
+The farmer will get 150 gallons of milk a day because 75 x 2 = 150
+ 150"	"If 40% of the cattle are males, then 100% - 40% = 60% are females.
+Let's say the farmer has a total of 100 cows, then 40% of 100 = 40 cows are males.
+So 60 cows are females.
+If each female cow produces 2 gallons of milk a day, then 60 x 2 = 120 gallons of milk will be produced a day.
+Since the farmer has 50 male cows, they don't produce milk, so the total milk produced a day is 120 gallons.
+ 120"	Claire is a 7th grade student. She struggle to put the numbers in the correct order in the equation or determine the correct operation to use.	in the second step student assumed that the number of all cows is 100 instead of calculating that number with the data that 40% of cows are male and that quantity is 50	Yes	5.0	2.0
+17	31	Teacher	focus	so then, how much milk will the farmer get a day?	5000851	5	40% of a farmer's cattle are males. The rest are females. If a female cow produces 2 gallons of milk a day, how much milk will the farmer get a day if he has 50 male cows?	"The farmer has 125 cows because 50 / .4 = 125
+The farmer has 75 female cows because 125 x .6 = 75
+The farmer will get 150 gallons of milk a day because 75 x 2 = 150
+ 150"	"If 40% of the cattle are males, then 100% - 40% = 60% are females.
+Let's say the farmer has a total of 100 cows, then 40% of 100 = 40 cows are males.
+So 60 cows are females.
+If each female cow produces 2 gallons of milk a day, then 60 x 2 = 120 gallons of milk will be produced a day.
+Since the farmer has 50 male cows, they don't produce milk, so the total milk produced a day is 120 gallons.
+ 120"	Claire is a 7th grade student. She struggle to put the numbers in the correct order in the equation or determine the correct operation to use.	in the second step student assumed that the number of all cows is 100 instead of calculating that number with the data that 40% of cows are male and that quantity is 50	Yes	5.0	2.0
+17	32	Student		If each female cow produces 2 gallons of milk a day, then 75 x 2 = 150 gallons of milk will be produced a day. Since the farmer has 50 male cows, they don't produce milk, so the total milk produced a day is 150 gallons.	5000851	5	40% of a farmer's cattle are males. The rest are females. If a female cow produces 2 gallons of milk a day, how much milk will the farmer get a day if he has 50 male cows?	"The farmer has 125 cows because 50 / .4 = 125
+The farmer has 75 female cows because 125 x .6 = 75
+The farmer will get 150 gallons of milk a day because 75 x 2 = 150
+ 150"	"If 40% of the cattle are males, then 100% - 40% = 60% are females.
+Let's say the farmer has a total of 100 cows, then 40% of 100 = 40 cows are males.
+So 60 cows are females.
+If each female cow produces 2 gallons of milk a day, then 60 x 2 = 120 gallons of milk will be produced a day.
+Since the farmer has 50 male cows, they don't produce milk, so the total milk produced a day is 120 gallons.
+ 120"	Claire is a 7th grade student. She struggle to put the numbers in the correct order in the equation or determine the correct operation to use.	in the second step student assumed that the number of all cows is 100 instead of calculating that number with the data that 40% of cows are male and that quantity is 50	Yes	5.0	2.0
+17	33	Teacher	generic	good.	5000851	5	40% of a farmer's cattle are males. The rest are females. If a female cow produces 2 gallons of milk a day, how much milk will the farmer get a day if he has 50 male cows?	"The farmer has 125 cows because 50 / .4 = 125
+The farmer has 75 female cows because 125 x .6 = 75
+The farmer will get 150 gallons of milk a day because 75 x 2 = 150
+ 150"	"If 40% of the cattle are males, then 100% - 40% = 60% are females.
+Let's say the farmer has a total of 100 cows, then 40% of 100 = 40 cows are males.
+So 60 cows are females.
+If each female cow produces 2 gallons of milk a day, then 60 x 2 = 120 gallons of milk will be produced a day.
+Since the farmer has 50 male cows, they don't produce milk, so the total milk produced a day is 120 gallons.
+ 120"	Claire is a 7th grade student. She struggle to put the numbers in the correct order in the equation or determine the correct operation to use.	in the second step student assumed that the number of all cows is 100 instead of calculating that number with the data that 40% of cows are male and that quantity is 50	Yes	5.0	2.0
+37	0	Teacher	focus	Hi Brenda.	5000424	1	It takes 3 men an hour to complete a job. If they are hired to work on 5 such similar jobs by a company that pays each of them $10 per hour, calculate the total amount of money the three will earn when they complete the jobs?	"Since they are paid $10 each per hour of work and can complete a job in one hour, they earn a total of $10*3=$30 together for an hour of work.
+If they earn together $30 for one job, for the five jobs, they'll earn $30*5=$150
+ 150"	"It takes 3 men an hour to complete a job, so it will take them 3 x 5 = 15 hours to complete the 5 jobs.
+If they are paid $10 per hour, the total amount of money each of them will earn when they complete the jobs is $10 x 15 = $150.
+Therefore, the total amount of money the three will earn when they complete the jobs is $150 x 3 = $450.
+ 450"	Brenda is a 7th grade student. She struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	The student multiplied the number of men by the number of jobs, but in fact the men work together and so they took 1 hour total to complete teh job, so 5 hours total.	Yes	4.0	4.0
+37	1	Teacher	focus	lets take this step by step.	5000424	1	It takes 3 men an hour to complete a job. If they are hired to work on 5 such similar jobs by a company that pays each of them $10 per hour, calculate the total amount of money the three will earn when they complete the jobs?	"Since they are paid $10 each per hour of work and can complete a job in one hour, they earn a total of $10*3=$30 together for an hour of work.
+If they earn together $30 for one job, for the five jobs, they'll earn $30*5=$150
+ 150"	"It takes 3 men an hour to complete a job, so it will take them 3 x 5 = 15 hours to complete the 5 jobs.
+If they are paid $10 per hour, the total amount of money each of them will earn when they complete the jobs is $10 x 15 = $150.
+Therefore, the total amount of money the three will earn when they complete the jobs is $150 x 3 = $450.
+ 450"	Brenda is a 7th grade student. She struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	The student multiplied the number of men by the number of jobs, but in fact the men work together and so they took 1 hour total to complete teh job, so 5 hours total.	Yes	4.0	4.0
+37	2	Teacher	focus	How much would one man earn for one job?	5000424	1	It takes 3 men an hour to complete a job. If they are hired to work on 5 such similar jobs by a company that pays each of them $10 per hour, calculate the total amount of money the three will earn when they complete the jobs?	"Since they are paid $10 each per hour of work and can complete a job in one hour, they earn a total of $10*3=$30 together for an hour of work.
+If they earn together $30 for one job, for the five jobs, they'll earn $30*5=$150
+ 150"	"It takes 3 men an hour to complete a job, so it will take them 3 x 5 = 15 hours to complete the 5 jobs.
+If they are paid $10 per hour, the total amount of money each of them will earn when they complete the jobs is $10 x 15 = $150.
+Therefore, the total amount of money the three will earn when they complete the jobs is $150 x 3 = $450.
+ 450"	Brenda is a 7th grade student. She struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	The student multiplied the number of men by the number of jobs, but in fact the men work together and so they took 1 hour total to complete teh job, so 5 hours total.	Yes	4.0	4.0
+37	3	Student		Hi, one man would earn $10 for one job.	5000424	1	It takes 3 men an hour to complete a job. If they are hired to work on 5 such similar jobs by a company that pays each of them $10 per hour, calculate the total amount of money the three will earn when they complete the jobs?	"Since they are paid $10 each per hour of work and can complete a job in one hour, they earn a total of $10*3=$30 together for an hour of work.
+If they earn together $30 for one job, for the five jobs, they'll earn $30*5=$150
+ 150"	"It takes 3 men an hour to complete a job, so it will take them 3 x 5 = 15 hours to complete the 5 jobs.
+If they are paid $10 per hour, the total amount of money each of them will earn when they complete the jobs is $10 x 15 = $150.
+Therefore, the total amount of money the three will earn when they complete the jobs is $150 x 3 = $450.
+ 450"	Brenda is a 7th grade student. She struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	The student multiplied the number of men by the number of jobs, but in fact the men work together and so they took 1 hour total to complete teh job, so 5 hours total.	Yes	4.0	4.0
+37	4	Teacher	focus	How many jobs are there?	5000424	1	It takes 3 men an hour to complete a job. If they are hired to work on 5 such similar jobs by a company that pays each of them $10 per hour, calculate the total amount of money the three will earn when they complete the jobs?	"Since they are paid $10 each per hour of work and can complete a job in one hour, they earn a total of $10*3=$30 together for an hour of work.
+If they earn together $30 for one job, for the five jobs, they'll earn $30*5=$150
+ 150"	"It takes 3 men an hour to complete a job, so it will take them 3 x 5 = 15 hours to complete the 5 jobs.
+If they are paid $10 per hour, the total amount of money each of them will earn when they complete the jobs is $10 x 15 = $150.
+Therefore, the total amount of money the three will earn when they complete the jobs is $150 x 3 = $450.
+ 450"	Brenda is a 7th grade student. She struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	The student multiplied the number of men by the number of jobs, but in fact the men work together and so they took 1 hour total to complete teh job, so 5 hours total.	Yes	4.0	4.0
+37	5	Student		There are 5 jobs.	5000424	1	It takes 3 men an hour to complete a job. If they are hired to work on 5 such similar jobs by a company that pays each of them $10 per hour, calculate the total amount of money the three will earn when they complete the jobs?	"Since they are paid $10 each per hour of work and can complete a job in one hour, they earn a total of $10*3=$30 together for an hour of work.
+If they earn together $30 for one job, for the five jobs, they'll earn $30*5=$150
+ 150"	"It takes 3 men an hour to complete a job, so it will take them 3 x 5 = 15 hours to complete the 5 jobs.
+If they are paid $10 per hour, the total amount of money each of them will earn when they complete the jobs is $10 x 15 = $150.
+Therefore, the total amount of money the three will earn when they complete the jobs is $150 x 3 = $450.
+ 450"	Brenda is a 7th grade student. She struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	The student multiplied the number of men by the number of jobs, but in fact the men work together and so they took 1 hour total to complete teh job, so 5 hours total.	Yes	4.0	4.0
+37	6	Teacher	focus	How much would one man doing the 5 jobs earn?	5000424	1	It takes 3 men an hour to complete a job. If they are hired to work on 5 such similar jobs by a company that pays each of them $10 per hour, calculate the total amount of money the three will earn when they complete the jobs?	"Since they are paid $10 each per hour of work and can complete a job in one hour, they earn a total of $10*3=$30 together for an hour of work.
+If they earn together $30 for one job, for the five jobs, they'll earn $30*5=$150
+ 150"	"It takes 3 men an hour to complete a job, so it will take them 3 x 5 = 15 hours to complete the 5 jobs.
+If they are paid $10 per hour, the total amount of money each of them will earn when they complete the jobs is $10 x 15 = $150.
+Therefore, the total amount of money the three will earn when they complete the jobs is $150 x 3 = $450.
+ 450"	Brenda is a 7th grade student. She struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	The student multiplied the number of men by the number of jobs, but in fact the men work together and so they took 1 hour total to complete teh job, so 5 hours total.	Yes	4.0	4.0
+37	7	Student		One man doing the 5 jobs would earn $10 x 5 = $50.	5000424	1	It takes 3 men an hour to complete a job. If they are hired to work on 5 such similar jobs by a company that pays each of them $10 per hour, calculate the total amount of money the three will earn when they complete the jobs?	"Since they are paid $10 each per hour of work and can complete a job in one hour, they earn a total of $10*3=$30 together for an hour of work.
+If they earn together $30 for one job, for the five jobs, they'll earn $30*5=$150
+ 150"	"It takes 3 men an hour to complete a job, so it will take them 3 x 5 = 15 hours to complete the 5 jobs.
+If they are paid $10 per hour, the total amount of money each of them will earn when they complete the jobs is $10 x 15 = $150.
+Therefore, the total amount of money the three will earn when they complete the jobs is $150 x 3 = $450.
+ 450"	Brenda is a 7th grade student. She struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	The student multiplied the number of men by the number of jobs, but in fact the men work together and so they took 1 hour total to complete teh job, so 5 hours total.	Yes	4.0	4.0
+37	8	Teacher	focus	Great, How many men are there?	5000424	1	It takes 3 men an hour to complete a job. If they are hired to work on 5 such similar jobs by a company that pays each of them $10 per hour, calculate the total amount of money the three will earn when they complete the jobs?	"Since they are paid $10 each per hour of work and can complete a job in one hour, they earn a total of $10*3=$30 together for an hour of work.
+If they earn together $30 for one job, for the five jobs, they'll earn $30*5=$150
+ 150"	"It takes 3 men an hour to complete a job, so it will take them 3 x 5 = 15 hours to complete the 5 jobs.
+If they are paid $10 per hour, the total amount of money each of them will earn when they complete the jobs is $10 x 15 = $150.
+Therefore, the total amount of money the three will earn when they complete the jobs is $150 x 3 = $450.
+ 450"	Brenda is a 7th grade student. She struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	The student multiplied the number of men by the number of jobs, but in fact the men work together and so they took 1 hour total to complete teh job, so 5 hours total.	Yes	4.0	4.0
+37	9	Student		There are 3 men.	5000424	1	It takes 3 men an hour to complete a job. If they are hired to work on 5 such similar jobs by a company that pays each of them $10 per hour, calculate the total amount of money the three will earn when they complete the jobs?	"Since they are paid $10 each per hour of work and can complete a job in one hour, they earn a total of $10*3=$30 together for an hour of work.
+If they earn together $30 for one job, for the five jobs, they'll earn $30*5=$150
+ 150"	"It takes 3 men an hour to complete a job, so it will take them 3 x 5 = 15 hours to complete the 5 jobs.
+If they are paid $10 per hour, the total amount of money each of them will earn when they complete the jobs is $10 x 15 = $150.
+Therefore, the total amount of money the three will earn when they complete the jobs is $150 x 3 = $450.
+ 450"	Brenda is a 7th grade student. She struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	The student multiplied the number of men by the number of jobs, but in fact the men work together and so they took 1 hour total to complete teh job, so 5 hours total.	Yes	4.0	4.0
+37	10	Teacher	focus	So each man is paid 50 total for the 5 jobs and there are 3 men.	5000424	1	It takes 3 men an hour to complete a job. If they are hired to work on 5 such similar jobs by a company that pays each of them $10 per hour, calculate the total amount of money the three will earn when they complete the jobs?	"Since they are paid $10 each per hour of work and can complete a job in one hour, they earn a total of $10*3=$30 together for an hour of work.
+If they earn together $30 for one job, for the five jobs, they'll earn $30*5=$150
+ 150"	"It takes 3 men an hour to complete a job, so it will take them 3 x 5 = 15 hours to complete the 5 jobs.
+If they are paid $10 per hour, the total amount of money each of them will earn when they complete the jobs is $10 x 15 = $150.
+Therefore, the total amount of money the three will earn when they complete the jobs is $150 x 3 = $450.
+ 450"	Brenda is a 7th grade student. She struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	The student multiplied the number of men by the number of jobs, but in fact the men work together and so they took 1 hour total to complete teh job, so 5 hours total.	Yes	4.0	4.0
+37	11	Teacher	focus	so how much is the total for the 3 men?	5000424	1	It takes 3 men an hour to complete a job. If they are hired to work on 5 such similar jobs by a company that pays each of them $10 per hour, calculate the total amount of money the three will earn when they complete the jobs?	"Since they are paid $10 each per hour of work and can complete a job in one hour, they earn a total of $10*3=$30 together for an hour of work.
+If they earn together $30 for one job, for the five jobs, they'll earn $30*5=$150
+ 150"	"It takes 3 men an hour to complete a job, so it will take them 3 x 5 = 15 hours to complete the 5 jobs.
+If they are paid $10 per hour, the total amount of money each of them will earn when they complete the jobs is $10 x 15 = $150.
+Therefore, the total amount of money the three will earn when they complete the jobs is $150 x 3 = $450.
+ 450"	Brenda is a 7th grade student. She struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	The student multiplied the number of men by the number of jobs, but in fact the men work together and so they took 1 hour total to complete teh job, so 5 hours total.	Yes	4.0	4.0
+37	12	Student		The total for the 3 men is $50 x 3 = $150.	5000424	1	It takes 3 men an hour to complete a job. If they are hired to work on 5 such similar jobs by a company that pays each of them $10 per hour, calculate the total amount of money the three will earn when they complete the jobs?	"Since they are paid $10 each per hour of work and can complete a job in one hour, they earn a total of $10*3=$30 together for an hour of work.
+If they earn together $30 for one job, for the five jobs, they'll earn $30*5=$150
+ 150"	"It takes 3 men an hour to complete a job, so it will take them 3 x 5 = 15 hours to complete the 5 jobs.
+If they are paid $10 per hour, the total amount of money each of them will earn when they complete the jobs is $10 x 15 = $150.
+Therefore, the total amount of money the three will earn when they complete the jobs is $150 x 3 = $450.
+ 450"	Brenda is a 7th grade student. She struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	The student multiplied the number of men by the number of jobs, but in fact the men work together and so they took 1 hour total to complete teh job, so 5 hours total.	Yes	4.0	4.0
+37	13	Teacher	generic	Thats right.	5000424	1	It takes 3 men an hour to complete a job. If they are hired to work on 5 such similar jobs by a company that pays each of them $10 per hour, calculate the total amount of money the three will earn when they complete the jobs?	"Since they are paid $10 each per hour of work and can complete a job in one hour, they earn a total of $10*3=$30 together for an hour of work.
+If they earn together $30 for one job, for the five jobs, they'll earn $30*5=$150
+ 150"	"It takes 3 men an hour to complete a job, so it will take them 3 x 5 = 15 hours to complete the 5 jobs.
+If they are paid $10 per hour, the total amount of money each of them will earn when they complete the jobs is $10 x 15 = $150.
+Therefore, the total amount of money the three will earn when they complete the jobs is $150 x 3 = $450.
+ 450"	Brenda is a 7th grade student. She struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	The student multiplied the number of men by the number of jobs, but in fact the men work together and so they took 1 hour total to complete teh job, so 5 hours total.	Yes	4.0	4.0
+37	14	Teacher	generic	I should mention that there are other ways to reach this answer.	5000424	1	It takes 3 men an hour to complete a job. If they are hired to work on 5 such similar jobs by a company that pays each of them $10 per hour, calculate the total amount of money the three will earn when they complete the jobs?	"Since they are paid $10 each per hour of work and can complete a job in one hour, they earn a total of $10*3=$30 together for an hour of work.
+If they earn together $30 for one job, for the five jobs, they'll earn $30*5=$150
+ 150"	"It takes 3 men an hour to complete a job, so it will take them 3 x 5 = 15 hours to complete the 5 jobs.
+If they are paid $10 per hour, the total amount of money each of them will earn when they complete the jobs is $10 x 15 = $150.
+Therefore, the total amount of money the three will earn when they complete the jobs is $150 x 3 = $450.
+ 450"	Brenda is a 7th grade student. She struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	The student multiplied the number of men by the number of jobs, but in fact the men work together and so they took 1 hour total to complete teh job, so 5 hours total.	Yes	4.0	4.0
+37	15	Teacher	generic	Ive just taken you through one.	5000424	1	It takes 3 men an hour to complete a job. If they are hired to work on 5 such similar jobs by a company that pays each of them $10 per hour, calculate the total amount of money the three will earn when they complete the jobs?	"Since they are paid $10 each per hour of work and can complete a job in one hour, they earn a total of $10*3=$30 together for an hour of work.
+If they earn together $30 for one job, for the five jobs, they'll earn $30*5=$150
+ 150"	"It takes 3 men an hour to complete a job, so it will take them 3 x 5 = 15 hours to complete the 5 jobs.
+If they are paid $10 per hour, the total amount of money each of them will earn when they complete the jobs is $10 x 15 = $150.
+Therefore, the total amount of money the three will earn when they complete the jobs is $150 x 3 = $450.
+ 450"	Brenda is a 7th grade student. She struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	The student multiplied the number of men by the number of jobs, but in fact the men work together and so they took 1 hour total to complete teh job, so 5 hours total.	Yes	4.0	4.0
+51	0	Teacher	generic	Hi DeAndrea, Can you walk me through your solution?	5000041	4	Max likes to collect model trains.  He asks for one for every birthday of his, and asks for two each Christmas.  Max always gets the gifts he asks for, and asks for these same gifts every year for 5 years.  At the end of the 5 years, his parents give him double the number of trains he already has.  How many trains does Max have now?	"Max gets 1+2=3 trains per year.
+He repeats this for 5 years, meaning he gets 5*3 =15 trains.
+When this number is doubled by his parents, it becomes 15*2= 30 trains.
+Since he already had 15 model trains, his total becomes 15+30= 45 trains.
+ 45"	"Max gets 1 train for each of his 5 birthdays, so he has 1 x 5 = 5 trains from birthdays.
+Max gets 2 trains for each of the 5 Christmases, so he has 2 x 5 = 10 trains from Christmases.
+In total, Max has 5 + 10 = 15 trains before his parents give him more.
+After his parents give him double the number of trains he has, Max has 15 x 2 = 30 trains.
+ 30"	DeAndre is a 7th grade student. He struggle to put the numbers in the correct order in the equation or determine the correct operation to use.	The student was multiplying the number of trains but failed to add back in the original existing stock.	Yes	5.0	5.0
+51	1	Student		Sure. I started by figuring out how many trains Max had from his birthdays and Christmases. I said that he got 1 train for each of his 5 birthdays, so that's 1 x 5 = 5 trains. Then I said that he got 2 trains for each of his 5 Christmases, so that's 2 x 5 = 10 trains. So in total, he had 5 + 10 = 15 trains before his parents gave him more. Then I said that his parents gave him double the number of trains he had, so that's 15 x 2 = 30 trains. So in total, Max has 30 trains.	5000041	4	Max likes to collect model trains.  He asks for one for every birthday of his, and asks for two each Christmas.  Max always gets the gifts he asks for, and asks for these same gifts every year for 5 years.  At the end of the 5 years, his parents give him double the number of trains he already has.  How many trains does Max have now?	"Max gets 1+2=3 trains per year.
+He repeats this for 5 years, meaning he gets 5*3 =15 trains.
+When this number is doubled by his parents, it becomes 15*2= 30 trains.
+Since he already had 15 model trains, his total becomes 15+30= 45 trains.
+ 45"	"Max gets 1 train for each of his 5 birthdays, so he has 1 x 5 = 5 trains from birthdays.
+Max gets 2 trains for each of the 5 Christmases, so he has 2 x 5 = 10 trains from Christmases.
+In total, Max has 5 + 10 = 15 trains before his parents give him more.
+After his parents give him double the number of trains he has, Max has 15 x 2 = 30 trains.
+ 30"	DeAndre is a 7th grade student. He struggle to put the numbers in the correct order in the equation or determine the correct operation to use.	The student was multiplying the number of trains but failed to add back in the original existing stock.	Yes	5.0	5.0
+51	2	Teacher	probing	Great start, But remember that his parents GAVE him double the number he already had, so that needs to be added in right.	5000041	4	Max likes to collect model trains.  He asks for one for every birthday of his, and asks for two each Christmas.  Max always gets the gifts he asks for, and asks for these same gifts every year for 5 years.  At the end of the 5 years, his parents give him double the number of trains he already has.  How many trains does Max have now?	"Max gets 1+2=3 trains per year.
+He repeats this for 5 years, meaning he gets 5*3 =15 trains.
+When this number is doubled by his parents, it becomes 15*2= 30 trains.
+Since he already had 15 model trains, his total becomes 15+30= 45 trains.
+ 45"	"Max gets 1 train for each of his 5 birthdays, so he has 1 x 5 = 5 trains from birthdays.
+Max gets 2 trains for each of the 5 Christmases, so he has 2 x 5 = 10 trains from Christmases.
+In total, Max has 5 + 10 = 15 trains before his parents give him more.
+After his parents give him double the number of trains he has, Max has 15 x 2 = 30 trains.
+ 30"	DeAndre is a 7th grade student. He struggle to put the numbers in the correct order in the equation or determine the correct operation to use.	The student was multiplying the number of trains but failed to add back in the original existing stock.	Yes	5.0	5.0
+51	3	Student		Oh yeah, you're right. So he had 15 trains before his parents gave him more, and then his parents gave him double that amount, so that's 15 x 2 = 30 trains. So in total, Max has 45 trains now.	5000041	4	Max likes to collect model trains.  He asks for one for every birthday of his, and asks for two each Christmas.  Max always gets the gifts he asks for, and asks for these same gifts every year for 5 years.  At the end of the 5 years, his parents give him double the number of trains he already has.  How many trains does Max have now?	"Max gets 1+2=3 trains per year.
+He repeats this for 5 years, meaning he gets 5*3 =15 trains.
+When this number is doubled by his parents, it becomes 15*2= 30 trains.
+Since he already had 15 model trains, his total becomes 15+30= 45 trains.
+ 45"	"Max gets 1 train for each of his 5 birthdays, so he has 1 x 5 = 5 trains from birthdays.
+Max gets 2 trains for each of the 5 Christmases, so he has 2 x 5 = 10 trains from Christmases.
+In total, Max has 5 + 10 = 15 trains before his parents give him more.
+After his parents give him double the number of trains he has, Max has 15 x 2 = 30 trains.
+ 30"	DeAndre is a 7th grade student. He struggle to put the numbers in the correct order in the equation or determine the correct operation to use.	The student was multiplying the number of trains but failed to add back in the original existing stock.	Yes	5.0	5.0
+51	4	Teacher	generic	Correct: Great job.	5000041	4	Max likes to collect model trains.  He asks for one for every birthday of his, and asks for two each Christmas.  Max always gets the gifts he asks for, and asks for these same gifts every year for 5 years.  At the end of the 5 years, his parents give him double the number of trains he already has.  How many trains does Max have now?	"Max gets 1+2=3 trains per year.
+He repeats this for 5 years, meaning he gets 5*3 =15 trains.
+When this number is doubled by his parents, it becomes 15*2= 30 trains.
+Since he already had 15 model trains, his total becomes 15+30= 45 trains.
+ 45"	"Max gets 1 train for each of his 5 birthdays, so he has 1 x 5 = 5 trains from birthdays.
+Max gets 2 trains for each of the 5 Christmases, so he has 2 x 5 = 10 trains from Christmases.
+In total, Max has 5 + 10 = 15 trains before his parents give him more.
+After his parents give him double the number of trains he has, Max has 15 x 2 = 30 trains.
+ 30"	DeAndre is a 7th grade student. He struggle to put the numbers in the correct order in the equation or determine the correct operation to use.	The student was multiplying the number of trains but failed to add back in the original existing stock.	Yes	5.0	5.0
+75	0	Teacher	probing	Hi, Jian, Youve got an error, but I think I can help you correct this pretty easily.	5000408	3	The area of a triangle with a given base and height is given by 1/2*base*height. What is the base length of a triangle with height 8 and area 24 square units?	"Let b be the base of the triangle
+(1/2)*b*8=24.
+4*b=24
+b=6
+ 6"	"The formula for the area of a triangle is A = 1/2*b*h, where A is the area, b is the base, and h is the height.
+We are given h = 8 and A = 24, and we need to find b.
+Using the formula, we can solve for b:
+A = 1/2*b*h
+24 = 1/2*b*8
+24 = 4b/2
+24 = 2b
+b = 12
+Therefore, the base length of the triangle is <<12>>12 units. 
+ 12"	Jian is a 7th grade student. He has problem with understanding of underlying ideas and principles and a recognition of when to apply them.	Student multiplied wrong.	Yes	5.0	5.0
+75	1	Teacher	probing	What is 12 times 10?	5000408	3	The area of a triangle with a given base and height is given by 1/2*base*height. What is the base length of a triangle with height 8 and area 24 square units?	"Let b be the base of the triangle
+(1/2)*b*8=24.
+4*b=24
+b=6
+ 6"	"The formula for the area of a triangle is A = 1/2*b*h, where A is the area, b is the base, and h is the height.
+We are given h = 8 and A = 24, and we need to find b.
+Using the formula, we can solve for b:
+A = 1/2*b*h
+24 = 1/2*b*8
+24 = 4b/2
+24 = 2b
+b = 12
+Therefore, the base length of the triangle is <<12>>12 units. 
+ 12"	Jian is a 7th grade student. He has problem with understanding of underlying ideas and principles and a recognition of when to apply them.	Student multiplied wrong.	Yes	5.0	5.0
+75	2	Student		Hi! 1/2 times 10 is 5.	5000408	3	The area of a triangle with a given base and height is given by 1/2*base*height. What is the base length of a triangle with height 8 and area 24 square units?	"Let b be the base of the triangle
+(1/2)*b*8=24.
+4*b=24
+b=6
+ 6"	"The formula for the area of a triangle is A = 1/2*b*h, where A is the area, b is the base, and h is the height.
+We are given h = 8 and A = 24, and we need to find b.
+Using the formula, we can solve for b:
+A = 1/2*b*h
+24 = 1/2*b*8
+24 = 4b/2
+24 = 2b
+b = 12
+Therefore, the base length of the triangle is <<12>>12 units. 
+ 12"	Jian is a 7th grade student. He has problem with understanding of underlying ideas and principles and a recognition of when to apply them.	Student multiplied wrong.	Yes	5.0	5.0
+75	3	Teacher	probing	Ok, now look at steps 2 and 3 in your problem and see if you can spot the mistake.	5000408	3	The area of a triangle with a given base and height is given by 1/2*base*height. What is the base length of a triangle with height 8 and area 24 square units?	"Let b be the base of the triangle
+(1/2)*b*8=24.
+4*b=24
+b=6
+ 6"	"The formula for the area of a triangle is A = 1/2*b*h, where A is the area, b is the base, and h is the height.
+We are given h = 8 and A = 24, and we need to find b.
+Using the formula, we can solve for b:
+A = 1/2*b*h
+24 = 1/2*b*8
+24 = 4b/2
+24 = 2b
+b = 12
+Therefore, the base length of the triangle is <<12>>12 units. 
+ 12"	Jian is a 7th grade student. He has problem with understanding of underlying ideas and principles and a recognition of when to apply them.	Student multiplied wrong.	Yes	5.0	5.0
+75	4	Student		Oh, I see! I made a mistake in step 3. It should be 24 = 4b, not 24 = 4b/2. So b = 6, not 12.	5000408	3	The area of a triangle with a given base and height is given by 1/2*base*height. What is the base length of a triangle with height 8 and area 24 square units?	"Let b be the base of the triangle
+(1/2)*b*8=24.
+4*b=24
+b=6
+ 6"	"The formula for the area of a triangle is A = 1/2*b*h, where A is the area, b is the base, and h is the height.
+We are given h = 8 and A = 24, and we need to find b.
+Using the formula, we can solve for b:
+A = 1/2*b*h
+24 = 1/2*b*8
+24 = 4b/2
+24 = 2b
+b = 12
+Therefore, the base length of the triangle is <<12>>12 units. 
+ 12"	Jian is a 7th grade student. He has problem with understanding of underlying ideas and principles and a recognition of when to apply them.	Student multiplied wrong.	Yes	5.0	5.0
+75	5	Teacher	generic	Nicely done, Jian.	5000408	3	The area of a triangle with a given base and height is given by 1/2*base*height. What is the base length of a triangle with height 8 and area 24 square units?	"Let b be the base of the triangle
+(1/2)*b*8=24.
+4*b=24
+b=6
+ 6"	"The formula for the area of a triangle is A = 1/2*b*h, where A is the area, b is the base, and h is the height.
+We are given h = 8 and A = 24, and we need to find b.
+Using the formula, we can solve for b:
+A = 1/2*b*h
+24 = 1/2*b*8
+24 = 4b/2
+24 = 2b
+b = 12
+Therefore, the base length of the triangle is <<12>>12 units. 
+ 12"	Jian is a 7th grade student. He has problem with understanding of underlying ideas and principles and a recognition of when to apply them.	Student multiplied wrong.	Yes	5.0	5.0
+137	0	Teacher	generic	Can you reread the question and double check your work please?	5000770	2	It takes 1 person working 10 hours to figure out the solution to a math problem.  If you add a second person who's equally good at math, how long will the two of them have to work to solve the same problem?	"Since you're doubling the number of people working on the task, that means you will be able to reduce the amount of time worked in half if they're of equal skill.
+Therefore, you take the original time of 10 hours and perform 10/2= 5 hours spent working on the problem.
+ 5"	"If one person takes 10 hours to solve the problem, then the work required is 1 x 10 = 10 person-hours.
+If two people work together, they can divide the work between them, so each person only needs to do half the work.
+So, each person needs to do 10/2 = 5 person-hours of work.
+Therefore, the two of them will have to work for 5 + 5 = 10 hours to solve the same problem.
+ 10"	Riya is a 7th grade student. She has problem with understanding of what steps or procedures are required to solve a problem.	The student was adding in a further step that was not needed after they had already worked out the answer	Yes	3.0	3.0
+137	1	Student		The question asks how long it would take two people to solve the same problem if one person takes 10 hours to solve it. I calculated that each person would need to do 10/2 = 5 person-hours of work, so the two of them would have to work for 5 + 5 = 10 hours to solve the same problem.	5000770	2	It takes 1 person working 10 hours to figure out the solution to a math problem.  If you add a second person who's equally good at math, how long will the two of them have to work to solve the same problem?	"Since you're doubling the number of people working on the task, that means you will be able to reduce the amount of time worked in half if they're of equal skill.
+Therefore, you take the original time of 10 hours and perform 10/2= 5 hours spent working on the problem.
+ 5"	"If one person takes 10 hours to solve the problem, then the work required is 1 x 10 = 10 person-hours.
+If two people work together, they can divide the work between them, so each person only needs to do half the work.
+So, each person needs to do 10/2 = 5 person-hours of work.
+Therefore, the two of them will have to work for 5 + 5 = 10 hours to solve the same problem.
+ 10"	Riya is a 7th grade student. She has problem with understanding of what steps or procedures are required to solve a problem.	The student was adding in a further step that was not needed after they had already worked out the answer	Yes	3.0	3.0
+137	2	Teacher	generic	okay, so just double check your workings out.	5000770	2	It takes 1 person working 10 hours to figure out the solution to a math problem.  If you add a second person who's equally good at math, how long will the two of them have to work to solve the same problem?	"Since you're doubling the number of people working on the task, that means you will be able to reduce the amount of time worked in half if they're of equal skill.
+Therefore, you take the original time of 10 hours and perform 10/2= 5 hours spent working on the problem.
+ 5"	"If one person takes 10 hours to solve the problem, then the work required is 1 x 10 = 10 person-hours.
+If two people work together, they can divide the work between them, so each person only needs to do half the work.
+So, each person needs to do 10/2 = 5 person-hours of work.
+Therefore, the two of them will have to work for 5 + 5 = 10 hours to solve the same problem.
+ 10"	Riya is a 7th grade student. She has problem with understanding of what steps or procedures are required to solve a problem.	The student was adding in a further step that was not needed after they had already worked out the answer	Yes	3.0	3.0
+137	3	Teacher	generic	can I ask why youi decided to divide the hours but then also added them together again at the end?	5000770	2	It takes 1 person working 10 hours to figure out the solution to a math problem.  If you add a second person who's equally good at math, how long will the two of them have to work to solve the same problem?	"Since you're doubling the number of people working on the task, that means you will be able to reduce the amount of time worked in half if they're of equal skill.
+Therefore, you take the original time of 10 hours and perform 10/2= 5 hours spent working on the problem.
+ 5"	"If one person takes 10 hours to solve the problem, then the work required is 1 x 10 = 10 person-hours.
+If two people work together, they can divide the work between them, so each person only needs to do half the work.
+So, each person needs to do 10/2 = 5 person-hours of work.
+Therefore, the two of them will have to work for 5 + 5 = 10 hours to solve the same problem.
+ 10"	Riya is a 7th grade student. She has problem with understanding of what steps or procedures are required to solve a problem.	The student was adding in a further step that was not needed after they had already worked out the answer	Yes	3.0	3.0
+137	4	Student		I divided the hours because each person would need to do half the work, so 10 hours of work would become 5 hours of work for each person. Then I added them together again because I needed to know the total amount of time that both people would need to work together to solve the problem, which would be 10 hours.	5000770	2	It takes 1 person working 10 hours to figure out the solution to a math problem.  If you add a second person who's equally good at math, how long will the two of them have to work to solve the same problem?	"Since you're doubling the number of people working on the task, that means you will be able to reduce the amount of time worked in half if they're of equal skill.
+Therefore, you take the original time of 10 hours and perform 10/2= 5 hours spent working on the problem.
+ 5"	"If one person takes 10 hours to solve the problem, then the work required is 1 x 10 = 10 person-hours.
+If two people work together, they can divide the work between them, so each person only needs to do half the work.
+So, each person needs to do 10/2 = 5 person-hours of work.
+Therefore, the two of them will have to work for 5 + 5 = 10 hours to solve the same problem.
+ 10"	Riya is a 7th grade student. She has problem with understanding of what steps or procedures are required to solve a problem.	The student was adding in a further step that was not needed after they had already worked out the answer	Yes	3.0	3.0
+137	5	Teacher	generic	but if you worked that, it would take both people only 5 hours each.	5000770	2	It takes 1 person working 10 hours to figure out the solution to a math problem.  If you add a second person who's equally good at math, how long will the two of them have to work to solve the same problem?	"Since you're doubling the number of people working on the task, that means you will be able to reduce the amount of time worked in half if they're of equal skill.
+Therefore, you take the original time of 10 hours and perform 10/2= 5 hours spent working on the problem.
+ 5"	"If one person takes 10 hours to solve the problem, then the work required is 1 x 10 = 10 person-hours.
+If two people work together, they can divide the work between them, so each person only needs to do half the work.
+So, each person needs to do 10/2 = 5 person-hours of work.
+Therefore, the two of them will have to work for 5 + 5 = 10 hours to solve the same problem.
+ 10"	Riya is a 7th grade student. She has problem with understanding of what steps or procedures are required to solve a problem.	The student was adding in a further step that was not needed after they had already worked out the answer	Yes	3.0	3.0
+137	6	Teacher	generic	would you really need to add the hours together?	5000770	2	It takes 1 person working 10 hours to figure out the solution to a math problem.  If you add a second person who's equally good at math, how long will the two of them have to work to solve the same problem?	"Since you're doubling the number of people working on the task, that means you will be able to reduce the amount of time worked in half if they're of equal skill.
+Therefore, you take the original time of 10 hours and perform 10/2= 5 hours spent working on the problem.
+ 5"	"If one person takes 10 hours to solve the problem, then the work required is 1 x 10 = 10 person-hours.
+If two people work together, they can divide the work between them, so each person only needs to do half the work.
+So, each person needs to do 10/2 = 5 person-hours of work.
+Therefore, the two of them will have to work for 5 + 5 = 10 hours to solve the same problem.
+ 10"	Riya is a 7th grade student. She has problem with understanding of what steps or procedures are required to solve a problem.	The student was adding in a further step that was not needed after they had already worked out the answer	Yes	3.0	3.0
+137	7	Student		Yes, because the total amount of time that both people would need to work together to solve the problem would still be 10 hours. Even though each person only needs to work 5 hours, the total amount of time that both people need to work together is still 10 hours.	5000770	2	It takes 1 person working 10 hours to figure out the solution to a math problem.  If you add a second person who's equally good at math, how long will the two of them have to work to solve the same problem?	"Since you're doubling the number of people working on the task, that means you will be able to reduce the amount of time worked in half if they're of equal skill.
+Therefore, you take the original time of 10 hours and perform 10/2= 5 hours spent working on the problem.
+ 5"	"If one person takes 10 hours to solve the problem, then the work required is 1 x 10 = 10 person-hours.
+If two people work together, they can divide the work between them, so each person only needs to do half the work.
+So, each person needs to do 10/2 = 5 person-hours of work.
+Therefore, the two of them will have to work for 5 + 5 = 10 hours to solve the same problem.
+ 10"	Riya is a 7th grade student. She has problem with understanding of what steps or procedures are required to solve a problem.	The student was adding in a further step that was not needed after they had already worked out the answer	Yes	3.0	3.0
+137	8	Teacher	telling	I understand what you are saying, but if both were to start working at 1pm- and it takes both peoople five hours each- would they be finished by 6pm, do youi think?	5000770	2	It takes 1 person working 10 hours to figure out the solution to a math problem.  If you add a second person who's equally good at math, how long will the two of them have to work to solve the same problem?	"Since you're doubling the number of people working on the task, that means you will be able to reduce the amount of time worked in half if they're of equal skill.
+Therefore, you take the original time of 10 hours and perform 10/2= 5 hours spent working on the problem.
+ 5"	"If one person takes 10 hours to solve the problem, then the work required is 1 x 10 = 10 person-hours.
+If two people work together, they can divide the work between them, so each person only needs to do half the work.
+So, each person needs to do 10/2 = 5 person-hours of work.
+Therefore, the two of them will have to work for 5 + 5 = 10 hours to solve the same problem.
+ 10"	Riya is a 7th grade student. She has problem with understanding of what steps or procedures are required to solve a problem.	The student was adding in a further step that was not needed after they had already worked out the answer	Yes	3.0	3.0
+137	9	Student		Yes, if both people start working at 1pm and it takes them both 5 hours to solve the problem, then they would be finished by 6pm.	5000770	2	It takes 1 person working 10 hours to figure out the solution to a math problem.  If you add a second person who's equally good at math, how long will the two of them have to work to solve the same problem?	"Since you're doubling the number of people working on the task, that means you will be able to reduce the amount of time worked in half if they're of equal skill.
+Therefore, you take the original time of 10 hours and perform 10/2= 5 hours spent working on the problem.
+ 5"	"If one person takes 10 hours to solve the problem, then the work required is 1 x 10 = 10 person-hours.
+If two people work together, they can divide the work between them, so each person only needs to do half the work.
+So, each person needs to do 10/2 = 5 person-hours of work.
+Therefore, the two of them will have to work for 5 + 5 = 10 hours to solve the same problem.
+ 10"	Riya is a 7th grade student. She has problem with understanding of what steps or procedures are required to solve a problem.	The student was adding in a further step that was not needed after they had already worked out the answer	Yes	3.0	3.0
+137	10	Teacher	generic	Ok, so if we look at it that way, then it is simply just five hours in total for both.	5000770	2	It takes 1 person working 10 hours to figure out the solution to a math problem.  If you add a second person who's equally good at math, how long will the two of them have to work to solve the same problem?	"Since you're doubling the number of people working on the task, that means you will be able to reduce the amount of time worked in half if they're of equal skill.
+Therefore, you take the original time of 10 hours and perform 10/2= 5 hours spent working on the problem.
+ 5"	"If one person takes 10 hours to solve the problem, then the work required is 1 x 10 = 10 person-hours.
+If two people work together, they can divide the work between them, so each person only needs to do half the work.
+So, each person needs to do 10/2 = 5 person-hours of work.
+Therefore, the two of them will have to work for 5 + 5 = 10 hours to solve the same problem.
+ 10"	Riya is a 7th grade student. She has problem with understanding of what steps or procedures are required to solve a problem.	The student was adding in a further step that was not needed after they had already worked out the answer	Yes	3.0	3.0
+137	11	Student		Yes, it is just five hours in total for both. Even though each person only needs to work five hours, the total amount of time that both people need to work together is still five hours.	5000770	2	It takes 1 person working 10 hours to figure out the solution to a math problem.  If you add a second person who's equally good at math, how long will the two of them have to work to solve the same problem?	"Since you're doubling the number of people working on the task, that means you will be able to reduce the amount of time worked in half if they're of equal skill.
+Therefore, you take the original time of 10 hours and perform 10/2= 5 hours spent working on the problem.
+ 5"	"If one person takes 10 hours to solve the problem, then the work required is 1 x 10 = 10 person-hours.
+If two people work together, they can divide the work between them, so each person only needs to do half the work.
+So, each person needs to do 10/2 = 5 person-hours of work.
+Therefore, the two of them will have to work for 5 + 5 = 10 hours to solve the same problem.
+ 10"	Riya is a 7th grade student. She has problem with understanding of what steps or procedures are required to solve a problem.	The student was adding in a further step that was not needed after they had already worked out the answer	Yes	3.0	3.0
+137	12	Teacher	generic	so do you think the total time needed for both to finish the problem would be 5 hours?	5000770	2	It takes 1 person working 10 hours to figure out the solution to a math problem.  If you add a second person who's equally good at math, how long will the two of them have to work to solve the same problem?	"Since you're doubling the number of people working on the task, that means you will be able to reduce the amount of time worked in half if they're of equal skill.
+Therefore, you take the original time of 10 hours and perform 10/2= 5 hours spent working on the problem.
+ 5"	"If one person takes 10 hours to solve the problem, then the work required is 1 x 10 = 10 person-hours.
+If two people work together, they can divide the work between them, so each person only needs to do half the work.
+So, each person needs to do 10/2 = 5 person-hours of work.
+Therefore, the two of them will have to work for 5 + 5 = 10 hours to solve the same problem.
+ 10"	Riya is a 7th grade student. She has problem with understanding of what steps or procedures are required to solve a problem.	The student was adding in a further step that was not needed after they had already worked out the answer	Yes	3.0	3.0
+137	13	Teacher	generic	so do you think the total time needed for both to finish the problem would be 5 hours?	5000770	2	It takes 1 person working 10 hours to figure out the solution to a math problem.  If you add a second person who's equally good at math, how long will the two of them have to work to solve the same problem?	"Since you're doubling the number of people working on the task, that means you will be able to reduce the amount of time worked in half if they're of equal skill.
+Therefore, you take the original time of 10 hours and perform 10/2= 5 hours spent working on the problem.
+ 5"	"If one person takes 10 hours to solve the problem, then the work required is 1 x 10 = 10 person-hours.
+If two people work together, they can divide the work between them, so each person only needs to do half the work.
+So, each person needs to do 10/2 = 5 person-hours of work.
+Therefore, the two of them will have to work for 5 + 5 = 10 hours to solve the same problem.
+ 10"	Riya is a 7th grade student. She has problem with understanding of what steps or procedures are required to solve a problem.	The student was adding in a further step that was not needed after they had already worked out the answer	Yes	3.0	3.0
+137	14	Student		Yes, I think the total time needed for both to finish the problem would be 5 hours. Even though each person only needs to work five hours, the total amount of time that both people need to work together is still five hours.	5000770	2	It takes 1 person working 10 hours to figure out the solution to a math problem.  If you add a second person who's equally good at math, how long will the two of them have to work to solve the same problem?	"Since you're doubling the number of people working on the task, that means you will be able to reduce the amount of time worked in half if they're of equal skill.
+Therefore, you take the original time of 10 hours and perform 10/2= 5 hours spent working on the problem.
+ 5"	"If one person takes 10 hours to solve the problem, then the work required is 1 x 10 = 10 person-hours.
+If two people work together, they can divide the work between them, so each person only needs to do half the work.
+So, each person needs to do 10/2 = 5 person-hours of work.
+Therefore, the two of them will have to work for 5 + 5 = 10 hours to solve the same problem.
+ 10"	Riya is a 7th grade student. She has problem with understanding of what steps or procedures are required to solve a problem.	The student was adding in a further step that was not needed after they had already worked out the answer	Yes	3.0	3.0
+171	0	Teacher	focus	Have you remembered to add on the delivery charge to the cost of your pizzas before giving your final answer?	5000843	5	Jimmy is a pizza delivery man. Each pizza costs 12 dollars and the delivery charge is 2 extra dollars if the area is farther than 1 km from the pizzeria. Jimmy delivers 3 pizzas in the park, which is located 100 meters away from the pizzeria. Also, he delivers 2 pizzas in a building 2 km away from the pizzeria. How much money did Jimmy get paid for the pizzas?	"Adding the pizzas delivered in the park and in the building, Jimmy delivered a total of 2 + 3 = 5 pizzas
+The value of the 5 pizzas without delivery charge is 5 pizzas * $12/pizza = $60.
+The cost of the delivery charge for two pizzas is 2 pizzas * $2/pizza = $4
+In total, Jimmy got paid $60 + $4 = $64 for the pizzas.
+ 64"	"For the 3 pizzas delivered in the park, Jimmy only needs to charge 36 dollars (3 x 12). The distance is less than 1 km, so he doesn't need to add any delivery charges.
+
+For the 2 pizzas delivered in the building, Jimmy needs to charge 24 dollars (2 x 12). The distance is farther than 1 km, so he needs to add 2 dollars for each pizza, which is a total of 4 dollars.
+
+So the total amount of money Jimmy earned for the pizzas is 36 + 24 = 60 dollars.
+ 60"	Stephanie is a 7th grade student. She struggle most with understanding what the problem is asking them to do.	Rushing answers	No	1.0	1.0
+171	1	Student		Yes, I remembered to add the delivery charge. I added 2 dollars for each pizza that was delivered farther than 1 km, which was a total of 4 dollars. So the total amount of money Jimmy earned for the pizzas is 36 + 24 + 4 = 60 dollars.	5000843	5	Jimmy is a pizza delivery man. Each pizza costs 12 dollars and the delivery charge is 2 extra dollars if the area is farther than 1 km from the pizzeria. Jimmy delivers 3 pizzas in the park, which is located 100 meters away from the pizzeria. Also, he delivers 2 pizzas in a building 2 km away from the pizzeria. How much money did Jimmy get paid for the pizzas?	"Adding the pizzas delivered in the park and in the building, Jimmy delivered a total of 2 + 3 = 5 pizzas
+The value of the 5 pizzas without delivery charge is 5 pizzas * $12/pizza = $60.
+The cost of the delivery charge for two pizzas is 2 pizzas * $2/pizza = $4
+In total, Jimmy got paid $60 + $4 = $64 for the pizzas.
+ 64"	"For the 3 pizzas delivered in the park, Jimmy only needs to charge 36 dollars (3 x 12). The distance is less than 1 km, so he doesn't need to add any delivery charges.
+
+For the 2 pizzas delivered in the building, Jimmy needs to charge 24 dollars (2 x 12). The distance is farther than 1 km, so he needs to add 2 dollars for each pizza, which is a total of 4 dollars.
+
+So the total amount of money Jimmy earned for the pizzas is 36 + 24 = 60 dollars.
+ 60"	Stephanie is a 7th grade student. She struggle most with understanding what the problem is asking them to do.	Rushing answers	No	1.0	1.0
+171	2	Teacher	focus	Would you like to try adding those three figures together again?	5000843	5	Jimmy is a pizza delivery man. Each pizza costs 12 dollars and the delivery charge is 2 extra dollars if the area is farther than 1 km from the pizzeria. Jimmy delivers 3 pizzas in the park, which is located 100 meters away from the pizzeria. Also, he delivers 2 pizzas in a building 2 km away from the pizzeria. How much money did Jimmy get paid for the pizzas?	"Adding the pizzas delivered in the park and in the building, Jimmy delivered a total of 2 + 3 = 5 pizzas
+The value of the 5 pizzas without delivery charge is 5 pizzas * $12/pizza = $60.
+The cost of the delivery charge for two pizzas is 2 pizzas * $2/pizza = $4
+In total, Jimmy got paid $60 + $4 = $64 for the pizzas.
+ 64"	"For the 3 pizzas delivered in the park, Jimmy only needs to charge 36 dollars (3 x 12). The distance is less than 1 km, so he doesn't need to add any delivery charges.
+
+For the 2 pizzas delivered in the building, Jimmy needs to charge 24 dollars (2 x 12). The distance is farther than 1 km, so he needs to add 2 dollars for each pizza, which is a total of 4 dollars.
+
+So the total amount of money Jimmy earned for the pizzas is 36 + 24 = 60 dollars.
+ 60"	Stephanie is a 7th grade student. She struggle most with understanding what the problem is asking them to do.	Rushing answers	No	1.0	1.0
+171	3	Student		Yes, I would like to try adding the figures together again. So the total amount of money Jimmy earned for the pizzas is 12 + 12 + 12 + 2 + 2 = 60 dollars.	5000843	5	Jimmy is a pizza delivery man. Each pizza costs 12 dollars and the delivery charge is 2 extra dollars if the area is farther than 1 km from the pizzeria. Jimmy delivers 3 pizzas in the park, which is located 100 meters away from the pizzeria. Also, he delivers 2 pizzas in a building 2 km away from the pizzeria. How much money did Jimmy get paid for the pizzas?	"Adding the pizzas delivered in the park and in the building, Jimmy delivered a total of 2 + 3 = 5 pizzas
+The value of the 5 pizzas without delivery charge is 5 pizzas * $12/pizza = $60.
+The cost of the delivery charge for two pizzas is 2 pizzas * $2/pizza = $4
+In total, Jimmy got paid $60 + $4 = $64 for the pizzas.
+ 64"	"For the 3 pizzas delivered in the park, Jimmy only needs to charge 36 dollars (3 x 12). The distance is less than 1 km, so he doesn't need to add any delivery charges.
+
+For the 2 pizzas delivered in the building, Jimmy needs to charge 24 dollars (2 x 12). The distance is farther than 1 km, so he needs to add 2 dollars for each pizza, which is a total of 4 dollars.
+
+So the total amount of money Jimmy earned for the pizzas is 36 + 24 = 60 dollars.
+ 60"	Stephanie is a 7th grade student. She struggle most with understanding what the problem is asking them to do.	Rushing answers	No	1.0	1.0
+171	4	Teacher	focus	Try adding the delivery charge to your first figure of 36.	5000843	5	Jimmy is a pizza delivery man. Each pizza costs 12 dollars and the delivery charge is 2 extra dollars if the area is farther than 1 km from the pizzeria. Jimmy delivers 3 pizzas in the park, which is located 100 meters away from the pizzeria. Also, he delivers 2 pizzas in a building 2 km away from the pizzeria. How much money did Jimmy get paid for the pizzas?	"Adding the pizzas delivered in the park and in the building, Jimmy delivered a total of 2 + 3 = 5 pizzas
+The value of the 5 pizzas without delivery charge is 5 pizzas * $12/pizza = $60.
+The cost of the delivery charge for two pizzas is 2 pizzas * $2/pizza = $4
+In total, Jimmy got paid $60 + $4 = $64 for the pizzas.
+ 64"	"For the 3 pizzas delivered in the park, Jimmy only needs to charge 36 dollars (3 x 12). The distance is less than 1 km, so he doesn't need to add any delivery charges.
+
+For the 2 pizzas delivered in the building, Jimmy needs to charge 24 dollars (2 x 12). The distance is farther than 1 km, so he needs to add 2 dollars for each pizza, which is a total of 4 dollars.
+
+So the total amount of money Jimmy earned for the pizzas is 36 + 24 = 60 dollars.
+ 60"	Stephanie is a 7th grade student. She struggle most with understanding what the problem is asking them to do.	Rushing answers	No	1.0	1.0
+171	5	Student		Yes, I will try adding the delivery charge to my first figure of 36. So the total amount of money Jimmy earned for the pizzas is 36 + 2 = 38 + 12 + 12 + 2 = 60 dollars.	5000843	5	Jimmy is a pizza delivery man. Each pizza costs 12 dollars and the delivery charge is 2 extra dollars if the area is farther than 1 km from the pizzeria. Jimmy delivers 3 pizzas in the park, which is located 100 meters away from the pizzeria. Also, he delivers 2 pizzas in a building 2 km away from the pizzeria. How much money did Jimmy get paid for the pizzas?	"Adding the pizzas delivered in the park and in the building, Jimmy delivered a total of 2 + 3 = 5 pizzas
+The value of the 5 pizzas without delivery charge is 5 pizzas * $12/pizza = $60.
+The cost of the delivery charge for two pizzas is 2 pizzas * $2/pizza = $4
+In total, Jimmy got paid $60 + $4 = $64 for the pizzas.
+ 64"	"For the 3 pizzas delivered in the park, Jimmy only needs to charge 36 dollars (3 x 12). The distance is less than 1 km, so he doesn't need to add any delivery charges.
+
+For the 2 pizzas delivered in the building, Jimmy needs to charge 24 dollars (2 x 12). The distance is farther than 1 km, so he needs to add 2 dollars for each pizza, which is a total of 4 dollars.
+
+So the total amount of money Jimmy earned for the pizzas is 36 + 24 = 60 dollars.
+ 60"	Stephanie is a 7th grade student. She struggle most with understanding what the problem is asking them to do.	Rushing answers	No	1.0	1.0
+171	6	Teacher	focus	Then to that figure add your second 24.	5000843	5	Jimmy is a pizza delivery man. Each pizza costs 12 dollars and the delivery charge is 2 extra dollars if the area is farther than 1 km from the pizzeria. Jimmy delivers 3 pizzas in the park, which is located 100 meters away from the pizzeria. Also, he delivers 2 pizzas in a building 2 km away from the pizzeria. How much money did Jimmy get paid for the pizzas?	"Adding the pizzas delivered in the park and in the building, Jimmy delivered a total of 2 + 3 = 5 pizzas
+The value of the 5 pizzas without delivery charge is 5 pizzas * $12/pizza = $60.
+The cost of the delivery charge for two pizzas is 2 pizzas * $2/pizza = $4
+In total, Jimmy got paid $60 + $4 = $64 for the pizzas.
+ 64"	"For the 3 pizzas delivered in the park, Jimmy only needs to charge 36 dollars (3 x 12). The distance is less than 1 km, so he doesn't need to add any delivery charges.
+
+For the 2 pizzas delivered in the building, Jimmy needs to charge 24 dollars (2 x 12). The distance is farther than 1 km, so he needs to add 2 dollars for each pizza, which is a total of 4 dollars.
+
+So the total amount of money Jimmy earned for the pizzas is 36 + 24 = 60 dollars.
+ 60"	Stephanie is a 7th grade student. She struggle most with understanding what the problem is asking them to do.	Rushing answers	No	1.0	1.0
+171	7	Student		Yes, I will add my second figure of 24. So the total amount of money Jimmy earned for the pizzas is 38 + 24 = 62 dollars.	5000843	5	Jimmy is a pizza delivery man. Each pizza costs 12 dollars and the delivery charge is 2 extra dollars if the area is farther than 1 km from the pizzeria. Jimmy delivers 3 pizzas in the park, which is located 100 meters away from the pizzeria. Also, he delivers 2 pizzas in a building 2 km away from the pizzeria. How much money did Jimmy get paid for the pizzas?	"Adding the pizzas delivered in the park and in the building, Jimmy delivered a total of 2 + 3 = 5 pizzas
+The value of the 5 pizzas without delivery charge is 5 pizzas * $12/pizza = $60.
+The cost of the delivery charge for two pizzas is 2 pizzas * $2/pizza = $4
+In total, Jimmy got paid $60 + $4 = $64 for the pizzas.
+ 64"	"For the 3 pizzas delivered in the park, Jimmy only needs to charge 36 dollars (3 x 12). The distance is less than 1 km, so he doesn't need to add any delivery charges.
+
+For the 2 pizzas delivered in the building, Jimmy needs to charge 24 dollars (2 x 12). The distance is farther than 1 km, so he needs to add 2 dollars for each pizza, which is a total of 4 dollars.
+
+So the total amount of money Jimmy earned for the pizzas is 36 + 24 = 60 dollars.
+ 60"	Stephanie is a 7th grade student. She struggle most with understanding what the problem is asking them to do.	Rushing answers	No	1.0	1.0
+171	8	Teacher	focus	So 24 added to your 40 gives.	5000843	5	Jimmy is a pizza delivery man. Each pizza costs 12 dollars and the delivery charge is 2 extra dollars if the area is farther than 1 km from the pizzeria. Jimmy delivers 3 pizzas in the park, which is located 100 meters away from the pizzeria. Also, he delivers 2 pizzas in a building 2 km away from the pizzeria. How much money did Jimmy get paid for the pizzas?	"Adding the pizzas delivered in the park and in the building, Jimmy delivered a total of 2 + 3 = 5 pizzas
+The value of the 5 pizzas without delivery charge is 5 pizzas * $12/pizza = $60.
+The cost of the delivery charge for two pizzas is 2 pizzas * $2/pizza = $4
+In total, Jimmy got paid $60 + $4 = $64 for the pizzas.
+ 64"	"For the 3 pizzas delivered in the park, Jimmy only needs to charge 36 dollars (3 x 12). The distance is less than 1 km, so he doesn't need to add any delivery charges.
+
+For the 2 pizzas delivered in the building, Jimmy needs to charge 24 dollars (2 x 12). The distance is farther than 1 km, so he needs to add 2 dollars for each pizza, which is a total of 4 dollars.
+
+So the total amount of money Jimmy earned for the pizzas is 36 + 24 = 60 dollars.
+ 60"	Stephanie is a 7th grade student. She struggle most with understanding what the problem is asking them to do.	Rushing answers	No	1.0	1.0
+171	9	Student		Yes, 24 added to my 38 gives 62. So the total amount of money Jimmy earned for the pizzas is 62 dollars.	5000843	5	Jimmy is a pizza delivery man. Each pizza costs 12 dollars and the delivery charge is 2 extra dollars if the area is farther than 1 km from the pizzeria. Jimmy delivers 3 pizzas in the park, which is located 100 meters away from the pizzeria. Also, he delivers 2 pizzas in a building 2 km away from the pizzeria. How much money did Jimmy get paid for the pizzas?	"Adding the pizzas delivered in the park and in the building, Jimmy delivered a total of 2 + 3 = 5 pizzas
+The value of the 5 pizzas without delivery charge is 5 pizzas * $12/pizza = $60.
+The cost of the delivery charge for two pizzas is 2 pizzas * $2/pizza = $4
+In total, Jimmy got paid $60 + $4 = $64 for the pizzas.
+ 64"	"For the 3 pizzas delivered in the park, Jimmy only needs to charge 36 dollars (3 x 12). The distance is less than 1 km, so he doesn't need to add any delivery charges.
+
+For the 2 pizzas delivered in the building, Jimmy needs to charge 24 dollars (2 x 12). The distance is farther than 1 km, so he needs to add 2 dollars for each pizza, which is a total of 4 dollars.
+
+So the total amount of money Jimmy earned for the pizzas is 36 + 24 = 60 dollars.
+ 60"	Stephanie is a 7th grade student. She struggle most with understanding what the problem is asking them to do.	Rushing answers	No	1.0	1.0
+171	10	Teacher	focus	24 plus 40, are you sure that is 62.	5000843	5	Jimmy is a pizza delivery man. Each pizza costs 12 dollars and the delivery charge is 2 extra dollars if the area is farther than 1 km from the pizzeria. Jimmy delivers 3 pizzas in the park, which is located 100 meters away from the pizzeria. Also, he delivers 2 pizzas in a building 2 km away from the pizzeria. How much money did Jimmy get paid for the pizzas?	"Adding the pizzas delivered in the park and in the building, Jimmy delivered a total of 2 + 3 = 5 pizzas
+The value of the 5 pizzas without delivery charge is 5 pizzas * $12/pizza = $60.
+The cost of the delivery charge for two pizzas is 2 pizzas * $2/pizza = $4
+In total, Jimmy got paid $60 + $4 = $64 for the pizzas.
+ 64"	"For the 3 pizzas delivered in the park, Jimmy only needs to charge 36 dollars (3 x 12). The distance is less than 1 km, so he doesn't need to add any delivery charges.
+
+For the 2 pizzas delivered in the building, Jimmy needs to charge 24 dollars (2 x 12). The distance is farther than 1 km, so he needs to add 2 dollars for each pizza, which is a total of 4 dollars.
+
+So the total amount of money Jimmy earned for the pizzas is 36 + 24 = 60 dollars.
+ 60"	Stephanie is a 7th grade student. She struggle most with understanding what the problem is asking them to do.	Rushing answers	No	1.0	1.0
+171	11	Student		Yes, I am sure that 24 plus 38 is 62. So the total amount of money Jimmy earned for the pizzas is 62 dollars.	5000843	5	Jimmy is a pizza delivery man. Each pizza costs 12 dollars and the delivery charge is 2 extra dollars if the area is farther than 1 km from the pizzeria. Jimmy delivers 3 pizzas in the park, which is located 100 meters away from the pizzeria. Also, he delivers 2 pizzas in a building 2 km away from the pizzeria. How much money did Jimmy get paid for the pizzas?	"Adding the pizzas delivered in the park and in the building, Jimmy delivered a total of 2 + 3 = 5 pizzas
+The value of the 5 pizzas without delivery charge is 5 pizzas * $12/pizza = $60.
+The cost of the delivery charge for two pizzas is 2 pizzas * $2/pizza = $4
+In total, Jimmy got paid $60 + $4 = $64 for the pizzas.
+ 64"	"For the 3 pizzas delivered in the park, Jimmy only needs to charge 36 dollars (3 x 12). The distance is less than 1 km, so he doesn't need to add any delivery charges.
+
+For the 2 pizzas delivered in the building, Jimmy needs to charge 24 dollars (2 x 12). The distance is farther than 1 km, so he needs to add 2 dollars for each pizza, which is a total of 4 dollars.
+
+So the total amount of money Jimmy earned for the pizzas is 36 + 24 = 60 dollars.
+ 60"	Stephanie is a 7th grade student. She struggle most with understanding what the problem is asking them to do.	Rushing answers	No	1.0	1.0
+174	0	Teacher	focus	Hey, Alejandra, how did you find this question?	5001095	4	Darius has 5 buckets of water. One contains 11 ounces, one contains 13 ounces, one contains 12 ounces, one contains 16 ounces, and one contains 10 ounces. He pours the ten-ounce bucket into a bigger bucket, along with one of the other four. The total in the bigger bucket is now 23 ounces. He pours the remaining three buckets into a second large bucket. How many ounces does the second large bucket contain?	"Darius poured the 13-ounce bucket into the first large bucket because 23 - 10 = 13
+The remaining buckets are thus the 11, 12, and 16 ounce buckets.
+The second large bucket contains 39 ounces because 11 + 12 + 16 = 39
+ 39"	"Let's call the bucket that was poured into the bigger bucket ""Bucket A"". 
+We know that the total in the bigger bucket is 23 ounces, and that one of the buckets poured in is 10 ounces (the ten-ounce bucket). 
+So, the other bucket poured in (Bucket A) must be 23 - 10 = 13 ounces. 
+Now, the total amount of water in the second large bucket is 11 + 12 + 13 + 16 = 52 ounces. 
+ 52"	Alejandra is a 7th grade student. She struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	Simple mistake from using the 13 twice and adding the amount from large bucket into second bucket also	Yes	5.0	5.0
+174	1	Student		I tried to figure out the total amount of water in the second large bucket by subtracting the 10-ounce bucket from the 23-ounce bucket and then adding the remaining buckets.	5001095	4	Darius has 5 buckets of water. One contains 11 ounces, one contains 13 ounces, one contains 12 ounces, one contains 16 ounces, and one contains 10 ounces. He pours the ten-ounce bucket into a bigger bucket, along with one of the other four. The total in the bigger bucket is now 23 ounces. He pours the remaining three buckets into a second large bucket. How many ounces does the second large bucket contain?	"Darius poured the 13-ounce bucket into the first large bucket because 23 - 10 = 13
+The remaining buckets are thus the 11, 12, and 16 ounce buckets.
+The second large bucket contains 39 ounces because 11 + 12 + 16 = 39
+ 39"	"Let's call the bucket that was poured into the bigger bucket ""Bucket A"". 
+We know that the total in the bigger bucket is 23 ounces, and that one of the buckets poured in is 10 ounces (the ten-ounce bucket). 
+So, the other bucket poured in (Bucket A) must be 23 - 10 = 13 ounces. 
+Now, the total amount of water in the second large bucket is 11 + 12 + 13 + 16 = 52 ounces. 
+ 52"	Alejandra is a 7th grade student. She struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	Simple mistake from using the 13 twice and adding the amount from large bucket into second bucket also	Yes	5.0	5.0
+174	2	Teacher	focus	Lets remind ourselves how many buckets Darius starts with and how many large buckets he finishs with.	5001095	4	Darius has 5 buckets of water. One contains 11 ounces, one contains 13 ounces, one contains 12 ounces, one contains 16 ounces, and one contains 10 ounces. He pours the ten-ounce bucket into a bigger bucket, along with one of the other four. The total in the bigger bucket is now 23 ounces. He pours the remaining three buckets into a second large bucket. How many ounces does the second large bucket contain?	"Darius poured the 13-ounce bucket into the first large bucket because 23 - 10 = 13
+The remaining buckets are thus the 11, 12, and 16 ounce buckets.
+The second large bucket contains 39 ounces because 11 + 12 + 16 = 39
+ 39"	"Let's call the bucket that was poured into the bigger bucket ""Bucket A"". 
+We know that the total in the bigger bucket is 23 ounces, and that one of the buckets poured in is 10 ounces (the ten-ounce bucket). 
+So, the other bucket poured in (Bucket A) must be 23 - 10 = 13 ounces. 
+Now, the total amount of water in the second large bucket is 11 + 12 + 13 + 16 = 52 ounces. 
+ 52"	Alejandra is a 7th grade student. She struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	Simple mistake from using the 13 twice and adding the amount from large bucket into second bucket also	Yes	5.0	5.0
+174	3	Student		Darius starts with 5 buckets and finishes with two large buckets.	5001095	4	Darius has 5 buckets of water. One contains 11 ounces, one contains 13 ounces, one contains 12 ounces, one contains 16 ounces, and one contains 10 ounces. He pours the ten-ounce bucket into a bigger bucket, along with one of the other four. The total in the bigger bucket is now 23 ounces. He pours the remaining three buckets into a second large bucket. How many ounces does the second large bucket contain?	"Darius poured the 13-ounce bucket into the first large bucket because 23 - 10 = 13
+The remaining buckets are thus the 11, 12, and 16 ounce buckets.
+The second large bucket contains 39 ounces because 11 + 12 + 16 = 39
+ 39"	"Let's call the bucket that was poured into the bigger bucket ""Bucket A"". 
+We know that the total in the bigger bucket is 23 ounces, and that one of the buckets poured in is 10 ounces (the ten-ounce bucket). 
+So, the other bucket poured in (Bucket A) must be 23 - 10 = 13 ounces. 
+Now, the total amount of water in the second large bucket is 11 + 12 + 13 + 16 = 52 ounces. 
+ 52"	Alejandra is a 7th grade student. She struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	Simple mistake from using the 13 twice and adding the amount from large bucket into second bucket also	Yes	5.0	5.0
+174	4	Teacher	focus	I can see from your solution you have already correctly worked out how much is in the first large bucket.	5001095	4	Darius has 5 buckets of water. One contains 11 ounces, one contains 13 ounces, one contains 12 ounces, one contains 16 ounces, and one contains 10 ounces. He pours the ten-ounce bucket into a bigger bucket, along with one of the other four. The total in the bigger bucket is now 23 ounces. He pours the remaining three buckets into a second large bucket. How many ounces does the second large bucket contain?	"Darius poured the 13-ounce bucket into the first large bucket because 23 - 10 = 13
+The remaining buckets are thus the 11, 12, and 16 ounce buckets.
+The second large bucket contains 39 ounces because 11 + 12 + 16 = 39
+ 39"	"Let's call the bucket that was poured into the bigger bucket ""Bucket A"". 
+We know that the total in the bigger bucket is 23 ounces, and that one of the buckets poured in is 10 ounces (the ten-ounce bucket). 
+So, the other bucket poured in (Bucket A) must be 23 - 10 = 13 ounces. 
+Now, the total amount of water in the second large bucket is 11 + 12 + 13 + 16 = 52 ounces. 
+ 52"	Alejandra is a 7th grade student. She struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	Simple mistake from using the 13 twice and adding the amount from large bucket into second bucket also	Yes	5.0	5.0
+174	5	Student		Yes, I subtracted the 10-ounce bucket from the 23-ounce bucket to get the amount in the first large bucket.	5001095	4	Darius has 5 buckets of water. One contains 11 ounces, one contains 13 ounces, one contains 12 ounces, one contains 16 ounces, and one contains 10 ounces. He pours the ten-ounce bucket into a bigger bucket, along with one of the other four. The total in the bigger bucket is now 23 ounces. He pours the remaining three buckets into a second large bucket. How many ounces does the second large bucket contain?	"Darius poured the 13-ounce bucket into the first large bucket because 23 - 10 = 13
+The remaining buckets are thus the 11, 12, and 16 ounce buckets.
+The second large bucket contains 39 ounces because 11 + 12 + 16 = 39
+ 39"	"Let's call the bucket that was poured into the bigger bucket ""Bucket A"". 
+We know that the total in the bigger bucket is 23 ounces, and that one of the buckets poured in is 10 ounces (the ten-ounce bucket). 
+So, the other bucket poured in (Bucket A) must be 23 - 10 = 13 ounces. 
+Now, the total amount of water in the second large bucket is 11 + 12 + 13 + 16 = 52 ounces. 
+ 52"	Alejandra is a 7th grade student. She struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	Simple mistake from using the 13 twice and adding the amount from large bucket into second bucket also	Yes	5.0	5.0
+174	6	Teacher	focus	and how much was that?	5001095	4	Darius has 5 buckets of water. One contains 11 ounces, one contains 13 ounces, one contains 12 ounces, one contains 16 ounces, and one contains 10 ounces. He pours the ten-ounce bucket into a bigger bucket, along with one of the other four. The total in the bigger bucket is now 23 ounces. He pours the remaining three buckets into a second large bucket. How many ounces does the second large bucket contain?	"Darius poured the 13-ounce bucket into the first large bucket because 23 - 10 = 13
+The remaining buckets are thus the 11, 12, and 16 ounce buckets.
+The second large bucket contains 39 ounces because 11 + 12 + 16 = 39
+ 39"	"Let's call the bucket that was poured into the bigger bucket ""Bucket A"". 
+We know that the total in the bigger bucket is 23 ounces, and that one of the buckets poured in is 10 ounces (the ten-ounce bucket). 
+So, the other bucket poured in (Bucket A) must be 23 - 10 = 13 ounces. 
+Now, the total amount of water in the second large bucket is 11 + 12 + 13 + 16 = 52 ounces. 
+ 52"	Alejandra is a 7th grade student. She struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	Simple mistake from using the 13 twice and adding the amount from large bucket into second bucket also	Yes	5.0	5.0
+174	7	Student		The first large bucket contains 13 ounces.	5001095	4	Darius has 5 buckets of water. One contains 11 ounces, one contains 13 ounces, one contains 12 ounces, one contains 16 ounces, and one contains 10 ounces. He pours the ten-ounce bucket into a bigger bucket, along with one of the other four. The total in the bigger bucket is now 23 ounces. He pours the remaining three buckets into a second large bucket. How many ounces does the second large bucket contain?	"Darius poured the 13-ounce bucket into the first large bucket because 23 - 10 = 13
+The remaining buckets are thus the 11, 12, and 16 ounce buckets.
+The second large bucket contains 39 ounces because 11 + 12 + 16 = 39
+ 39"	"Let's call the bucket that was poured into the bigger bucket ""Bucket A"". 
+We know that the total in the bigger bucket is 23 ounces, and that one of the buckets poured in is 10 ounces (the ten-ounce bucket). 
+So, the other bucket poured in (Bucket A) must be 23 - 10 = 13 ounces. 
+Now, the total amount of water in the second large bucket is 11 + 12 + 13 + 16 = 52 ounces. 
+ 52"	Alejandra is a 7th grade student. She struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	Simple mistake from using the 13 twice and adding the amount from large bucket into second bucket also	Yes	5.0	5.0
+174	8	Teacher	focus	Great.	5001095	4	Darius has 5 buckets of water. One contains 11 ounces, one contains 13 ounces, one contains 12 ounces, one contains 16 ounces, and one contains 10 ounces. He pours the ten-ounce bucket into a bigger bucket, along with one of the other four. The total in the bigger bucket is now 23 ounces. He pours the remaining three buckets into a second large bucket. How many ounces does the second large bucket contain?	"Darius poured the 13-ounce bucket into the first large bucket because 23 - 10 = 13
+The remaining buckets are thus the 11, 12, and 16 ounce buckets.
+The second large bucket contains 39 ounces because 11 + 12 + 16 = 39
+ 39"	"Let's call the bucket that was poured into the bigger bucket ""Bucket A"". 
+We know that the total in the bigger bucket is 23 ounces, and that one of the buckets poured in is 10 ounces (the ten-ounce bucket). 
+So, the other bucket poured in (Bucket A) must be 23 - 10 = 13 ounces. 
+Now, the total amount of water in the second large bucket is 11 + 12 + 13 + 16 = 52 ounces. 
+ 52"	Alejandra is a 7th grade student. She struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	Simple mistake from using the 13 twice and adding the amount from large bucket into second bucket also	Yes	5.0	5.0
+174	9	Teacher	focus	so which buckets do we have left of the original buckets to fill our second bucket?	5001095	4	Darius has 5 buckets of water. One contains 11 ounces, one contains 13 ounces, one contains 12 ounces, one contains 16 ounces, and one contains 10 ounces. He pours the ten-ounce bucket into a bigger bucket, along with one of the other four. The total in the bigger bucket is now 23 ounces. He pours the remaining three buckets into a second large bucket. How many ounces does the second large bucket contain?	"Darius poured the 13-ounce bucket into the first large bucket because 23 - 10 = 13
+The remaining buckets are thus the 11, 12, and 16 ounce buckets.
+The second large bucket contains 39 ounces because 11 + 12 + 16 = 39
+ 39"	"Let's call the bucket that was poured into the bigger bucket ""Bucket A"". 
+We know that the total in the bigger bucket is 23 ounces, and that one of the buckets poured in is 10 ounces (the ten-ounce bucket). 
+So, the other bucket poured in (Bucket A) must be 23 - 10 = 13 ounces. 
+Now, the total amount of water in the second large bucket is 11 + 12 + 13 + 16 = 52 ounces. 
+ 52"	Alejandra is a 7th grade student. She struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	Simple mistake from using the 13 twice and adding the amount from large bucket into second bucket also	Yes	5.0	5.0
+174	10	Teacher	focus	Great.	5001095	4	Darius has 5 buckets of water. One contains 11 ounces, one contains 13 ounces, one contains 12 ounces, one contains 16 ounces, and one contains 10 ounces. He pours the ten-ounce bucket into a bigger bucket, along with one of the other four. The total in the bigger bucket is now 23 ounces. He pours the remaining three buckets into a second large bucket. How many ounces does the second large bucket contain?	"Darius poured the 13-ounce bucket into the first large bucket because 23 - 10 = 13
+The remaining buckets are thus the 11, 12, and 16 ounce buckets.
+The second large bucket contains 39 ounces because 11 + 12 + 16 = 39
+ 39"	"Let's call the bucket that was poured into the bigger bucket ""Bucket A"". 
+We know that the total in the bigger bucket is 23 ounces, and that one of the buckets poured in is 10 ounces (the ten-ounce bucket). 
+So, the other bucket poured in (Bucket A) must be 23 - 10 = 13 ounces. 
+Now, the total amount of water in the second large bucket is 11 + 12 + 13 + 16 = 52 ounces. 
+ 52"	Alejandra is a 7th grade student. She struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	Simple mistake from using the 13 twice and adding the amount from large bucket into second bucket also	Yes	5.0	5.0
+174	11	Teacher	focus	so which buckets do we have left of the original buckets to fill our second bucket?	5001095	4	Darius has 5 buckets of water. One contains 11 ounces, one contains 13 ounces, one contains 12 ounces, one contains 16 ounces, and one contains 10 ounces. He pours the ten-ounce bucket into a bigger bucket, along with one of the other four. The total in the bigger bucket is now 23 ounces. He pours the remaining three buckets into a second large bucket. How many ounces does the second large bucket contain?	"Darius poured the 13-ounce bucket into the first large bucket because 23 - 10 = 13
+The remaining buckets are thus the 11, 12, and 16 ounce buckets.
+The second large bucket contains 39 ounces because 11 + 12 + 16 = 39
+ 39"	"Let's call the bucket that was poured into the bigger bucket ""Bucket A"". 
+We know that the total in the bigger bucket is 23 ounces, and that one of the buckets poured in is 10 ounces (the ten-ounce bucket). 
+So, the other bucket poured in (Bucket A) must be 23 - 10 = 13 ounces. 
+Now, the total amount of water in the second large bucket is 11 + 12 + 13 + 16 = 52 ounces. 
+ 52"	Alejandra is a 7th grade student. She struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	Simple mistake from using the 13 twice and adding the amount from large bucket into second bucket also	Yes	5.0	5.0
+174	12	Student		We have the 11-ounce bucket, the 12-ounce bucket, and the 16-ounce bucket left to fill the second large bucket.	5001095	4	Darius has 5 buckets of water. One contains 11 ounces, one contains 13 ounces, one contains 12 ounces, one contains 16 ounces, and one contains 10 ounces. He pours the ten-ounce bucket into a bigger bucket, along with one of the other four. The total in the bigger bucket is now 23 ounces. He pours the remaining three buckets into a second large bucket. How many ounces does the second large bucket contain?	"Darius poured the 13-ounce bucket into the first large bucket because 23 - 10 = 13
+The remaining buckets are thus the 11, 12, and 16 ounce buckets.
+The second large bucket contains 39 ounces because 11 + 12 + 16 = 39
+ 39"	"Let's call the bucket that was poured into the bigger bucket ""Bucket A"". 
+We know that the total in the bigger bucket is 23 ounces, and that one of the buckets poured in is 10 ounces (the ten-ounce bucket). 
+So, the other bucket poured in (Bucket A) must be 23 - 10 = 13 ounces. 
+Now, the total amount of water in the second large bucket is 11 + 12 + 13 + 16 = 52 ounces. 
+ 52"	Alejandra is a 7th grade student. She struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	Simple mistake from using the 13 twice and adding the amount from large bucket into second bucket also	Yes	5.0	5.0
+174	13	Teacher	focus	So how much is in our second large bucket?	5001095	4	Darius has 5 buckets of water. One contains 11 ounces, one contains 13 ounces, one contains 12 ounces, one contains 16 ounces, and one contains 10 ounces. He pours the ten-ounce bucket into a bigger bucket, along with one of the other four. The total in the bigger bucket is now 23 ounces. He pours the remaining three buckets into a second large bucket. How many ounces does the second large bucket contain?	"Darius poured the 13-ounce bucket into the first large bucket because 23 - 10 = 13
+The remaining buckets are thus the 11, 12, and 16 ounce buckets.
+The second large bucket contains 39 ounces because 11 + 12 + 16 = 39
+ 39"	"Let's call the bucket that was poured into the bigger bucket ""Bucket A"". 
+We know that the total in the bigger bucket is 23 ounces, and that one of the buckets poured in is 10 ounces (the ten-ounce bucket). 
+So, the other bucket poured in (Bucket A) must be 23 - 10 = 13 ounces. 
+Now, the total amount of water in the second large bucket is 11 + 12 + 13 + 16 = 52 ounces. 
+ 52"	Alejandra is a 7th grade student. She struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	Simple mistake from using the 13 twice and adding the amount from large bucket into second bucket also	Yes	5.0	5.0
+174	14	Student		The second large bucket contains 11 + 12 + 16 = 39 ounces.	5001095	4	Darius has 5 buckets of water. One contains 11 ounces, one contains 13 ounces, one contains 12 ounces, one contains 16 ounces, and one contains 10 ounces. He pours the ten-ounce bucket into a bigger bucket, along with one of the other four. The total in the bigger bucket is now 23 ounces. He pours the remaining three buckets into a second large bucket. How many ounces does the second large bucket contain?	"Darius poured the 13-ounce bucket into the first large bucket because 23 - 10 = 13
+The remaining buckets are thus the 11, 12, and 16 ounce buckets.
+The second large bucket contains 39 ounces because 11 + 12 + 16 = 39
+ 39"	"Let's call the bucket that was poured into the bigger bucket ""Bucket A"". 
+We know that the total in the bigger bucket is 23 ounces, and that one of the buckets poured in is 10 ounces (the ten-ounce bucket). 
+So, the other bucket poured in (Bucket A) must be 23 - 10 = 13 ounces. 
+Now, the total amount of water in the second large bucket is 11 + 12 + 13 + 16 = 52 ounces. 
+ 52"	Alejandra is a 7th grade student. She struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	Simple mistake from using the 13 twice and adding the amount from large bucket into second bucket also	Yes	5.0	5.0
+174	15	Teacher	generic	Great job, well done.	5001095	4	Darius has 5 buckets of water. One contains 11 ounces, one contains 13 ounces, one contains 12 ounces, one contains 16 ounces, and one contains 10 ounces. He pours the ten-ounce bucket into a bigger bucket, along with one of the other four. The total in the bigger bucket is now 23 ounces. He pours the remaining three buckets into a second large bucket. How many ounces does the second large bucket contain?	"Darius poured the 13-ounce bucket into the first large bucket because 23 - 10 = 13
+The remaining buckets are thus the 11, 12, and 16 ounce buckets.
+The second large bucket contains 39 ounces because 11 + 12 + 16 = 39
+ 39"	"Let's call the bucket that was poured into the bigger bucket ""Bucket A"". 
+We know that the total in the bigger bucket is 23 ounces, and that one of the buckets poured in is 10 ounces (the ten-ounce bucket). 
+So, the other bucket poured in (Bucket A) must be 23 - 10 = 13 ounces. 
+Now, the total amount of water in the second large bucket is 11 + 12 + 13 + 16 = 52 ounces. 
+ 52"	Alejandra is a 7th grade student. She struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	Simple mistake from using the 13 twice and adding the amount from large bucket into second bucket also	Yes	5.0	5.0
+181	0	Teacher	probing	Almost there, but re check your last step.	5000612	1	Bill is doing weight training before trying out for the boxing team. He gets two 2-gallon jugs and fills them 70% full with sand. If sand has a density of 5 pounds/gallon, how many pounds do Bill's improvised weights weigh?	"First find the volume of the sand in one jug: 2 gallons * 70% = 1.4 gallons
+Then double this amount since there are two jugs: 1.4 gallons * 2 = 2.8 gallons
+Then multiply the total volume by the density of sand to find the total weight: 2.8 gallons * 5 pounds/gallon = 14 pounds
+ 14"	"Each jug has a volume of 2 gallons and is filled 70%, so each jug is filled with 2 x 0.7 = 1.4 gallons of sand.
+The total amount of sand in both jugs is 1.4 x 2 = 2.8 gallons.
+The weight of 1 gallon of sand is 5 pounds, so the weight of 2.8 gallons of sand is 5 x 2.8 = 14 pounds.
+Therefore, Bill's improvised weights weigh 14 x 2 = 28 pounds.
+ 28"	Cody is a 7th grade student. He has problem with understanding of what steps or procedures are required to solve a problem.	Student completed the sum correctly up until the last part where he multiplied too many times.	Yes	5.0	5.0
+181	1	Student		Oh, I see. The total weight should be 14 x 2 = 28 pounds, not 28.	5000612	1	Bill is doing weight training before trying out for the boxing team. He gets two 2-gallon jugs and fills them 70% full with sand. If sand has a density of 5 pounds/gallon, how many pounds do Bill's improvised weights weigh?	"First find the volume of the sand in one jug: 2 gallons * 70% = 1.4 gallons
+Then double this amount since there are two jugs: 1.4 gallons * 2 = 2.8 gallons
+Then multiply the total volume by the density of sand to find the total weight: 2.8 gallons * 5 pounds/gallon = 14 pounds
+ 14"	"Each jug has a volume of 2 gallons and is filled 70%, so each jug is filled with 2 x 0.7 = 1.4 gallons of sand.
+The total amount of sand in both jugs is 1.4 x 2 = 2.8 gallons.
+The weight of 1 gallon of sand is 5 pounds, so the weight of 2.8 gallons of sand is 5 x 2.8 = 14 pounds.
+Therefore, Bill's improvised weights weigh 14 x 2 = 28 pounds.
+ 28"	Cody is a 7th grade student. He has problem with understanding of what steps or procedures are required to solve a problem.	Student completed the sum correctly up until the last part where he multiplied too many times.	Yes	5.0	5.0
+181	2	Teacher	telling	no, where are you getting the x 2 from?	5000612	1	Bill is doing weight training before trying out for the boxing team. He gets two 2-gallon jugs and fills them 70% full with sand. If sand has a density of 5 pounds/gallon, how many pounds do Bill's improvised weights weigh?	"First find the volume of the sand in one jug: 2 gallons * 70% = 1.4 gallons
+Then double this amount since there are two jugs: 1.4 gallons * 2 = 2.8 gallons
+Then multiply the total volume by the density of sand to find the total weight: 2.8 gallons * 5 pounds/gallon = 14 pounds
+ 14"	"Each jug has a volume of 2 gallons and is filled 70%, so each jug is filled with 2 x 0.7 = 1.4 gallons of sand.
+The total amount of sand in both jugs is 1.4 x 2 = 2.8 gallons.
+The weight of 1 gallon of sand is 5 pounds, so the weight of 2.8 gallons of sand is 5 x 2.8 = 14 pounds.
+Therefore, Bill's improvised weights weigh 14 x 2 = 28 pounds.
+ 28"	Cody is a 7th grade student. He has problem with understanding of what steps or procedures are required to solve a problem.	Student completed the sum correctly up until the last part where he multiplied too many times.	Yes	5.0	5.0
+181	3	Student		The x 2 comes from the fact that there are two jugs of sand, each weighing 14 pounds. So the total weight of both jugs is 14 x 2 = 28 pounds.	5000612	1	Bill is doing weight training before trying out for the boxing team. He gets two 2-gallon jugs and fills them 70% full with sand. If sand has a density of 5 pounds/gallon, how many pounds do Bill's improvised weights weigh?	"First find the volume of the sand in one jug: 2 gallons * 70% = 1.4 gallons
+Then double this amount since there are two jugs: 1.4 gallons * 2 = 2.8 gallons
+Then multiply the total volume by the density of sand to find the total weight: 2.8 gallons * 5 pounds/gallon = 14 pounds
+ 14"	"Each jug has a volume of 2 gallons and is filled 70%, so each jug is filled with 2 x 0.7 = 1.4 gallons of sand.
+The total amount of sand in both jugs is 1.4 x 2 = 2.8 gallons.
+The weight of 1 gallon of sand is 5 pounds, so the weight of 2.8 gallons of sand is 5 x 2.8 = 14 pounds.
+Therefore, Bill's improvised weights weigh 14 x 2 = 28 pounds.
+ 28"	Cody is a 7th grade student. He has problem with understanding of what steps or procedures are required to solve a problem.	Student completed the sum correctly up until the last part where he multiplied too many times.	Yes	5.0	5.0
+181	4	Teacher	telling	you have already done the multiplication.	5000612	1	Bill is doing weight training before trying out for the boxing team. He gets two 2-gallon jugs and fills them 70% full with sand. If sand has a density of 5 pounds/gallon, how many pounds do Bill's improvised weights weigh?	"First find the volume of the sand in one jug: 2 gallons * 70% = 1.4 gallons
+Then double this amount since there are two jugs: 1.4 gallons * 2 = 2.8 gallons
+Then multiply the total volume by the density of sand to find the total weight: 2.8 gallons * 5 pounds/gallon = 14 pounds
+ 14"	"Each jug has a volume of 2 gallons and is filled 70%, so each jug is filled with 2 x 0.7 = 1.4 gallons of sand.
+The total amount of sand in both jugs is 1.4 x 2 = 2.8 gallons.
+The weight of 1 gallon of sand is 5 pounds, so the weight of 2.8 gallons of sand is 5 x 2.8 = 14 pounds.
+Therefore, Bill's improvised weights weigh 14 x 2 = 28 pounds.
+ 28"	Cody is a 7th grade student. He has problem with understanding of what steps or procedures are required to solve a problem.	Student completed the sum correctly up until the last part where he multiplied too many times.	Yes	5.0	5.0
+181	5	Teacher	telling	therefore, you do not need to multiply again at the end.	5000612	1	Bill is doing weight training before trying out for the boxing team. He gets two 2-gallon jugs and fills them 70% full with sand. If sand has a density of 5 pounds/gallon, how many pounds do Bill's improvised weights weigh?	"First find the volume of the sand in one jug: 2 gallons * 70% = 1.4 gallons
+Then double this amount since there are two jugs: 1.4 gallons * 2 = 2.8 gallons
+Then multiply the total volume by the density of sand to find the total weight: 2.8 gallons * 5 pounds/gallon = 14 pounds
+ 14"	"Each jug has a volume of 2 gallons and is filled 70%, so each jug is filled with 2 x 0.7 = 1.4 gallons of sand.
+The total amount of sand in both jugs is 1.4 x 2 = 2.8 gallons.
+The weight of 1 gallon of sand is 5 pounds, so the weight of 2.8 gallons of sand is 5 x 2.8 = 14 pounds.
+Therefore, Bill's improvised weights weigh 14 x 2 = 28 pounds.
+ 28"	Cody is a 7th grade student. He has problem with understanding of what steps or procedures are required to solve a problem.	Student completed the sum correctly up until the last part where he multiplied too many times.	Yes	5.0	5.0
+181	6	Student		I understand now. The total weight should be 14 pounds, not 28.	5000612	1	Bill is doing weight training before trying out for the boxing team. He gets two 2-gallon jugs and fills them 70% full with sand. If sand has a density of 5 pounds/gallon, how many pounds do Bill's improvised weights weigh?	"First find the volume of the sand in one jug: 2 gallons * 70% = 1.4 gallons
+Then double this amount since there are two jugs: 1.4 gallons * 2 = 2.8 gallons
+Then multiply the total volume by the density of sand to find the total weight: 2.8 gallons * 5 pounds/gallon = 14 pounds
+ 14"	"Each jug has a volume of 2 gallons and is filled 70%, so each jug is filled with 2 x 0.7 = 1.4 gallons of sand.
+The total amount of sand in both jugs is 1.4 x 2 = 2.8 gallons.
+The weight of 1 gallon of sand is 5 pounds, so the weight of 2.8 gallons of sand is 5 x 2.8 = 14 pounds.
+Therefore, Bill's improvised weights weigh 14 x 2 = 28 pounds.
+ 28"	Cody is a 7th grade student. He has problem with understanding of what steps or procedures are required to solve a problem.	Student completed the sum correctly up until the last part where he multiplied too many times.	Yes	5.0	5.0
+181	7	Teacher	generic	great.	5000612	1	Bill is doing weight training before trying out for the boxing team. He gets two 2-gallon jugs and fills them 70% full with sand. If sand has a density of 5 pounds/gallon, how many pounds do Bill's improvised weights weigh?	"First find the volume of the sand in one jug: 2 gallons * 70% = 1.4 gallons
+Then double this amount since there are two jugs: 1.4 gallons * 2 = 2.8 gallons
+Then multiply the total volume by the density of sand to find the total weight: 2.8 gallons * 5 pounds/gallon = 14 pounds
+ 14"	"Each jug has a volume of 2 gallons and is filled 70%, so each jug is filled with 2 x 0.7 = 1.4 gallons of sand.
+The total amount of sand in both jugs is 1.4 x 2 = 2.8 gallons.
+The weight of 1 gallon of sand is 5 pounds, so the weight of 2.8 gallons of sand is 5 x 2.8 = 14 pounds.
+Therefore, Bill's improvised weights weigh 14 x 2 = 28 pounds.
+ 28"	Cody is a 7th grade student. He has problem with understanding of what steps or procedures are required to solve a problem.	Student completed the sum correctly up until the last part where he multiplied too many times.	Yes	5.0	5.0
+181	8	Teacher	generic	what made you realise that?	5000612	1	Bill is doing weight training before trying out for the boxing team. He gets two 2-gallon jugs and fills them 70% full with sand. If sand has a density of 5 pounds/gallon, how many pounds do Bill's improvised weights weigh?	"First find the volume of the sand in one jug: 2 gallons * 70% = 1.4 gallons
+Then double this amount since there are two jugs: 1.4 gallons * 2 = 2.8 gallons
+Then multiply the total volume by the density of sand to find the total weight: 2.8 gallons * 5 pounds/gallon = 14 pounds
+ 14"	"Each jug has a volume of 2 gallons and is filled 70%, so each jug is filled with 2 x 0.7 = 1.4 gallons of sand.
+The total amount of sand in both jugs is 1.4 x 2 = 2.8 gallons.
+The weight of 1 gallon of sand is 5 pounds, so the weight of 2.8 gallons of sand is 5 x 2.8 = 14 pounds.
+Therefore, Bill's improvised weights weigh 14 x 2 = 28 pounds.
+ 28"	Cody is a 7th grade student. He has problem with understanding of what steps or procedures are required to solve a problem.	Student completed the sum correctly up until the last part where he multiplied too many times.	Yes	5.0	5.0
+181	9	Student		When you asked me to re-check my last step, I realised that I had already multiplied the weight of 1 gallon of sand by 2.8 gallons. So I didn't need to multiply again at the end.	5000612	1	Bill is doing weight training before trying out for the boxing team. He gets two 2-gallon jugs and fills them 70% full with sand. If sand has a density of 5 pounds/gallon, how many pounds do Bill's improvised weights weigh?	"First find the volume of the sand in one jug: 2 gallons * 70% = 1.4 gallons
+Then double this amount since there are two jugs: 1.4 gallons * 2 = 2.8 gallons
+Then multiply the total volume by the density of sand to find the total weight: 2.8 gallons * 5 pounds/gallon = 14 pounds
+ 14"	"Each jug has a volume of 2 gallons and is filled 70%, so each jug is filled with 2 x 0.7 = 1.4 gallons of sand.
+The total amount of sand in both jugs is 1.4 x 2 = 2.8 gallons.
+The weight of 1 gallon of sand is 5 pounds, so the weight of 2.8 gallons of sand is 5 x 2.8 = 14 pounds.
+Therefore, Bill's improvised weights weigh 14 x 2 = 28 pounds.
+ 28"	Cody is a 7th grade student. He has problem with understanding of what steps or procedures are required to solve a problem.	Student completed the sum correctly up until the last part where he multiplied too many times.	Yes	5.0	5.0
+190	0	Teacher	focus	In the first month, Grant makes 350.	5000635	4	Grant has worked as a freelance math worker for the last three months.  The first month he made 350$.  The second month he made 50$ more than double he made the first month.  The third month he quadrupled the sum of the first two months.  How much did Grant make in his first three months total?	"First Month:350$
+Second Month:50+2(350)=750$
+Third Month:4(350+750)=4400$
+Total:350+750+4400=5500$
+ 5500"	"Grant made 50 x 2 = 100$ more than the first month on his second month.
+So he made 100 + 350 = 450$ on his second month.
+The sum he made in the first two months is 450 + 350 = 800$.
+In his third month, he made 4 x 800 = 3200$.
+Therefore, Grant made a total of 350 + 450 + 3200 = 4000$ in his first three months. 
+ 4000"	Jian is a 7th grade student. He struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	The student applies the doubling to the extra $50 that they make in teh 2nd month, but they should have applied the doubling to the sum they made in the 1st month ($350).	Yes	2.0	3.0
+190	1	Teacher	focus	Lets break the payment for the second month down into two parts.	5000635	4	Grant has worked as a freelance math worker for the last three months.  The first month he made 350$.  The second month he made 50$ more than double he made the first month.  The third month he quadrupled the sum of the first two months.  How much did Grant make in his first three months total?	"First Month:350$
+Second Month:50+2(350)=750$
+Third Month:4(350+750)=4400$
+Total:350+750+4400=5500$
+ 5500"	"Grant made 50 x 2 = 100$ more than the first month on his second month.
+So he made 100 + 350 = 450$ on his second month.
+The sum he made in the first two months is 450 + 350 = 800$.
+In his third month, he made 4 x 800 = 3200$.
+Therefore, Grant made a total of 350 + 450 + 3200 = 4000$ in his first three months. 
+ 4000"	Jian is a 7th grade student. He struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	The student applies the doubling to the extra $50 that they make in teh 2nd month, but they should have applied the doubling to the sum they made in the 1st month ($350).	Yes	2.0	3.0
+190	2	Teacher	focus	Firstly, Grant makes double what they make in the first month.	5000635	4	Grant has worked as a freelance math worker for the last three months.  The first month he made 350$.  The second month he made 50$ more than double he made the first month.  The third month he quadrupled the sum of the first two months.  How much did Grant make in his first three months total?	"First Month:350$
+Second Month:50+2(350)=750$
+Third Month:4(350+750)=4400$
+Total:350+750+4400=5500$
+ 5500"	"Grant made 50 x 2 = 100$ more than the first month on his second month.
+So he made 100 + 350 = 450$ on his second month.
+The sum he made in the first two months is 450 + 350 = 800$.
+In his third month, he made 4 x 800 = 3200$.
+Therefore, Grant made a total of 350 + 450 + 3200 = 4000$ in his first three months. 
+ 4000"	Jian is a 7th grade student. He struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	The student applies the doubling to the extra $50 that they make in teh 2nd month, but they should have applied the doubling to the sum they made in the 1st month ($350).	Yes	2.0	3.0
+190	3	Teacher	focus	so this is:	5000635	4	Grant has worked as a freelance math worker for the last three months.  The first month he made 350$.  The second month he made 50$ more than double he made the first month.  The third month he quadrupled the sum of the first two months.  How much did Grant make in his first three months total?	"First Month:350$
+Second Month:50+2(350)=750$
+Third Month:4(350+750)=4400$
+Total:350+750+4400=5500$
+ 5500"	"Grant made 50 x 2 = 100$ more than the first month on his second month.
+So he made 100 + 350 = 450$ on his second month.
+The sum he made in the first two months is 450 + 350 = 800$.
+In his third month, he made 4 x 800 = 3200$.
+Therefore, Grant made a total of 350 + 450 + 3200 = 4000$ in his first three months. 
+ 4000"	Jian is a 7th grade student. He struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	The student applies the doubling to the extra $50 that they make in teh 2nd month, but they should have applied the doubling to the sum they made in the 1st month ($350).	Yes	2.0	3.0
+190	4	Student		Grant makes double what he made in the first month, which is 350 x 2 = 700$.	5000635	4	Grant has worked as a freelance math worker for the last three months.  The first month he made 350$.  The second month he made 50$ more than double he made the first month.  The third month he quadrupled the sum of the first two months.  How much did Grant make in his first three months total?	"First Month:350$
+Second Month:50+2(350)=750$
+Third Month:4(350+750)=4400$
+Total:350+750+4400=5500$
+ 5500"	"Grant made 50 x 2 = 100$ more than the first month on his second month.
+So he made 100 + 350 = 450$ on his second month.
+The sum he made in the first two months is 450 + 350 = 800$.
+In his third month, he made 4 x 800 = 3200$.
+Therefore, Grant made a total of 350 + 450 + 3200 = 4000$ in his first three months. 
+ 4000"	Jian is a 7th grade student. He struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	The student applies the doubling to the extra $50 that they make in teh 2nd month, but they should have applied the doubling to the sum they made in the 1st month ($350).	Yes	2.0	3.0
+190	5	Teacher	focus	And the second part is that they make doubel 50.	5000635	4	Grant has worked as a freelance math worker for the last three months.  The first month he made 350$.  The second month he made 50$ more than double he made the first month.  The third month he quadrupled the sum of the first two months.  How much did Grant make in his first three months total?	"First Month:350$
+Second Month:50+2(350)=750$
+Third Month:4(350+750)=4400$
+Total:350+750+4400=5500$
+ 5500"	"Grant made 50 x 2 = 100$ more than the first month on his second month.
+So he made 100 + 350 = 450$ on his second month.
+The sum he made in the first two months is 450 + 350 = 800$.
+In his third month, he made 4 x 800 = 3200$.
+Therefore, Grant made a total of 350 + 450 + 3200 = 4000$ in his first three months. 
+ 4000"	Jian is a 7th grade student. He struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	The student applies the doubling to the extra $50 that they make in teh 2nd month, but they should have applied the doubling to the sum they made in the 1st month ($350).	Yes	2.0	3.0
+190	6	Teacher	focus	so this is:	5000635	4	Grant has worked as a freelance math worker for the last three months.  The first month he made 350$.  The second month he made 50$ more than double he made the first month.  The third month he quadrupled the sum of the first two months.  How much did Grant make in his first three months total?	"First Month:350$
+Second Month:50+2(350)=750$
+Third Month:4(350+750)=4400$
+Total:350+750+4400=5500$
+ 5500"	"Grant made 50 x 2 = 100$ more than the first month on his second month.
+So he made 100 + 350 = 450$ on his second month.
+The sum he made in the first two months is 450 + 350 = 800$.
+In his third month, he made 4 x 800 = 3200$.
+Therefore, Grant made a total of 350 + 450 + 3200 = 4000$ in his first three months. 
+ 4000"	Jian is a 7th grade student. He struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	The student applies the doubling to the extra $50 that they make in teh 2nd month, but they should have applied the doubling to the sum they made in the 1st month ($350).	Yes	2.0	3.0
+190	7	Student		Grant makes double + $50, which is 700 + 50 = 750$.	5000635	4	Grant has worked as a freelance math worker for the last three months.  The first month he made 350$.  The second month he made 50$ more than double he made the first month.  The third month he quadrupled the sum of the first two months.  How much did Grant make in his first three months total?	"First Month:350$
+Second Month:50+2(350)=750$
+Third Month:4(350+750)=4400$
+Total:350+750+4400=5500$
+ 5500"	"Grant made 50 x 2 = 100$ more than the first month on his second month.
+So he made 100 + 350 = 450$ on his second month.
+The sum he made in the first two months is 450 + 350 = 800$.
+In his third month, he made 4 x 800 = 3200$.
+Therefore, Grant made a total of 350 + 450 + 3200 = 4000$ in his first three months. 
+ 4000"	Jian is a 7th grade student. He struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	The student applies the doubling to the extra $50 that they make in teh 2nd month, but they should have applied the doubling to the sum they made in the 1st month ($350).	Yes	2.0	3.0
+190	8	Teacher	focus	Thats right.	5000635	4	Grant has worked as a freelance math worker for the last three months.  The first month he made 350$.  The second month he made 50$ more than double he made the first month.  The third month he quadrupled the sum of the first two months.  How much did Grant make in his first three months total?	"First Month:350$
+Second Month:50+2(350)=750$
+Third Month:4(350+750)=4400$
+Total:350+750+4400=5500$
+ 5500"	"Grant made 50 x 2 = 100$ more than the first month on his second month.
+So he made 100 + 350 = 450$ on his second month.
+The sum he made in the first two months is 450 + 350 = 800$.
+In his third month, he made 4 x 800 = 3200$.
+Therefore, Grant made a total of 350 + 450 + 3200 = 4000$ in his first three months. 
+ 4000"	Jian is a 7th grade student. He struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	The student applies the doubling to the extra $50 that they make in teh 2nd month, but they should have applied the doubling to the sum they made in the 1st month ($350).	Yes	2.0	3.0
+190	9	Teacher	focus	So you know that grant makes 350 in the first month, 750 in teh second month, how much in the third month?	5000635	4	Grant has worked as a freelance math worker for the last three months.  The first month he made 350$.  The second month he made 50$ more than double he made the first month.  The third month he quadrupled the sum of the first two months.  How much did Grant make in his first three months total?	"First Month:350$
+Second Month:50+2(350)=750$
+Third Month:4(350+750)=4400$
+Total:350+750+4400=5500$
+ 5500"	"Grant made 50 x 2 = 100$ more than the first month on his second month.
+So he made 100 + 350 = 450$ on his second month.
+The sum he made in the first two months is 450 + 350 = 800$.
+In his third month, he made 4 x 800 = 3200$.
+Therefore, Grant made a total of 350 + 450 + 3200 = 4000$ in his first three months. 
+ 4000"	Jian is a 7th grade student. He struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	The student applies the doubling to the extra $50 that they make in teh 2nd month, but they should have applied the doubling to the sum they made in the 1st month ($350).	Yes	2.0	3.0
+190	10	Student		In the third month, Grant quadrupled the sum of the first two months, which is 750 + 350 = 1100$. So, Grant made 1100 x 4 = 4400$ in the third month.	5000635	4	Grant has worked as a freelance math worker for the last three months.  The first month he made 350$.  The second month he made 50$ more than double he made the first month.  The third month he quadrupled the sum of the first two months.  How much did Grant make in his first three months total?	"First Month:350$
+Second Month:50+2(350)=750$
+Third Month:4(350+750)=4400$
+Total:350+750+4400=5500$
+ 5500"	"Grant made 50 x 2 = 100$ more than the first month on his second month.
+So he made 100 + 350 = 450$ on his second month.
+The sum he made in the first two months is 450 + 350 = 800$.
+In his third month, he made 4 x 800 = 3200$.
+Therefore, Grant made a total of 350 + 450 + 3200 = 4000$ in his first three months. 
+ 4000"	Jian is a 7th grade student. He struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	The student applies the doubling to the extra $50 that they make in teh 2nd month, but they should have applied the doubling to the sum they made in the 1st month ($350).	Yes	2.0	3.0
+190	11	Teacher	focus	And the total for teh 3 months is:	5000635	4	Grant has worked as a freelance math worker for the last three months.  The first month he made 350$.  The second month he made 50$ more than double he made the first month.  The third month he quadrupled the sum of the first two months.  How much did Grant make in his first three months total?	"First Month:350$
+Second Month:50+2(350)=750$
+Third Month:4(350+750)=4400$
+Total:350+750+4400=5500$
+ 5500"	"Grant made 50 x 2 = 100$ more than the first month on his second month.
+So he made 100 + 350 = 450$ on his second month.
+The sum he made in the first two months is 450 + 350 = 800$.
+In his third month, he made 4 x 800 = 3200$.
+Therefore, Grant made a total of 350 + 450 + 3200 = 4000$ in his first three months. 
+ 4000"	Jian is a 7th grade student. He struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	The student applies the doubling to the extra $50 that they make in teh 2nd month, but they should have applied the doubling to the sum they made in the 1st month ($350).	Yes	2.0	3.0
+190	12	Student		The total for the 3 months is 350 + 750 + 4400 = 5500$.	5000635	4	Grant has worked as a freelance math worker for the last three months.  The first month he made 350$.  The second month he made 50$ more than double he made the first month.  The third month he quadrupled the sum of the first two months.  How much did Grant make in his first three months total?	"First Month:350$
+Second Month:50+2(350)=750$
+Third Month:4(350+750)=4400$
+Total:350+750+4400=5500$
+ 5500"	"Grant made 50 x 2 = 100$ more than the first month on his second month.
+So he made 100 + 350 = 450$ on his second month.
+The sum he made in the first two months is 450 + 350 = 800$.
+In his third month, he made 4 x 800 = 3200$.
+Therefore, Grant made a total of 350 + 450 + 3200 = 4000$ in his first three months. 
+ 4000"	Jian is a 7th grade student. He struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	The student applies the doubling to the extra $50 that they make in teh 2nd month, but they should have applied the doubling to the sum they made in the 1st month ($350).	Yes	2.0	3.0
+190	13	Teacher	generic	Thats right.	5000635	4	Grant has worked as a freelance math worker for the last three months.  The first month he made 350$.  The second month he made 50$ more than double he made the first month.  The third month he quadrupled the sum of the first two months.  How much did Grant make in his first three months total?	"First Month:350$
+Second Month:50+2(350)=750$
+Third Month:4(350+750)=4400$
+Total:350+750+4400=5500$
+ 5500"	"Grant made 50 x 2 = 100$ more than the first month on his second month.
+So he made 100 + 350 = 450$ on his second month.
+The sum he made in the first two months is 450 + 350 = 800$.
+In his third month, he made 4 x 800 = 3200$.
+Therefore, Grant made a total of 350 + 450 + 3200 = 4000$ in his first three months. 
+ 4000"	Jian is a 7th grade student. He struggle to recognize the problem type and therefore do not know what strategy to use to solve it.	The student applies the doubling to the extra $50 that they make in teh 2nd month, but they should have applied the doubling to the sum they made in the 1st month ($350).	Yes	2.0	3.0
