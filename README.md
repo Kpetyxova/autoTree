@@ -22,8 +22,6 @@ autoTree/
 ├── requirements.txt      # Project dependencies
 ├── prompts/              # Prompt templates
 ├── sf/                   # Speech Functions components
-├── mrbench/              # MRBench-specific files
-├── mathdial/             # MathDIAL-specific files
 └── swda/                 # Switchboard-DAMSL corpus files
 ```
 
