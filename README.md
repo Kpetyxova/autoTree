@@ -1,5 +1,12 @@
-# A Fully Automated Pipeline for Conversational Discourse Annotation  
-### Tree Scheme Generation and Labeling with Large Language Models
+# A Fully Automated Pipeline for Conversational Discourse Annotation: Tree Scheme Generation and Labeling with Large Language Models
+
+[Kseniia Petukhova](https://scholar.google.com/citations?user=XsiLKJcAAAAJ&hl=en&oi=ao), [Ekaterina Kochmar](https://ekochmar.github.io/about/)
+
+
+## Overview
+This repository serves as the official implementation hub for the paper:
+
+[A Fully Automated Pipeline for Conversational Discourse Annotation: Tree Scheme Generation and Labeling with Large Language Models](https://arxiv.org/pdf/2504.08961)
 
 Recent advances in Large Language Models (LLMs) have shown great potential in automating discourse annotation for conversations. While manually designing tree-based annotation schemes improves annotation quality for both humans and models, the process remains time-consuming and requires expert knowledge.
 
@@ -121,4 +128,15 @@ python eval.py -d /path/to/gold_dialogs.tsv -a /path/to/predicted_annotations.ts
 If you’re evaluating Speech Functions, use the dedicated script:
 ```bash
 python sf/eval_sf.py -g sf/all_gold_train.json -a sf/two_levels/dialogs_annotated.tsv -o sf/two_levels -d sf/gold_standard_test.csv -l second
+```
+
+## BibTeX Citation
+If you find our work useful, please cite us:
+```
+@article{petukhova2025fully,
+  title={A Fully Automated Pipeline for Conversational Discourse Annotation: Tree Scheme Generation and Labeling with Large Language Models},
+  author={Petukhova, Kseniia and Kochmar, Ekaterina},
+  journal={arXiv preprint arXiv:2504.08961},
+  year={2025}
+}
 ```
