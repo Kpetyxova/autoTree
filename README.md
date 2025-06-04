@@ -29,7 +29,8 @@ autoTree/
 ├── requirements.txt      # Project dependencies
 ├── prompts/              # Prompt templates
 ├── sf/                   # Speech Functions components
-└── swda/                 # Switchboard-DAMSL corpus files
+├── swda/                 # Switchboard-DAMSL corpus files
+└── mathdial/             # MathDIAL-specific files
 ```
 
 
